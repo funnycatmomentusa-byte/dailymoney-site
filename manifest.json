@@ -1,0 +1,28 @@
+{
+  "name": "DailyMoney — Trusted Financial News",
+  "short_name": "DailyMoney",
+  "description": "Financial news and education platform",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#DC2626",
+  "orientation": "portrait-primary",
+  "lang": "id",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 192 192'><rect width='192' height='192' rx='36' fill='%23DC2626'/><text x='96' y='138' text-anchor='middle' fill='white' font-size='108' font-weight='800' font-family='system-ui'>D</text></svg>",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><rect width='512' height='512' rx='96' fill='%23DC2626'/><text x='256' y='368' text-anchor='middle' fill='white' font-size='288' font-weight='800' font-family='system-ui'>D</text></svg>",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["finance", "news", "education"],
+  "screenshots": [],
+  "prefer_related_applications": false
+}

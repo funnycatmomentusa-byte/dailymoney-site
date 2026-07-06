@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DailyMoney EN</title>
+    <link>https://dailymoney.my.id/en/</link>
+    <description>Trusted Financial News & Education</description>
+    <language>en</language>
+    <lastBuildDate>Mon, 06 Jul 2026 12:37:26 +0000</lastBuildDate>
+    <atom:link href="https://dailymoney.my.id/en/feed.xml" rel="self" type="application/rss+xml"/>
+    
+    <item>
+      <title><![CDATA[5 Smart Saving Tips During Inflation Without Sacrificing Lifestyle]]></title>
+      <link>https://dailymoney.my.id/en/articles/5-smart-saving-tips-during-inflation-without-sacrificing-lifestyle.html</link>
+      <description><![CDATA[Inflation squeezing your purchasing power? Discover 5 smart money-saving strategies that effectively protect your finances without compromising your quality of life.]]></description>
+      <guid>https://dailymoney.my.id/en/articles/5-smart-saving-tips-during-inflation-without-sacrificing-lifestyle.html</guid>
+      <pubDate>07/06/2026</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Fed Cuts Interest Rate by 25bps: Major Impact on IHSG and Rupiah in 2026]]></title>
+      <link>https://dailymoney.my.id/en/articles/fed-cuts-interest-rate-by-25bps-major-impact-on-ihsg-and-rupiah-in-2026.html</link>
+      <description><![CDATA[The Federal Reserve cut its benchmark interest rate by 25 basis points for the first time in 2026. Read our analysis of the impact on Indonesian stocks and currency.]]></description>
+      <guid>https://dailymoney.my.id/en/articles/fed-cuts-interest-rate-by-25bps-major-impact-on-ihsg-and-rupiah-in-2026.html</guid>
+      <pubDate>07/06/2026</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Inflation 2026: 3 Investment Strategies to Protect Your Wealth]]></title>
+      <link>https://dailymoney.my.id/en/articles/inflation-2026-3-investment-strategies-to-protect-your-wealth.html</link>
+      <description><![CDATA[Indonesia's inflation eased to 3.5 percent in 2026, but purchasing power remains under pressure. Discover 3 powerful investment strategies to shield your assets from inflation erosion.]]></description>
+      <guid>https://dailymoney.my.id/en/articles/inflation-2026-3-investment-strategies-to-protect-your-wealth.html</guid>
+      <pubDate>07/06/2026</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Mutual Funds vs Stocks: Which is Best for Beginners in 2026?]]></title>
+      <link>https://dailymoney.my.id/en/articles/mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026.html</link>
+      <description><![CDATA[Confused about choosing between mutual funds and stocks to start investing? Read our comprehensive comparison plus step-by-step investment strategy for beginners.]]></description>
+      <guid>https://dailymoney.my.id/en/articles/mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026.html</guid>
+      <pubDate>07/06/2026</pubDate>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dailymoney.my.id/sitemap.xml
+
+# Block crawling of admin/internal
+Disallow: /articles/*.html$
