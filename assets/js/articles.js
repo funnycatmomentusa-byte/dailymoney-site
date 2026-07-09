@@ -109,6 +109,33 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "idx menyediakan data pasar, — Investasi",
+    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "slug": "idx-menyediakan-data-pasar-investasi",
+    "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Pergerakan IHSG: dapatkan informasi terkini dan...",
+    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "slug": "pergerakan-ihsg-dapatkan-informasi-terkini-dan",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Pergerakan IHSG: ihsg di persimpangan antara...",
+    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "slug": "pergerakan-ihsg-ihsg-di-persimpangan-antara",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Reksadana vs Saham: Mana yang Cocok untuk Pemula di 2026?",
     "meta_desc": "Bingung memilih reksadana atau saham? Simak perbandingan lengkap kelebihan, kekurangan, risiko, dan imbal hasil dari dua instrumen investasi ini.",
     "slug": "reksadana-vs-saham-mana-yang-cocok-untuk-pemula-di-2026",

@@ -73,6 +73,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Financial Update - IDX menyediakan data pasar,",
+    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "slug": "financial-update-idx-menyediakan-data-pasar",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Gemini Free: Fast Research for Freelance Pitches, Blogs, and SEO",
     "meta_desc": "Gemini Free is useful for topic research, source summaries, and SEO ideas. This article shows how to turn quick research into a sellable service.",
     "slug": "gemini-free-fast-research-for-freelance-pitches-blogs-and-seo",
@@ -82,10 +91,28 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Market Update - Dapatkan informasi terkini dan",
+    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "slug": "market-update-dapatkan-informasi-terkini-dan",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Mutual Funds vs Stocks: Which is Best for Beginners in 2026?",
     "meta_desc": "Confused between mutual funds and stocks? Complete comparison of advantages, risks, and returns for beginner investors.",
     "slug": "mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026",
     "tags": "Mutual Funds, Stocks, Investment, Beginners, Comparison",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Stock Market Analysis - IHSG di persimpangan antara",
+    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
     "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "en"
