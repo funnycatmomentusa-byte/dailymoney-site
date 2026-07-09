@@ -381,7 +381,7 @@ def build_article_html(data, lang, lang_prefix="", lang_map=None):
     # Home URL for relative navigation
     root_url = "/" if lang == "id" else "/en/"
     home_url = root_url
-    partner_url = "/kerja-sama/" if lang == "id" else "/en/partner/"
+    partner_url = "/kerjasama/" if lang == "id" else "/en/kerjasama/"
     disclosure_url = "/disclosure/" if lang == "id" else "/en/disclosure/"
     tentang_url = "/tentang/" if lang == "id" else "/en/tentang/"
     main_js_url = f"/assets/js/main.js"    # Convert date to readable format
@@ -543,6 +543,7 @@ def build_article_html(data, lang, lang_prefix="", lang_map=None):
       <a href="{root_url}">{L["nav_beranda"]}</a>
       <a href="{root_url}#artikel">{L["nav_artikel"]}</a>
       <a href="{root_url}tentang/">{L["nav_tentang"]}</a>
+      <a href="{partner_url}">{L["footer_partner"]}</a>
       <a href="{'/en/' if lang == 'id' else '/'}" class="lang-btn">{L['nav_en']}</a>
     </nav>
   </header>
@@ -833,7 +834,7 @@ def generate_homepage(lang, output_path, articles, lang_prefix="", prices=None, 
         lang_switch_url = "/"
         lang_switch_label = L["nav_en"]
         tentang_url = "/en/tentang/"
-        partner_url = "/en/partner/"
+        partner_url = "/en/kerjasama/"
         disclosure_url = "/en/disclosure/"
         js_url = "/en/assets/js/articles.js"
         canon_url = f"{SITE_URL}/en/"
@@ -844,7 +845,7 @@ def generate_homepage(lang, output_path, articles, lang_prefix="", prices=None, 
         lang_switch_url = "/en/"
         lang_switch_label = L["nav_en"]
         tentang_url = "/tentang/"
-        partner_url = "/kerja-sama/"
+        partner_url = "/kerjasama/"
         disclosure_url = "/disclosure/"
         js_url = "/assets/js/articles.js"
         canon_url = SITE_URL
@@ -968,6 +969,7 @@ def generate_homepage(lang, output_path, articles, lang_prefix="", prices=None, 
       <a href='{"/" if lang=="id" else "/en/"}'>{L["nav_beranda"]}</a>
       <a href='{"/" if lang=="id" else "/en/"}#artikel'>{L["nav_artikel"]}</a>
       <a href="{tentang_url}">{L["nav_tentang"]}</a>
+      <a href="{partner_url}">{L["footer_partner"]}</a>
       <a href='{"/en/" if lang=="id" else "/"}' class="lang-btn">{L["nav_en"]}</a>
     </nav>
   </header>
@@ -1174,13 +1176,13 @@ def generate_tentang(lang, output_path, lang_prefix="", prices=None):
     if lang == "en":
         lang_switch_url = "/tentang/"
         tentang_url = "/en/tentang/"
-        partner_url = "/en/partner/"
+        partner_url = "/en/kerjasama/"
         disclosure_url = "/en/disclosure/"
         canon_url = f"{SITE_URL}/en/tentang/"
     else:
         lang_switch_url = "/en/tentang/"
         tentang_url = "/tentang/"
-        partner_url = "/kerja-sama/"
+        partner_url = "/kerjasama/"
         disclosure_url = "/disclosure/"
         canon_url = f"{SITE_URL}/tentang/"
 
@@ -1237,6 +1239,7 @@ def generate_tentang(lang, output_path, lang_prefix="", prices=None):
       <a href="{root_url}">{L["nav_beranda"]}</a>
       <a href="{root_url}#artikel">{L["nav_artikel"]}</a>
       <a href="{root_url}tentang/">{L["nav_tentang"]}</a>
+      <a href="{partner_url}">{L["footer_partner"]}</a>
       <a href="{'/en/' if lang == 'id' else '/'}" class="lang-btn">{L['nav_en']}</a>
     </nav>
   </header>
@@ -1369,13 +1372,13 @@ def generate_business_page(page_type, lang, output_path):
     gen_ts = int(datetime.now().timestamp())
     root_url = "/" if lang == "id" else "/en/"
     tentang_url = "/tentang/" if lang == "id" else "/en/tentang/"
-    partner_url = "/kerja-sama/" if lang == "id" else "/en/partner/"
+    partner_url = "/kerjasama/" if lang == "id" else "/en/kerjasama/"
     disclosure_url = "/disclosure/" if lang == "id" else "/en/disclosure/"
 
     if page_type == "partner":
         page_title = "Kerja Sama & Monetisasi" if lang == "id" else "Work With DailyMoney"
         page_desc = "Siapkan jalur sponsor, affiliate, lead capture, dan newsletter." if lang == "id" else "Prepare sponsor, affiliate, lead capture, and newsletter monetization."
-        switch_url = "/en/partner/" if lang == "id" else "/kerja-sama/"
+        switch_url = "/en/kerjasama/" if lang == "id" else "/kerjasama/"
         switch_label = "English" if lang == "id" else "Bahasa Indonesia"
         intro = "Halaman ini merangkum apa saja yang perlu Anda siapkan supaya traffic berubah jadi sponsor, affiliate, dan lead berkualitas." if lang == "id" else "This page shows what to prepare so traffic becomes sponsor inquiries, affiliate clicks, and qualified leads."
         cta_text = "Gunakan halaman ini sebagai hub bisnis: traffic masuk, uang keluar ke kantong Anda." if lang == "id" else "Use this page as your business hub: traffic in, money out."
@@ -1428,8 +1431,8 @@ def generate_business_page(page_type, lang, output_path):
 
     if page_type == "partner":
         canon_url = f"{SITE_URL}{partner_url}"
-        alt_id_url = f"{SITE_URL}/kerja-sama/"
-        alt_en_url = f"{SITE_URL}/en/partner/"
+        alt_id_url = f"{SITE_URL}/kerjasama/"
+        alt_en_url = f"{SITE_URL}/en/kerjasama/"
     else:
         canon_url = f"{SITE_URL}{disclosure_url}"
         alt_id_url = f"{SITE_URL}/disclosure/"
@@ -1534,6 +1537,7 @@ def generate_404(lang, output_path, lang_prefix=""):
     L = LANG_CONFIG[lang]
     gen_ts = int(datetime.now().timestamp())
     root_url = "/" if lang == "id" else "/en/"
+    partner_url = "/kerjasama/" if lang == "id" else "/en/kerjasama/"
 
     html_out = f"""<!DOCTYPE html>
 <html lang=\"{L["html_lang"]}\" class="dm-smooth-scroll">
@@ -1573,6 +1577,7 @@ def generate_404(lang, output_path, lang_prefix=""):
       <a href=\"{root_url}\">{L["nav_beranda"]}</a>
       <a href=\"{root_url}#artikel\">{L["nav_artikel"]}</a>
       <a href=\"{root_url}tentang/\">{L["nav_tentang"]}</a>
+      <a href=\"{partner_url}\">{L["footer_partner"]}</a>
     </nav>
   </header>
   <aside class="dm-sidebar" id="dmSidebar">
@@ -1662,8 +1667,8 @@ def generate_sitemap(all_articles):
     for loc, changefreq, priority in [
         ("https://dailymoney.my.id/tentang/", "weekly", "0.6"),
         ("https://dailymoney.my.id/en/tentang/", "weekly", "0.6"),
-        ("https://dailymoney.my.id/kerja-sama/", "weekly", "0.6"),
-        ("https://dailymoney.my.id/en/partner/", "weekly", "0.6"),
+        ("https://dailymoney.my.id/kerjasama/", "weekly", "0.6"),
+        ("https://dailymoney.my.id/en/kerjasama/", "weekly", "0.6"),
         ("https://dailymoney.my.id/disclosure/", "weekly", "0.5"),
         ("https://dailymoney.my.id/en/disclosure/", "weekly", "0.5"),
         ("https://dailymoney.my.id/robots.txt", "monthly", "0.3"),
@@ -1952,10 +1957,10 @@ def generate():
 
     # === Generate Monetization Pages ===
     print("\n💼 Monetization Pages:")
-    os.makedirs(os.path.join(BASE_DIR, 'kerja-sama'), exist_ok=True)
-    generate_business_page("partner", "id", os.path.join(BASE_DIR, 'kerja-sama', 'index.html'))
-    os.makedirs(os.path.join(BASE_DIR, 'en', 'partner'), exist_ok=True)
-    generate_business_page("partner", "en", os.path.join(BASE_DIR, 'en', 'partner', 'index.html'))
+    os.makedirs(os.path.join(BASE_DIR, 'kerjasama'), exist_ok=True)
+    generate_business_page("partner", "id", os.path.join(BASE_DIR, 'kerjasama', 'index.html'))
+    os.makedirs(os.path.join(BASE_DIR, 'en', 'kerjasama'), exist_ok=True)
+    generate_business_page("partner", "en", os.path.join(BASE_DIR, 'en', 'kerjasama', 'index.html'))
     os.makedirs(os.path.join(BASE_DIR, 'disclosure'), exist_ok=True)
     generate_business_page("disclosure", "id", os.path.join(BASE_DIR, 'disclosure', 'index.html'))
     os.makedirs(os.path.join(BASE_DIR, 'en', 'disclosure'), exist_ok=True)
