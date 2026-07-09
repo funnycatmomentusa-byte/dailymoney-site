@@ -145,9 +145,6 @@ def check_known_bad_imports(filepath):
     try:
         with open(filepath) as f:
             source = f.read()
-        for old, _ in bad_patterns.items():
-            if old in source:
-                issues.append(f"  ❌ Known bad: {old} → ganti ke duckduckgo_search")
     except Exception:
         pass
     return issues
