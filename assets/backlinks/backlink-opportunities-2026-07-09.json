@@ -1,0 +1,119 @@
+{
+  "opportunities": [
+    {
+      "url": "https://www.google.com/business/",
+      "title": "Google Business Profile",
+      "snippet": "Daftar gratis — website financial news muncul di Google Maps & Search",
+      "query": "direktori",
+      "type": "direktori"
+    },
+    {
+      "url": "https://id.techinasia.com/",
+      "title": "Tech in Asia Indonesia",
+      "snippet": "Platform startup & financial news Indonesia — bisa submit press release",
+      "query": "direktori",
+      "type": "submit"
+    },
+    {
+      "url": "https://www.liputan6.com/",
+      "title": "Liputan6",
+      "snippet": "Portal berita besar Indonesia — punya kanal ekonomi",
+      "query": "forum",
+      "type": "guest_post"
+    },
+    {
+      "url": "https://www.finansialku.com/",
+      "title": "Finansialku",
+      "snippet": "Portal edukasi keuangan Indonesia — komunitas aktif",
+      "query": "forum",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.seputarforex.com/",
+      "title": "Seputar Forex",
+      "snippet": "Komunitas trader & investor Indonesia — forum diskusi",
+      "query": "forum",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.indonesia-investments.com/",
+      "title": "Indonesia Investments",
+      "snippet": "Portal investasi Indonesia — konten kolaborasi",
+      "query": "guest_post",
+      "type": "guest_post"
+    },
+    {
+      "url": "https://www.hotcourses.co.id/",
+      "title": "Hotcourses Indonesia",
+      "snippet": "Pendidikan & karir finansial",
+      "query": "direktori",
+      "type": "direktori"
+    },
+    {
+      "url": "https://kaskus.co.id/category/finansial",
+      "title": "Kaskus Finansial",
+      "snippet": "Forum diskusi finansial terbesar Indonesia",
+      "query": "forum",
+      "type": "forum"
+    },
+    {
+      "url": "https://www.kompasiana.com/",
+      "title": "Kompasiana",
+      "snippet": "Blog platform — bisa posting artikel dengan backlink",
+      "query": "guest_post",
+      "type": "guest_post"
+    },
+    {
+      "url": "https://www.dmoz-odp.org/",
+      "title": "DMOZ Indonesia",
+      "snippet": "Direktori web global — submit site financial news",
+      "query": "direktori",
+      "type": "direktori"
+    },
+    {
+      "url": "https://www.pajak.go.id/",
+      "title": "Direktorat Jenderal Pajak",
+      "snippet": "Portal pajak Indonesia — resource untuk konten pajak",
+      "query": "direktori",
+      "type": "direktori"
+    },
+    {
+      "url": "https://www.bi.go.id/",
+      "title": "Bank Indonesia",
+      "snippet": "Referensi otoritatif — bisa jadi sumber konten & link ke BI",
+      "query": "guest_post",
+      "type": "guest_post"
+    }
+  ],
+  "insights": [
+    {
+      "competitor": "Bareksa",
+      "url": "bareksa.com",
+      "niche": "reksadana",
+      "strategy": "Analisis backlink Bareksa via Ahrefs/SEMrush untuk lihat dari mana mereka dapat link. Targetkan site serupa untuk dailymoney.my.id.",
+      "action": "Cari guest post atau komentar di bareksa.com yang terima kontributor eksternal"
+    },
+    {
+      "competitor": "Stockbit",
+      "url": "stockbit.com",
+      "niche": "saham",
+      "strategy": "Analisis backlink Stockbit via Ahrefs/SEMrush untuk lihat dari mana mereka dapat link. Targetkan site serupa untuk dailymoney.my.id.",
+      "action": "Cari guest post atau komentar di stockbit.com yang terima kontributor eksternal"
+    },
+    {
+      "competitor": "Kontan",
+      "url": "kontan.co.id",
+      "niche": "berita",
+      "strategy": "Analisis backlink Kontan via Ahrefs/SEMrush untuk lihat dari mana mereka dapat link. Targetkan site serupa untuk dailymoney.my.id.",
+      "action": "Cari guest post atau komentar di kontan.co.id yang terima kontributor eksternal"
+    },
+    {
+      "competitor": "Investor Daily",
+      "url": "investor.id",
+      "niche": "berita",
+      "strategy": "Analisis backlink Investor Daily via Ahrefs/SEMrush untuk lihat dari mana mereka dapat link. Targetkan site serupa untuk dailymoney.my.id.",
+      "action": "Cari guest post atau komentar di investor.id yang terima kontributor eksternal"
+    }
+  ],
+  "articles_count": 19
+}
