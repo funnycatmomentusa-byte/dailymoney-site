@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""DailyMoney — Import Watchdog Agent
+"""DailyMoney — Import Watchdog Agent v2
 Menjaga semua dependency Python tetap sehat.
 Jalan tiap 1 jam, lewat cron.
-Hanya kirim pesan kalau ada masalah."""
-import os, sys, subprocess, json
+Hanya kirim pesan kalau ada masalah.
+v2: retry logic, remove redundant ddgs check, more robust."""
+import os, sys, subprocess, time
 from datetime import datetime
 
 PROJECT = "/root/workspace/dailymoney-site"
@@ -13,18 +14,26 @@ LOG = os.path.join(LOG_DIR, "import-watchdog.log")
 
 SEND_SCRIPT = ["python3", "/root/.hermes/skills/telegram-bridge-send/scripts/send_telegram.py", "--message"]
 
-# ── Critical imports yang WAJIB bisa di-resolve ──
+# ── Modul yang WAJIB bisa di-resolve ──
 CRITICAL_IMPORTS = {
-    "ddgs": ["DDGS"],
-    "duckduckgo_search": ["DDGS"],
+    "duckduckgo_search": "DDGS",
     "requests": None,
-    "urllib": None,  # stdlib, always fine
 }
 
-# ── Mapping modul yang sudah ganti nama ──
-RENAME_MAP = {
-    "ddgs": "duckduckgo_search",
-}
+# ── Standard library ──
+STDLIB = frozenset({
+    'os', 'sys', 'json', 're', 'math', 'datetime', 'time', 'random',
+    'collections', 'pathlib', 'io', 'typing', 'abc', 'html', 'urllib',
+    'subprocess', 'copy', 'glob', 'http', 'email', 'functools',
+    'itertools', 'hashlib', 'base64', 'textwrap', 'xml', 'csv', 'sqlite3',
+    'socket', 'ssl', 'configparser', 'argparse', 'logging', 'unittest',
+    'traceback', 'inspect', 'ast', 'importlib', 'shutil', 'tempfile',
+    'threading', 'multiprocessing', 'struct', 'binascii', 'calendar',
+    'statistics', 'decimal', 'fractions', 'numbers', 'operator', 'string',
+    'bisect', 'heapq', 'pprint', 'webbrowser', 'warnings', 'dataclasses',
+    'enum', 'gzip', 'bz2', 'zipfile', 'tarfile', 'hashlib', 'hmac',
+    'secrets', 'uuid', 'pathlib', 'zoneinfo',
+})
 
 # ── Files yang perlu dicek ──
 CRITICAL_FILES = [
@@ -50,67 +59,65 @@ def send_alert(msg):
         pass
 
 
-def check_import_subprocess(module_name):
-    """Cek import via subprocess — isolated, akurat, zero false positive."""
-    try:
-        r = subprocess.run(
-            [sys.executable, "-c", f"import {module_name}"],
-            capture_output=True, text=True, timeout=10
-        )
-        return r.returncode == 0
-    except Exception:
-        return False
-
-
-def fix_and_install(missing_module):
-    """Coba install modul yang hilang + rewrite import statement kalau perlu."""
-    # Cek rename map dulu
-    if missing_module in RENAME_MAP:
-        target = RENAME_MAP[missing_module]
-        if check_import_subprocess(target):
-            log(f"  ✅ {missing_module} → {target} sudah terinstall, fix import statement...")
-            return "rename", target
-        # Coba install target
-        log(f"  🔧 Installing {target}...")
-        r = subprocess.run(
-            ["pip3", "install", "--break-system-packages", target],
-            capture_output=True, text=True, timeout=30
-        )
-        if r.returncode == 0 and check_import_subprocess(target):
-            log(f"  ✅ {target} installed")
-            return "rename", target
-        return None
-
-    # Install langsung
-    log(f"  🔧 Installing {missing_module}...")
-    r = subprocess.run(
-        ["pip3", "install", "--break-system-packages", missing_module],
-        capture_output=True, text=True, timeout=30
-    )
-    if r.returncode == 0 and check_import_subprocess(missing_module):
-        log(f"  ✅ {missing_module} installed & verified")
-        return "ok", missing_module
-    return None
-
-
-def rewrite_imports(filepath, old_mod, new_mod):
-    """Rewrite semua import dari old_mod ke new_mod di file."""
-    try:
-        with open(filepath) as f:
-            content = f.read()
-        changes = 0
-        for pattern in [f"from {old_mod} import", f"import {old_mod}"]:
-            if pattern in content:
-                content = content.replace(pattern, pattern.replace(old_mod, new_mod))
-                changes += 1
-        if changes > 0:
-            with open(filepath, 'w') as f:
-                f.write(content)
-            log(f"  ✅ Rewrote {changes} import(s) in {os.path.basename(filepath)}: {old_mod} → {new_mod}")
-            return True
-    except Exception as e:
-        log(f"  ❌ Failed to rewrite {filepath}: {e}")
+def check_import_subprocess(module_name, retries=2):
+    """Cek import via subprocess — dengan retry untuk transient failure."""
+    for attempt in range(1 + retries):
+        try:
+            r = subprocess.run(
+                [sys.executable, "-c", f"import {module_name}"],
+                capture_output=True, text=True, timeout=10
+            )
+            if r.returncode == 0:
+                return True
+            if attempt < retries:
+                log(f"  ⚠️  Retry {attempt+1}/{retries} for {module_name}: {r.stderr[:100]}")
+                time.sleep(2)
+        except Exception as e:
+            log(f"  ⚠️  Retry {attempt+1}/{retries} for {module_name}: {e}")
+            time.sleep(2)
     return False
+
+
+def pip_install(module_name, retries=2):
+    """Install module via pip dengan retry."""
+    for attempt in range(1 + retries):
+        try:
+            r = subprocess.run(
+                ["pip3", "install", "--break-system-packages", "-q", module_name],
+                capture_output=True, text=True, timeout=60
+            )
+            if r.returncode == 0:
+                return True
+            if attempt < retries:
+                log(f"  ⚠️  Retry install {attempt+1}/{retries} for {module_name}")
+                time.sleep(3)
+        except Exception:
+            time.sleep(3)
+    return False
+
+
+def get_file_imports(filepath):
+    """Extract top-level module imports from a Python file."""
+    imports = set()
+    try:
+        import ast
+        with open(filepath) as f:
+            source = f.read()
+        tree = ast.parse(source)
+        for node in ast.walk(tree):
+            if isinstance(node, ast.Import):
+                for alias in node.names:
+                    mod = alias.name.split('.')[0]
+                    if mod not in STDLIB and not mod.startswith('_'):
+                        imports.add(mod)
+            elif isinstance(node, ast.ImportFrom):
+                if node.module:
+                    mod = node.module.split('.')[0]
+                    if mod not in STDLIB and not mod.startswith('_'):
+                        imports.add(mod)
+    except Exception:
+        pass
+    return imports
 
 
 def main():
@@ -125,51 +132,33 @@ def main():
     for mod in CRITICAL_IMPORTS:
         if not check_import_subprocess(mod):
             log(f"❌ Critical import fails: {mod}")
-            result = fix_and_install(mod)
-            if result:
-                action, target = result
-                if action == "rename":
-                    # Rewrite imports in all critical files
-                    for fname in CRITICAL_FILES:
-                        fpath = os.path.join(PROJECT, fname)
-                        if os.path.exists(fpath):
-                            if rewrite_imports(fpath, mod, target):
-                                fixes.append(f"{fname}: {mod}→{target}")
-                fixes.append(f"installed {mod}")
-            else:
-                issues.append(f"❌ Cannot fix: {mod}")
+            # Try pip install
+            if pip_install(mod):
+                log(f"  ✅ Installed {mod}")
+                # Verify
+                if check_import_subprocess(mod):
+                    fixes.append(f"installed {mod}")
+                    continue
+            issues.append(f"❌ Cannot fix: {mod}")
 
-    # ── 2. Check project files have correct imports ──
+    # ── 2. Check project files for broken imports ──
     for fname in CRITICAL_FILES:
         fpath = os.path.join(PROJECT, fname)
         if not os.path.exists(fpath):
             continue
-        try:
-            with open(fpath) as f:
-                content = f.read()
-            # Check for known bad patterns
-            for old_mod, new_mod in RENAME_MAP.items():
-                if f"from {old_mod} import" in content:
-                    # Only flag if new_mod is importable
-                    if check_import_subprocess(new_mod):
-                        log(f"⚠️  {fname} still uses {old_mod}, should be {new_mod}")
-                        if rewrite_imports(fpath, old_mod, new_mod):
-                            fixes.append(f"{fname}: {old_mod}→{new_mod}")
-        except Exception as e:
-            issues.append(f"❌ Error reading {fname}: {e}")
+        file_imports = get_file_imports(fpath)
+        for mod in sorted(file_imports):
+            if mod in CRITICAL_IMPORTS:
+                continue  # already checked above
+            if not check_import_subprocess(mod):
+                log(f"❌ {fname} needs {mod} — not importable")
+                if pip_install(mod):
+                    if check_import_subprocess(mod):
+                        fixes.append(f"{fname}: installed {mod}")
+                        continue
+                issues.append(f"❌ {fname}: cannot fix {mod}")
 
-    # ── 3. Check duckduckgo_search version ──
-    try:
-        r = subprocess.run(
-            [sys.executable, "-c", "import duckduckgo_search; print(getattr(duckduckgo_search, '__version__', '?'))"],
-            capture_output=True, text=True, timeout=5
-        )
-        dg_version = r.stdout.strip()
-        log(f"ℹ️  duckduckgo_search version: {dg_version}")
-    except Exception:
-        pass
-
-    # ── Report ──
+    # ── 3. Report ──
     status_lines = ["👁️ *Import Watchdog Report*", f"📅 {datetime.now().strftime('%d %b %H:%M')}", ""]
 
     if not issues:
@@ -188,24 +177,21 @@ def main():
     report = "\n".join(status_lines)
     log(report)
 
-    if issues:
+    needs_alert = bool(issues) or bool(fixes)
+    if needs_alert:
         send_alert(report)
-    elif fixes:
-        # Only send if there were fixes
-        send_alert(report)
-        # Commit fixes
+
+    # Commit fixes to GitHub
+    if fixes and not issues:
         try:
             subprocess.run(["git", "add", "-A"], cwd=PROJECT, capture_output=True, timeout=10)
             subprocess.run(
-                ["git", "commit", "-m", "watchdog: auto-fix imports"],
+                ["git", "commit", "-m", "watchdog: auto-fix imports", "--allow-empty"],
                 cwd=PROJECT, capture_output=True, timeout=10
             )
             subprocess.run(["git", "push", "origin", "main"], cwd=PROJECT, capture_output=True, timeout=30)
         except Exception:
             pass
-    else:
-        # Silent — semuanya sehat, tidak perlu kirim pesan
-        pass
 
     print(f"✅ Done — {len(issues)} issues, {len(fixes)} fixes")
 
