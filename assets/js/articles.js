@@ -100,6 +100,15 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "dapatkan informasi terkini dan — Indeks Saham",
+    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "slug": "dapatkan-informasi-terkini-dan-indeks-saham",
+    "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Gemini Free: Riset Cepat untuk Proposal Freelance, Blog, dan SEO",
     "meta_desc": "Gemini Free cocok untuk riset topik, ringkasan sumber, dan ide SEO. Artikel ini membahas cara mengubah riset cepat menjadi jasa yang bisa dijual.",
     "slug": "gemini-free-riset-cepat-untuk-proposal-freelance-blog-dan-seo",
@@ -131,6 +140,15 @@ window.__ARTICLES = [
     "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
     "slug": "pergerakan-ihsg-ihsg-di-persimpangan-antara",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Pergerakan Saham: idx menyediakan data pasar,...",
+    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "slug": "pergerakan-saham-idx-menyediakan-data-pasar",
+    "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "09/07/2026",
     "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
     "lang": "id"

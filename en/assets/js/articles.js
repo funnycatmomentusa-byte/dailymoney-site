@@ -109,6 +109,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Stock Market Analysis - Dapatkan informasi terkini dan",
+    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "slug": "stock-market-analysis-dapatkan-informasi-terkini-dan",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Stock Market Analysis - IHSG di persimpangan antara",
     "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
