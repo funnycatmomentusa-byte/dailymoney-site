@@ -25,7 +25,9 @@ def validate_html(filepath):
     """Basic HTML validation checks"""
     issues = []
     try:
-        html = open(filepath).read()
+        with open(filepath) as _fh:
+
+            html = _fh.read()
         # Check for unclosed tags
         for tag in ["h1", "h2", "h3", "p", "div", "section", "article", "meta", "img"]:
             opens = len(re.findall(rf'<{tag}[\\s>]', html, re.I))

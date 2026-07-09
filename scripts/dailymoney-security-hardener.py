@@ -71,7 +71,10 @@ def add_meta_security_tags():
     if not os.path.exists(gen_path):
         return False
     
-    content = open(gen_path).read()
+    with open(gen_path) as _fh:
+
+    
+        content = _fh.read()
     
     # Check if security meta tags already exist
     if 'referrer' in content.lower() and 'X-Content-Type-Options' not in content:
@@ -120,7 +123,9 @@ def add_security_headers_function():
         return False
     
     # Check if we can add security notes
-    content = open(sw_path).read()
+    with open(sw_path) as _fh:
+
+        content = _fh.read()
     if "security" not in content.lower():
         # Add security comment at top
         security_note = """// DailyMoney Security Note

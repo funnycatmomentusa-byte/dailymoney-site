@@ -46,10 +46,10 @@ def get_site_stats():
     except:
         pass
     
-    # Agent count
+    # Agent count — count lines with "Name:" in cron list
     try:
         r = subprocess.run(["hermes", "cron", "list"], capture_output=True, text=True, timeout=10)
-        stats["agent_count"] = r.stdout.count("job_id")
+        stats["agent_count"] = r.stdout.count("Name:")
     except:
         stats["agent_count"] = "?"
     
@@ -68,15 +68,14 @@ def get_site_stats():
     return stats
 
 def get_log_health():
-    """Cek log untuk error terbaru"""
+    """Cek cron job untuk error status — bukan log lama"""
     errors = 0
     try:
-        logfile = os.path.expanduser("~/.hermes/logs/errors.log")
-        if os.path.exists(logfile):
-            with open(logfile) as f:
-                for line in f:
-                    if "ERROR" in line or "Traceback" in line:
-                        errors += 1
+        r = subprocess.run(["hermes", "cron", "list"], capture_output=True, text=True, timeout=10)
+        # Count lines with "error:" in cron output
+        for line in r.stdout.split("\n"):
+            if "error:" in line.lower() and "last_delivery_error" not in line:
+                errors += 1
     except:
         pass
     return errors

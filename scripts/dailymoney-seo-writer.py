@@ -465,7 +465,8 @@ if __name__ == "__main__":
             for fname in os.listdir(d):
                 if fname.endswith(".json"):
                     try:
-                        data = json.load(open(os.path.join(d, fname)))
+                        with open(os.path.join(d, fname)) as f:
+                            data = json.load(f)
                         existing_titles.append(data.get("judul", ""))
                     except:
                         pass

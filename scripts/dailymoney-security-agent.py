@@ -272,7 +272,9 @@ def check_github_actions_security():
         for fname in os.listdir(workflow_dir):
             if fname.endswith(('.yml', '.yaml')):
                 fpath = os.path.join(workflow_dir, fname)
-                content = open(fpath).read()
+                with open(fpath) as _fh:
+
+                    content = _fh.read()
                 
                 # Check for pinned actions
                 if re.search(r'uses:\s+\w+/\w+@[^@]*$', content, re.MULTILINE):
@@ -299,7 +301,9 @@ def check_csp_basic():
     # Cek di generate-site.py untuk template HTML
     gen_path = os.path.join(GIT_REPO, "generate-site.py")
     if os.path.exists(gen_path):
-        content = open(gen_path).read()
+        with open(gen_path) as _fh:
+
+            content = _fh.read()
         
         # Count inline script tags in templates
         inline_scripts = len(re.findall(r'<script\s[^>]*>(?!\s*<\/script>)(.*?)<\/script>', content, re.DOTALL | re.IGNORECASE))

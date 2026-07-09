@@ -59,7 +59,8 @@ def get_latest_articles():
                 if f.endswith(".json"):
                     fpath = os.path.join(path, f)
                     try:
-                        data = json.load(open(fpath))
+                        with open(fpath) as f:
+                            data = json.load(f)
                         articles.append({
                             "title": data.get("judul", f),
                             "filename": f,

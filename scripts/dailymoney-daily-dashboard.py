@@ -53,7 +53,9 @@ def check_pwa():
 def check_broken():
     log = os.path.join(LOG_DIR, "broken-links-output.txt")
     if os.path.exists(log):
-        content = open(log).read()
+        with open(log) as _fh:
+
+            content = _fh.read()
         if "No broken" in content or "0 broken" in content:
             return "✅ Aman", content.count("broken") == 0
         return "⚠️ Ada broken link", False

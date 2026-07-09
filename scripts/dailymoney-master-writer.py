@@ -71,7 +71,8 @@ def get_price_data():
     """Baca data harga terkini."""
     path = os.path.join(PROJECT, "_price_data.json")
     try:
-        return json.load(open(path))
+        with open(path) as f:
+            return json.load(f)
     except:
         return {}
 
@@ -456,7 +457,8 @@ def get_next_pair_id():
             for f in os.listdir(d):
                 if f.endswith(".json"):
                     try:
-                        data = json.load(open(os.path.join(d, f)))
+                        with open(os.path.join(d, f)) as fh:
+                            data = json.load(fh)
                         pid = data.get("pair_id", 0)
                         if pid > max_pid:
                             max_pid = pid
@@ -470,7 +472,8 @@ def generate_education_article(topic):
     for f in os.listdir(ID_DIR):
         if f.endswith(".json"):
             try:
-                data = json.load(open(os.path.join(ID_DIR, f)))
+                with open(os.path.join(ID_DIR, f)) as fh:
+                    data = json.load(fh)
                 if data.get("pair_id") == topic["pair_id"]:
                     log(f"⏭️ Edu article exists: {f}")
                     return False
