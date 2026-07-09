@@ -72,9 +72,8 @@ def get_log_health():
     errors = 0
     try:
         r = subprocess.run(["hermes", "cron", "list"], capture_output=True, text=True, timeout=10)
-        # Count lines with "error:" in cron output
         for line in r.stdout.split("\n"):
-            if "error:" in line.lower() and "last_delivery_error" not in line:
+            if "error: Script exited" in line or "error: Script timed out" in line:
                 errors += 1
     except:
         pass
