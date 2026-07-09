@@ -127,6 +127,24 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "ihsg di persimpangan antara — Indeks Saham",
+    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas …",
+    "slug": "ihsg-di-persimpangan-antara-indeks-saham",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Investasi — 09 Jul 2026",
+    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "slug": "investasi-09-jul-2026",
+    "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
+    "date": "09/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Pergerakan IHSG: dapatkan informasi terkini dan...",
     "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
     "slug": "pergerakan-ihsg-dapatkan-informasi-terkini-dan",
