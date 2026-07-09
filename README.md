@@ -5,7 +5,7 @@
 
 > **Platform edukasi keuangan bilingual (ID/EN) — Fully AI-operated, zero human intervention.**
 
-Sistem ini berjalan 100% otomatis dengan **42+ AI agent** via Hermes cron. Dari riset berita, penulisan artikel, SEO, sampai deployment — semua dikendalikan AI tanpa sentuhan manusia.
+Sistem ini berjalan 100% otomatis dengan **44+ AI agent** via Hermes cron. Dari riset berita, penulisan artikel, SEO, sampai deployment — semua dikendalikan AI tanpa sentuhan manusia.
 
 ---
 
@@ -40,9 +40,11 @@ Sistem ini berjalan 100% otomatis dengan **42+ AI agent** via Hermes cron. Dari 
          ├─ [6h]   QA Agent               → Typo, link, angka
          ├─ [6h]   Trend Monitor          → Sentimen pasar
          ├─ [6h]   Resource Governor      → Monitor disk + memori
-         ├─ [6h]   Analytics Reporter     → 📊 Laporan ke Telegram 
+         ├─ [6h]   Analytics Reporter     → 📊 Laporan ke Telegram
+         ├─ [6h]   Front-End Dynamo      → 🎨 Refresh homepage konten
          ├─ [12h]  Mobile Optimizer       → 📱 Cek responsive design
          ├─ [12h]  Sponsorship Monitor    → 💼 Monitor peluang partnership
+         ├─ [3h]   Super Traffic Agent    → 🚀 SEO + search engine ping
          ├─ [6h]   Link Health            → Cek broken links
          ├─ [6h]   Bug Fixer              → Auto-fix script error
          ├─ [6h]   Forex Research (3x)    → Riset cadangan devisa
