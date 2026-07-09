@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-07-09T05:14:19.654057",
+  "total_urls": 48,
+  "results": {
+    "google_ping": false,
+    "indexnow": true,
+    "bing": false,
+    "yandex": false,
+    "urls_submitted": 10,
+    "latest_url": "https://dailymoney.my.id/robots.txt"
+  },
+  "next_check": "every 2h (automated by Hermes cron)"
+}

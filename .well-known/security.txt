@@ -1,0 +1,8 @@
+# Security Policy for dailymoney.my.id
+# ========================================
+# Preferred-Languages: en, id
+# Contact: mailto:security@dailymoney.my.id
+# Expires: 2027-07-08T00:00:00.000Z
+# Encryption: https://keys.openpgp.org/
+# Acknowledgments: https://dailymoney.my.id/security-acknowledgments
+# Canonical: https://dailymoney.my.id/.well-known/security.txt

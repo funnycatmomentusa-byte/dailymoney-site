@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-07-09T03:20:07.747876",
+  "repo_status": {
+    "clean": true,
+    "dirty_count": 0,
+    "last_commit": "b8545af4142154da937d88aabc4f84bfda7dba09 security: auto-patch by Security Auditor",
+    "dirty_mtime": "2026-07-09T00:38:05.652951"
+  },
+  "backup": {
+    "name": "dailymoney-backup-20260709_032006-b8545af.tar.gz",
+    "path": "/root/.hermes/backups/dailymoney/dailymoney-backup-20260709_032006-b8545af.tar.gz",
+    "size_kb": 237.1
+  },
+  "disk_free_gb": 128.8,
+  "backups_count": 2,
+  "max_backups": 14
+}

@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Generated site artifacts (tracked in repo, not ignored)
+# Price data is tracked so don't ignore
+
+# Logs
+*.log
+*.gz
+*.tmp
+
+# Git garbage
+.l2s.tmp_*
+
+# Hermes
+~/.hermes/

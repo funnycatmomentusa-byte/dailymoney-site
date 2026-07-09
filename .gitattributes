@@ -1,0 +1,9 @@
+# Auto detect text files
+* text=auto
+
+# Security-sensitive files
+*.key binary
+*.pem binary
+*.p12 binary
+.env linguist-vendored
+*.env linguist-vendored
