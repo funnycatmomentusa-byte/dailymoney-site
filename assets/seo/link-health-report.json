@@ -1,14 +1,9 @@
 {
-  "timestamp": "2026-07-08T23:38:10.002768",
+  "timestamp": "2026-07-09T05:39:14.448325",
   "homepage_status": 200,
-  "total_urls": 48,
-  "healthy": 47,
-  "broken_links": [
-    {
-      "url": "https://dailymoney.my.id/robots.txt",
-      "status": 0
-    }
-  ],
-  "health_percent": 97.9,
+  "total_urls": 50,
+  "healthy": 50,
+  "broken_links": [],
+  "health_percent": 100.0,
   "status": "healthy"
 }

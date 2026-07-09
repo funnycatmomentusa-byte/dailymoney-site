@@ -5,7 +5,7 @@
 
 > **Platform edukasi keuangan bilingual (ID/EN) — Fully AI-operated, zero human intervention.**
 
-Sistem ini berjalan 100% otomatis dengan **38+ AI agent** via Hermes cron. Dari riset berita, penulisan artikel, SEO, sampai deployment — semua dikendalikan AI tanpa sentuhan manusia.
+Sistem ini berjalan 100% otomatis dengan **42+ AI agent** via Hermes cron. Dari riset berita, penulisan artikel, SEO, sampai deployment — semua dikendalikan AI tanpa sentuhan manusia.
 
 ---
 
@@ -40,6 +40,9 @@ Sistem ini berjalan 100% otomatis dengan **38+ AI agent** via Hermes cron. Dari 
          ├─ [6h]   QA Agent               → Typo, link, angka
          ├─ [6h]   Trend Monitor          → Sentimen pasar
          ├─ [6h]   Resource Governor      → Monitor disk + memori
+         ├─ [6h]   Analytics Reporter     → 📊 Laporan ke Telegram 
+         ├─ [12h]  Mobile Optimizer       → 📱 Cek responsive design
+         ├─ [12h]  Sponsorship Monitor    → 💼 Monitor peluang partnership
          ├─ [6h]   Link Health            → Cek broken links
          ├─ [6h]   Bug Fixer              → Auto-fix script error
          ├─ [6h]   Forex Research (3x)    → Riset cadangan devisa
@@ -48,6 +51,7 @@ Sistem ini berjalan 100% otomatis dengan **38+ AI agent** via Hermes cron. Dari 
          ├─ [12h]  Internal Linker        → Auto-link artikel
          ├─ [12h]  Visitor Agent          → Visitor badge + sitemap
          ├─ [daily] Daily Dashboard       → Laporan pagi
+         ├─ [daily] Business Agent        → 🤝 Update halaman kerjasama
          ├─ [daily] Analyser Agent        → Performa konten
          ├─ [daily] Content Recycler      → Daur ulang konten lama
          ├─ [daily] Backup Agent          → Backup otomatis
@@ -122,11 +126,11 @@ dailymoney-site/
 ### Monitoring & Notifikasi
 | Agent | Schedule | Fungsi |
 |-------|----------|--------|
-| Watchdog | 15m | Pantau semua agent, auto-restart |
-| Supervisor | 30m | Orkestrasi seluruh agent |
-| Telegram Bot | 30m | Kirim update harga ke Telegram |
-| Import Watchdog | 60m | Verifikasi dependency Python |
-| Bug Hunter | 3h | Deteksi + auto-fix error script |
+| Watchdog | 15m | Pantau semua agent, auto-restart + **Telegram alert** |
+| Supervisor | 30m | Orkestrasi seluruh agent + **Telegram report** |
+| Telegram Bot | 30m | Kirim update harga ke Telegram @dailymoneyfnd_bot |
+| Import Watchdog | 60m | Verifikasi dependency Python + **Telegram alert** |
+| Bug Hunter | 3h | Deteksi + auto-fix error script + **Telegram report** |
 | Performance Monitor | 3h | Validasi HTML, ukuran halaman |
 
 ### SEO & Traffic
@@ -210,6 +214,20 @@ python3 search_news.py
 ```bash
 python3 scripts/dailymoney-watchdog.py
 ```
+
+## 💼 Business Partnership
+
+DailyMoney terbuka untuk kerja sama dengan brand, perusahaan, dan institusi:
+
+| Kategori | Deskripsi |
+|----------|-----------|
+| **💰 Iklan & Sponsorship** | Banner, native ads, sponsored post |
+| **🤝 Afiliasi** | Produk keuangan — saham, emas, crypto, asuransi |
+| **📝 Konten Bersponsor** | Artikel berkualitas sesuai brand Anda |
+| **📡 Media & Publikasi** | Press release, liputan pasar keuangan |
+
+📱 **Kontak bisnis:** [@EsterToobit](https://t.me/EsterToobit) (Telegram)
+🌐 **Halaman partnership:** [dailymoney.my.id/kerjasama/](https://dailymoney.my.id/kerjasama/)
 
 ## 📄 Lisensi
 

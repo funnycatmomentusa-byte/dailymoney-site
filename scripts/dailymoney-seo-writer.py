@@ -438,7 +438,7 @@ def trigger_generate_and_push():
         log("✅ Pushed to GitHub")
         return True
     else:
-        log(f"❌ Push failed: {r3.stderr[:200]}")
+        log(f"⚠️  Push failed (will retry next cycle): {r3.stderr[:100]}")
         return False
 
 # ===== MAIN =====
