@@ -57,7 +57,7 @@ def search_backlink_opportunities():
     ]
     
     try:
-        from ddgs import DDGS
+        from duckduckgo_search import DDGS
         with DDGS() as ddgs:
             for query in queries:
                 try:

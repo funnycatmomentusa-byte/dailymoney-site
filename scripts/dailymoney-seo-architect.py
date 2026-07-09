@@ -158,7 +158,7 @@ def run():
     ]
     
     try:
-        from ddgs import DDGS
+        from duckduckgo_search import DDGS
         with DDGS() as ddgs:
             for query in queries:
                 results = list(ddgs.text(query, max_results=3, region='id-id'))

@@ -47,7 +47,7 @@ def search_topics():
                 if f.endswith(".json"):
                     existing_articles.add(f.lower().replace("-", "").replace(".json", ""))
     
-    from ddgs import DDGS
+    from duckduckgo_search import DDGS
     with DDGS() as ddgs:
         for q in queries[:5]:
             try:

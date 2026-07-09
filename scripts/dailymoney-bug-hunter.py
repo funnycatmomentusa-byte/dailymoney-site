@@ -139,7 +139,7 @@ def check_imports(filepath):
 def check_known_bad_imports(filepath):
     """Cek import statement usang yang masih dipakai meski modul baru sudah terinstall."""
     bad_patterns = {
-        "from ddgs import DDGS": "from duckduckgo_search import DDGS",
+        "from duckduckgo_search import DDGS": "from duckduckgo_search import DDGS",
     }
     issues = []
     try:

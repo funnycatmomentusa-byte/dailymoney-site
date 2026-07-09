@@ -36,7 +36,7 @@ def search_trends():
     ]
     
     try:
-        from ddgs import DDGS
+        from duckduckgo_search import DDGS
         with DDGS() as ddgs:
             for query, kategori in queries:
                 results = list(ddgs.text(query, max_results=4, region='id-id'))
