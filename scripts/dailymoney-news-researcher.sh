@@ -5,7 +5,7 @@ cd /root/workspace/dailymoney-site
 LOG_DIR="$HOME/.hermes/logs"
 mkdir -p "$LOG_DIR"
 
-echo "=== 🔍 News Research Agent @ $(date +'%H:%M') ===
+echo "=== 🔍 News Research Agent @ $(date +'%H:%M') ==="
 
 # Run all search scripts and combine output
 python3 search_news.py > "$LOG_DIR/news-research-1.txt" 2>&1 || echo "⚠️  search_news.py failed"
