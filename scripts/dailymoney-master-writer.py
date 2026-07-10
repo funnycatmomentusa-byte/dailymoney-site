@@ -5,6 +5,9 @@ Menulis artikel berkualitas tinggi berdasarkan data pasar real-time."""
 import json, os, subprocess, sys, re, random
 from datetime import datetime, timedelta, date
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
+from dailymoney_image_pool import get_unique_image, reset_used
+
 PROJECT = "/root/workspace/dailymoney-site"
 ID_DIR = os.path.join(PROJECT, "_articles")
 EN_DIR = os.path.join(PROJECT, "_articles", "en")
@@ -182,8 +185,6 @@ Melihat dinamika pasar saat ini, perencana keuangan menyarankan:
 
     # Use image pool for unique images
     try:
-        sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
-        from dailymoney_image_pool import get_unique_image
         id_img_url, id_img_cap = get_unique_image(id_title)
     except Exception:
         id_img_url = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
@@ -274,9 +275,6 @@ EDUCATION_TOPICS = [
         "meta_en": "Complete investment guide for beginners in 2026 — from mutual funds, stocks, gold, to crypto. Learn strategies and risks before investing.",
         "tags_id": "Investasi, Reksadana, Saham, Emas, Pemula, Edukasi",
         "tags_en": "Investment, Stocks, Mutual Funds, Beginner, Finance Education",
-        "img": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
-        "img_cap_id": "Ilustrasi investasi dan perencanaan keuangan untuk pemula.",
-        "img_cap_en": "Investment and financial planning illustration for beginners.",
         "pair_id": 9001,
         "content_id": """JAKARTA — Memulai investasi sering terasa membingungkan bagi pemula. Dengan banyaknya pilihan instrumen — dari reksadana, saham, emas, hingga crypto — wajar jika Anda bingung harus mulai dari mana.
 
@@ -361,9 +359,6 @@ Success in investing is not about timing the market, but time in the market.
         "meta_en": "Confused between mutual funds and stocks? Complete comparison of advantages, risks, and returns for beginner investors.",
         "tags_id": "Reksadana, Saham, Investasi, Pemula, Perbandingan, Edukasi",
         "tags_en": "Mutual Funds, Stocks, Investment, Beginners, Comparison",
-        "img": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
-        "img_cap_id": "Perbandingan reksadana dan saham untuk investor pemula.",
-        "img_cap_en": "Mutual funds vs stocks comparison for beginner investors.",
         "pair_id": 9002,
         "content_id": """JAKARTA — Dua instrumen investasi yang paling populer di Indonesia adalah reksadana dan saham. Masing-masing punya kelebihan dan kekurangan. Untuk pemula, penting memahami perbedaan mendasar sebelum memutuskan.
 
@@ -424,9 +419,6 @@ For beginners, **mutual funds** are recommended as a first step. After understan
         "meta_en": "Understand investment tax obligations in 2026 — taxes on stocks, mutual funds, gold, crypto, and property.",
         "tags_id": "Pajak, SPT, Investasi, Saham, Crypto, Pelaporan",
         "tags_en": "Tax, SPT, Investment, Stocks, Crypto, Reporting",
-        "img": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
-        "img_cap_id": "Ilustrasi perpajakan — kewajiban pajak investasi di Indonesia.",
-        "img_cap_en": "Tax illustration — investment tax obligations in Indonesia.",
         "pair_id": 9003,
         "content_id": """JAKARTA — Setiap wajib pajak yang memiliki investasi wajib melaporkannya di SPT Tahunan. Berikut panduan lengkap pajak investasi yang berlaku di 2026.
 
@@ -503,15 +495,13 @@ def generate_education_article(topic):
     
     # Use image pool for unique images
     try:
-        sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
-        from dailymoney_image_pool import get_unique_image
         id_img_url, id_img_cap = get_unique_image(topic["judul_id"])
         en_img_url, en_img_cap = get_unique_image(topic["judul_en"])
     except Exception:
-        id_img_url = topic.get("img", "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80")
-        id_img_cap = topic.get("img_cap_id", "Ilustrasi keuangan.")
-        en_img_url = id_img_url
-        en_img_cap = topic.get("img_cap_en", "Financial illustration.")
+        id_img_url = "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80"
+        id_img_cap = "Ilustrasi keuangan. Sumber: dokumentasi DailyMoney."
+        en_img_url = "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80"
+        en_img_cap = "Financial illustration. Source: DailyMoney documentation."
 
     id_art = {
         "judul": topic["judul_id"],
@@ -556,6 +546,7 @@ def check_articles_today():
 # =========================================================
 
 if __name__ == "__main__":
+    reset_used()
     print(f"{'='*60}")
     print(f"📝 DailyMoney Master Writer v2 @ {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     print(f"{'='*60}")

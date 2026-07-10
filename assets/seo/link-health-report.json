@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-07-10T03:14:09.780635",
+  "timestamp": "2026-07-10T05:45:27.709790",
   "homepage_status": 200,
-  "total_urls": 67,
-  "healthy": 66,
+  "total_urls": 70,
+  "healthy": 69,
   "broken_links": [
     {
-      "url": "https://dailymoney.my.id/en/articles/economic-update-keuangan-floor-plan-creator-visit-floor-plan-cre.html",
-      "status": 404
+      "url": "https://dailymoney.my.id/en/articles/mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026.html",
+      "status": 0
     }
   ],
-  "health_percent": 98.5,
+  "health_percent": 98.6,
   "status": "healthy"
 }

@@ -4,6 +4,9 @@ Mencari topik trending, menulis artikel ID/EN berkualitas, auto-publish."""
 import json, os, subprocess, sys, re, random
 from datetime import datetime, timedelta, date
 
+sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
+from dailymoney_image_pool import get_unique_image, reset_used
+
 PROJECT = "/root/workspace/dailymoney-site"
 ID_DIR = os.path.join(PROJECT, "_articles")
 EN_DIR = os.path.join(PROJECT, "_articles", "en")
@@ -173,29 +176,8 @@ def get_tags(title):
     return "Keuangan, Ekonomi, Indonesia, Investasi, Pasar Modal"
 
 def get_image_for(title):
-    """Pilih gambar Unsplash yang relevan — expanded pool with 40+ unique images."""
-    try:
-        sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
-        from dailymoney_image_pool import get_unique_image
-        return get_unique_image(title)
-    except Exception:
-        pass
-    # Fallback if image pool import fails
-    img_map = {
-        "ihsg|saham|pasar": ("https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80", "Layar perdagangan saham Bursa Efek Indonesia."),
-        "emas": ("https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80", "Emas batangan sebagai aset investasi."),
-        "crypto|bitcoin": ("https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80", "Ilustrasi mata uang kripto Bitcoin dan aset digital."),
-        "rupiah|dollar|kurs": ("https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80", "Tumpukan uang dolar AS dan rupiah."),
-        "properti|rumah": ("https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80", "Perumahan sebagai investasi properti."),
-        "pajak": ("https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80", "Ilustrasi perpajakan dan keuangan."),
-        "fintech|digital": ("https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80", "Teknologi fintech dan inovasi digital."),
-        "ekonomi": ("https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=1200&q=80", "Grafik dan data ekonomi makro Indonesia."),
-    }
-    for kw, (url, caption) in img_map.items():
-        if re.search(kw, title.lower()):
-            return url, f"{caption} Sumber: dokumentasi DailyMoney."
-    return ("https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
-            "Ilustrasi pasar keuangan — dokumentasi DailyMoney.")
+    """Pilih gambar Unsplash unik dari image pool."""
+    return get_unique_image(title)
 
 def generate_original_title(topic_body, existing_titles):
     """Buat judul original berdasarkan konteks berita, bukan copy dari DDG."""
@@ -370,8 +352,7 @@ def generate_content_en(topic, pair_id, existing_titles=[]):
     if len(meta) > 155:
         meta = meta[:152].rsplit(' ', 1)[0] + "..."
     
-    img_url = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
-    img_caption = f"Illustration: {en_title[:60]} — Source: DailyMoney documentation."
+    img_url, img_caption = get_unique_image(en_title)
     
     source_url = topic.get("url", "").strip()
     source_title = topic.get("title", "").strip()
@@ -466,6 +447,7 @@ def trigger_generate_and_push():
 
 # ===== MAIN =====
 if __name__ == "__main__":
+    reset_used()
     print(f"{'='*60}")
     print(f"✍️  DailyMoney SEO Writer v2 @ {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     print(f"{'='*60}")
