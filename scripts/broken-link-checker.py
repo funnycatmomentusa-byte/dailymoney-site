@@ -2,7 +2,6 @@
 """DailyMoney — Auto Broken Link Checker Agent
 Scans all pages for broken links and reports them."""
 import urllib.request, ssl, re, json, os, sys
-from urllib.parse import urljoin
 
 ctx = ssl.create_default_context()
 ctx.check_hostname = False

@@ -3,7 +3,6 @@
 Otomatis memperbaiki bug yang ditemukan Bug Hunter + QA Agent."""
 import json, os, subprocess, sys, re, urllib.request, urllib.error
 from datetime import datetime
-from html.parser import HTMLParser
 
 BASE_DIR = "/root/workspace/dailymoney-site"
 LOG_DIR = os.path.expanduser("~/.hermes/logs")

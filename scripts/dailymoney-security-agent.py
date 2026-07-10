@@ -3,7 +3,6 @@
 Memindai keamanan website secara menyeluruh: SSL, headers, malware, secrets, CSP, DNS."""
 import json, os, subprocess, re, urllib.request, ssl, socket
 from datetime import datetime, timedelta
-from urllib.parse import urlparse
 
 SITE = "https://dailymoney.my.id"
 DOMAIN = "dailymoney.my.id"
