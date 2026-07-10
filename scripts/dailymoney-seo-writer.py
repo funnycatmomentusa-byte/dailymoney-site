@@ -267,8 +267,16 @@ def generate_content_id(topic, pair_id, existing_titles=[]):
     today = datetime.now().strftime('%d/%m/%Y')
     disclaimer = random.choice(INSURANCE_MESSAGES)
     
-    # Structured content
-    content_parts = [f"JAKARTA — {body}\n"]
+    # Structured content with source link
+    source_url = topic.get("url", "").strip()
+    source_title = topic.get("title", "").strip()
+    source_note = ""
+    if source_url:
+        if source_title:
+            source_note = f"\n\n📎 *Sumber: [{source_title}]({source_url})*\n"
+        else:
+            source_note = f"\n\n📎 *Sumber: [Baca selengkapnya]({source_url})*\n"
+    content_parts = [f"JAKARTA — {body}{source_note}\n"]
     
     content_parts.append(f"""## ANALISIS: DAMPAK TERHADAP PASAR
 
@@ -358,7 +366,15 @@ def generate_content_en(topic, pair_id, existing_titles=[]):
     img_url = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
     img_caption = f"Illustration: {en_title[:60]} — Source: DailyMoney documentation."
     
-    content = f"""JAKARTA — {body}
+    source_url = topic.get("url", "").strip()
+    source_title = topic.get("title", "").strip()
+    source_note = ""
+    if source_url:
+        if source_title:
+            source_note = f"\n\n📎 *Source: [{source_title}]({source_url})*\n"
+        else:
+            source_note = f"\n\n📎 *Source: [Read more]({source_url})*\n"
+    content = f"""JAKARTA — {body}{source_note}
 
 ## MARKET ANALYSIS
 
