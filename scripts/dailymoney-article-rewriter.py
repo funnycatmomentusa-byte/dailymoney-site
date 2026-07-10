@@ -11,7 +11,6 @@ _spec = importlib.util.spec_from_file_location('dailymoney_image_pool', _POOL_PA
 _pool_mod = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(_pool_mod)
 get_unique_image = _pool_mod.get_unique_image
-reset_used = _pool_mod.reset_used
 
 PROJECT = '/root/workspace/dailymoney-site'
 ARTICLES_DIR = os.path.join(PROJECT, '_articles')
@@ -378,7 +377,6 @@ def main():
     print("DailyMoney Article Rewriter")
     print("=" * 60)
 
-    reset_used()
     os.makedirs(BACKUP_DIR, exist_ok=True)
 
     # Collect all article files

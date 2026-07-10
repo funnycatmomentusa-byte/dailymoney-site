@@ -666,9 +666,8 @@ def run():
     
     # Get unique images
     sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
-    from dailymoney_image_pool import get_unique_image, reset_used
-    
-    reset_used()
+    from dailymoney_image_pool import get_unique_image
+
     img_id_url, img_id_cap = get_unique_image(data["judul_id"])
     img_en_url, img_en_cap = get_unique_image(data["judul_en"])
     

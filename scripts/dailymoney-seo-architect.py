@@ -682,7 +682,7 @@ Investasi adalah perjalanan, bukan tujuan akhir. Mulailah dengan langkah kecil, 
 
 def build_article(judul, content_template, tags, topic, lang='id'):
     """Build complete article dict with unique image."""
-    from dailymoney_image_pool import get_unique_image, reset_used
+    from dailymoney_image_pool import get_unique_image
     
     # Pick unique image
     image_url, image_caption = get_unique_image(f"{judul} {tags} {topic}")

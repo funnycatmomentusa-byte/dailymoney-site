@@ -5,7 +5,7 @@ import json, os, subprocess, sys, re, random
 from datetime import datetime, timedelta, date
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
-from dailymoney_image_pool import get_unique_image, reset_used
+from dailymoney_image_pool import get_unique_image
 
 PROJECT = "/root/workspace/dailymoney-site"
 ID_DIR = os.path.join(PROJECT, "_articles")
@@ -447,7 +447,6 @@ def trigger_generate_and_push():
 
 # ===== MAIN =====
 if __name__ == "__main__":
-    reset_used()
     print(f"{'='*60}")
     print(f"✍️  DailyMoney SEO Writer v2 @ {datetime.now().strftime('%d/%m/%Y %H:%M')}")
     print(f"{'='*60}")
