@@ -24,6 +24,7 @@ Thumbs.db
 
 # Git garbage
 .l2s.tmp_*
+_articles/_backup/
 
 # Hermes
 ~/.hermes/
