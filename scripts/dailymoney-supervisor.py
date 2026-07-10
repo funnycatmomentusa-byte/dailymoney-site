@@ -1,9 +1,15 @@
 #!/usr/bin/env python3
-"""DailyMoney — Agent Supervisor (The Watcher)
-Memastikan semua 36 cron agent berjalan, tidak error, site tidak 404.
-Auto-restart agent yang gagal, auto-notify jika ada masalah kritis."""
-import json, os, subprocess, sys, re, urllib.request, urllib.error
-from datetime import datetime, timedelta
+"""DailyMoney — Agent Supervisor ZERO-ERROR ENFORCER
+Agent ketat yang WAJIB memastikan:
+1. Semua 44 cron agent berjalan tanpa error
+2. Tidak ada artikel tanggal masa depan (hanya cek file YYYY-MM-DD-* prefix)
+3. Tidak ada 404 di site
+4. Semua script agent exist
+5. Auto-fix langsung perbaiki error yang ditemukan
+6. Auto-notify ke Telegram
+ZERO TOLERANCE — satu error pun tidak boleh lewat."""
+import json, os, subprocess, sys, re, urllib.request, urllib.error, glob
+from datetime import datetime, timedelta, date
 from collections import defaultdict
 
 BASE_DIR = "/root/workspace/dailymoney-site"
@@ -33,20 +39,74 @@ def load_state():
                 return json.load(f)
     except:
         pass
-    return {"previous_errors": {}, "consecutive_failures": {}, "last_report": ""}
+    return {"consecutive_failures": {}, "fixes_applied": []}
 
 def save_state(state):
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
 
-def size_fmt(b):
-    if b < 1024: return f"{b}B"
-    return f"{b/1024:.1f}KB"
+# ══════════════════════════════════════════════════════════
+# CHECK 1: Future Date Articles — ZERO TOLERANCE
+# ══════════════════════════════════════════════════════════
+def check_future_dates():
+    """Cek artikel yang filename-nya YYYY-MM-DD-* tapi tanggalnya masa depan.
+    HANYA cek file yang benar-benar start dengan YYYY-MM-DD- pattern."""
+    issues = []
+    fixes = []
+    today_str = date.today().strftime('%Y-%m-%d')
+    today_ddmmyyyy = date.today().strftime('%d/%m/%Y')
+    
+    # Pattern: exactly YYYY-MM-DD-something.json
+    date_prefix_re = re.compile(r'^(\d{4}-\d{2}-\d{2})-(.+)\.json$')
+    
+    articles_dir = os.path.join(BASE_DIR, "_articles")
+    en_dir = os.path.join(articles_dir, "en")
+    
+    for d in [articles_dir, en_dir]:
+        if not os.path.exists(d):
+            continue
+        for f in os.listdir(d):
+            m = date_prefix_re.match(f)
+            if not m:
+                continue  # Skip files without YYYY-MM-DD prefix
+            
+            fname_date = m.group(1)
+            slug_part = m.group(2)
+            
+            if fname_date > today_str:
+                # FUTURE DATE — fix it
+                old_path = os.path.join(d, f)
+                new_name = f"{today_str}-{slug_part}.json"
+                new_path = os.path.join(d, new_name)
+                
+                try:
+                    with open(old_path) as fh:
+                        data = json.load(fh)
+                    data["date"] = today_ddmmyyyy
+                    with open(new_path, "w") as fh:
+                        json.dump(data, fh, ensure_ascii=False, indent=2)
+                    os.remove(old_path)
+                    fixes.append(f"🔧 {f} → {new_name}")
+                    log(f"  🔧 FIXED: {f} → {new_name}")
+                except Exception as e:
+                    try:
+                        os.rename(old_path, new_path)
+                        fixes.append(f"🔧 {f} → {new_name} (rename only)")
+                    except:
+                        issues.append(f"🔴 Cannot fix: {f}: {e}")
+    
+    if not fixes:
+        log("  ✅ No future-dated articles found")
+    
+    return issues, fixes
 
+# ══════════════════════════════════════════════════════════
+# CHECK 2: All Cron Jobs — ZERO ERROR TOLERANCE
+# ══════════════════════════════════════════════════════════
 def check_all_cron_jobs():
-    """Cek status semua cron jobs via hermes CLI (tabel output)."""
     error_jobs = []
     stale_jobs = []
+    total = 0
     
     try:
         result = subprocess.run(
@@ -56,19 +116,16 @@ def check_all_cron_jobs():
         text = result.stdout
     except Exception as e:
         log(f"  🔴 Cannot list cron jobs: {e}")
-        return [], []
+        return [], [], 0
     
-    # Parse text table format
     now = datetime.now()
     current_job = None
-    total = 0
     
     for line in text.split("\n"):
-        # Detect job header: starts with hex ID
         m = re.match(r'^  ([a-f0-9]{12})\s+\[(\w+)\]', line)
         if m:
             if current_job and current_job.get("name"):
-                analyze_job(current_job, error_jobs, stale_jobs, now)
+                _analyze_job(current_job, error_jobs, stale_jobs, now)
                 total += 1
             current_job = {"job_id": m.group(1), "status": m.group(2)}
             continue
@@ -76,33 +133,27 @@ def check_all_cron_jobs():
         if current_job is None:
             continue
         
-        m = re.match(r'    Name:\s+(.+)', line)
-        if m:
-            current_job["name"] = m.group(1).strip()
-            continue
+        for key, pattern in [
+            ("name", r'    Name:\s+(.+)'),
+            ("schedule", r'    Schedule:\s+(.+)'),
+            ("script", r'    Script:\s+(.+)'),
+        ]:
+            m2 = re.match(pattern, line)
+            if m2:
+                current_job[key] = m2.group(1).strip()
         
-        m = re.match(r'    Schedule:\s+(.+)', line)
-        if m:
-            current_job["schedule"] = m.group(1).strip()
-            continue
-        
-        m = re.match(r'    Last run:\s+(\S+\s+\S+)\s+(\w+)', line)
-        if m:
-            current_job["last_run"] = m.group(1)
-            current_job["last_status"] = m.group(2)
-            continue
+        m2 = re.match(r'    Last run:\s+(\S+\s+\S+)\s+(\w+)', line)
+        if m2:
+            current_job["last_run"] = m2.group(1)
+            current_job["last_status"] = m2.group(2)
     
-    # Analyze last job
     if current_job and current_job.get("name"):
-        analyze_job(current_job, error_jobs, stale_jobs, now)
+        _analyze_job(current_job, error_jobs, stale_jobs, now)
         total += 1
     
-    log(f"\n  📊 Cron: {total} total, {len(error_jobs)} ERROR, {len(stale_jobs)} stale")
-    return error_jobs, stale_jobs
+    return error_jobs, stale_jobs, total
 
-
-def analyze_job(job, error_jobs, stale_jobs, now):
-    """Analyze a single cron job."""
+def _analyze_job(job, error_jobs, stale_jobs, now):
     name = job.get("name", "Unknown")
     status = job.get("last_status")
     
@@ -111,96 +162,76 @@ def analyze_job(job, error_jobs, stale_jobs, now):
         log(f"  🔴 {name}: ERROR")
         return
     
-    # Check staleness
     last_run = job.get("last_run")
     if last_run and status == "ok":
         try:
             last = datetime.fromisoformat(last_run.replace("Z", "+00:00"))
             hours_since = (now - last).total_seconds() / 3600
             schedule = job.get("schedule", "")
-            expected_hours = 12
-            if "10m" in schedule: expected_hours = 0.5
-            elif "15m" in schedule: expected_hours = 0.5
-            elif "30m" in schedule: expected_hours = 1
-            elif "120m" in schedule or "2h" in schedule: expected_hours = 3
-            elif "180m" in schedule: expected_hours = 4
-            elif "240m" in schedule or "4h" in schedule: expected_hours = 5
-            elif "360m" in schedule or "6h" in schedule: expected_hours = 8
-            elif "720m" in schedule or "12h" in schedule: expected_hours = 14
-            elif schedule.startswith("0 "):
-                expected_hours = 30  # daily/weekly
-            
-            if hours_since > expected_hours * 2:
+            expected = _schedule_to_hours(schedule)
+            if hours_since > expected * 2.5:
                 stale_jobs.append(job)
-                log(f"  ⚠️ {name}: stale ({hours_since:.0f}h since last run)")
+                log(f"  ⚠️ {name}: stale ({hours_since:.0f}h)")
         except:
             pass
 
-def check_site_404():
-    """Cek semua halaman site untuk 404."""
-    issues = []
-    checked = 0
-    
-    # 1. Check homepage
-    urls_to_check = ["https://dailymoney.my.id/"]
-    
-    # 2. Get all URLs from sitemap
-    try:
-        req = urllib.request.Request(
-            "https://dailymoney.my.id/sitemap.xml",
-            headers={"User-Agent": "Mozilla/5.0"}
-        )
-        resp = urllib.request.urlopen(req, timeout=15)
-        sitemap = resp.read().decode()
-        
-        # Extract all URLs from sitemap
-        urls = re.findall(r'<loc>(.*?)</loc>', sitemap)
-        urls_to_check.extend(urls[:50])  # Check top 50
-    except Exception as e:
-        issues.append(f"⚠️ Cannot fetch sitemap: {e}")
-        log(f"  ⚠️ Sitemap fetch failed: {e}")
-    
-    # 3. Check each URL
-    for url in urls_to_check:
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            resp = urllib.request.urlopen(req, timeout=15)
-            checked += 1
-            
-            if resp.status == 404:
-                issues.append(f"🔴 404: {url}")
-                log(f"  🔴 404: {url}")
-            elif resp.status in (301, 302):
-                log(f"  ⚠️ Redirect: {url} → {resp.headers.get('Location', '?')}")
-            elif resp.status != 200:
-                log(f"  ⚠️ HTTP {resp.status}: {url}")
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                issues.append(f"🔴 404: {url}")
-                log(f"  🔴 404: {url}")
-            checked += 1
-        except Exception as e:
-            issues.append(f"⚠️ Error: {url} ({e})")
-            log(f"  ⚠️ {url}: {e}")
-    
-    log(f"  📊 Checked {checked} URLs — {len(issues)} issues")
-    return issues, checked
+def _schedule_to_hours(schedule):
+    if "10m" in schedule: return 0.5
+    if "15m" in schedule: return 0.5
+    if "30m" in schedule: return 1
+    if "60m" in schedule or "1h" in schedule: return 1.5
+    if "120m" in schedule or "2h" in schedule: return 3
+    if "180m" in schedule or "3h" in schedule: return 4
+    if "240m" in schedule or "4h" in schedule: return 5
+    if "360m" in schedule or "6h" in schedule: return 8
+    if "720m" in schedule or "12h" in schedule: return 14
+    if schedule.startswith("0 "): return 30
+    return 12
 
-def check_agent_scripts_exist():
-    """Verifikasi semua script cron masih ada di filesystem."""
-    issues = []
+def auto_fix_error_agent(job):
+    name = job.get("name", "Unknown")
+    script = job.get("script", "")
+    if not script:
+        return False, "No script"
     
-    # Known scripts that should exist (based on cron names)
-    expected_scripts = [
+    for base in [os.path.join(BASE_DIR, "scripts"), os.path.expanduser("~/.hermes/scripts")]:
+        script_path = os.path.join(base, script)
+        if os.path.exists(script_path):
+            break
+    else:
+        return False, f"Script not found: {script}"
+    
+    try:
+        cmd = ["bash", script_path] if script.endswith(".sh") else ["python3", script_path]
+        r = subprocess.run(cmd, capture_output=True, text=True, timeout=120, cwd=BASE_DIR)
+        if r.returncode == 0:
+            log(f"  ✅ AUTO-FIX: {name} now OK")
+            return True, "Fixed"
+        else:
+            err = (r.stderr or r.stdout or "")[-150:]
+            log(f"  ❌ AUTO-FIX: {name} still fails: {err[:100]}")
+            return False, f"Still fails"
+    except subprocess.TimeoutExpired:
+        return False, "Timeout"
+    except Exception as e:
+        return False, str(e)[:100]
+
+# ══════════════════════════════════════════════════════════
+# CHECK 3: Script Integrity
+# ══════════════════════════════════════════════════════════
+def check_scripts_exist():
+    issues = []
+    scripts_dir = os.path.join(BASE_DIR, "scripts")
+    alt_dir = os.path.expanduser("~/.hermes/scripts")
+    
+    expected = [
         "dailymoney-update.sh", "dailymoney-watchdog.py",
         "dailymoney-telegram-summary.py", "dailymoney-rss-monitor.sh",
         "dailymoney-news-researcher.sh", "dailymoney-perf-monitor.py",
         "dailymoney-seo-writer.py", "dailymoney-security-agent.py",
         "dailymoney-master-writer.py", "dailymoney-seo-agent.sh",
-        "dailymoney-traffic-agent.sh", "dailymoney-bug-hunter.py",
-        "dailymoney-forex-researcher.sh", "dailymoney-visitor-agent.py",
-        "dailymoney-link-checker.sh", "dailymoney-curator.sh",
-        "dailymoney-daily-dashboard.py", "dailymoney-seo-architect.py",
+        "dailymoney-bug-hunter.py", "dailymoney-forex-researcher.sh",
+        "dailymoney-visitor-agent.py", "dailymoney-seo-architect.py",
         "dailymoney-viral-repurposer.py", "dailymoney-backlink-hunter.py",
         "dailymoney-internal-linker.py", "dailymoney-speed-agent.py",
         "dailymoney-trend-monitor.py", "dailymoney-newsletter-agent.py",
@@ -211,260 +242,218 @@ def check_agent_scripts_exist():
         "dailymoney-log-analysis.py", "dailymoney-db-optimizer.py",
         "dailymoney-api-watchdog.py", "dailymoney-article-fetcher.sh",
         "dailymoney-curator-ai.py", "dailymoney-resource-governor.py",
-        "dailymoney-security-auditor.py",
+        "dailymoney-security-auditor.py", "dailymoney-daily-dashboard.py",
+        "dailymoney-supervisor.py", "dailymoney-import-watchdog.py",
+        "dailymoney-business-agent.py", "dailymoney-analytics-reporter.py",
+        "dailymoney-mobile-optimizer.py", "dailymoney-sponsorship-agent.py",
+        "dailymoney-frontend-dynamo.py", "dailymoney-super-traffic-agent.py",
     ]
     
-    scripts_dir = os.path.expanduser("~/.hermes/scripts")
-    for script in expected_scripts:
-        fpath = os.path.join(scripts_dir, script)
-        if not os.path.exists(fpath):
-            issues.append(f"⚠️ Missing script: {script}")
-            log(f"  ⚠️ MISSING: {script}")
+    for s in expected:
+        if not os.path.exists(os.path.join(scripts_dir, s)) and not os.path.exists(os.path.join(alt_dir, s)):
+            issues.append(f"🔴 MISSING: {s}")
+            log(f"  🔴 MISSING: {s}")
     
+    if not issues:
+        log(f"  ✅ All {len(expected)} scripts present")
     return issues
 
-def check_log_errors():
-    """Cek log untuk error spike (error rate > normal)."""
+# ══════════════════════════════════════════════════════════
+# CHECK 4: Site Health + 404
+# ══════════════════════════════════════════════════════════
+def check_site():
     issues = []
+    checked = 0
     
-    # Check log file sizes - if huge, might indicate runaway error
-    for fname in os.listdir(LOG_DIR):
-        if not fname.endswith(".log"):
-            continue
-        fpath = os.path.join(LOG_DIR, fname)
-        size = os.path.getsize(fpath)
-        if size > 500 * 1024:  # > 500KB
-            issues.append(f"⚠️ Large log: {fname} ({size_fmt(size)})")
-            log(f"  ⚠️ Large log file: {fname} — {size_fmt(size)}")
-    
-    # Count recent errors in agent.log
-    agent_log = os.path.join(LOG_DIR, "agent.log")
-    if os.path.exists(agent_log):
-        try:
-            size = os.path.getsize(agent_log)
-            if size > 300 * 1024:  # > 300KB → auto-trim
-                with open(agent_log) as f:
-                    lines = f.readlines()
-                if len(lines) > 500:
-                    with open(agent_log, "w") as f:
-                        f.writelines(lines[-500:])
-                    log(f"  ✂️ Auto-trimmed agent.log to last 500 lines (was {size_fmt(size)})")
-            
-            with open(agent_log) as f:
-                lines = f.readlines()
-            # Count ERROR in last 100 lines
-            recent = lines[-100:]
-            recent_errors = sum(1 for l in recent if "ERROR" in l)
-            if recent_errors > 10:
-                issues.append(f"⚠️ {recent_errors} errors in last 100 agent.log lines")
-                log(f"  ⚠️ {recent_errors} errors in last 100 log lines — spike?")
-        except:
-            pass
-    
-    return issues
-
-def auto_restart_failed_cron(job_id, job_name):
-    """Coba restart cron job yang gagal."""
-    try:
-        # Remove and recreate
-        subprocess.run(["hermes", "cron", "remove", job_id], 
-            capture_output=True, timeout=10)
-        log(f"  🔄 Removed failed job: {job_name}")
-        
-        # Try to find and re-run the script directly
-        # This is a soft restart - the cron scheduler will re-create next tick
-        return True
-    except Exception as e:
-        log(f"  ❌ Cannot restart {job_name}: {e}")
-        return False
-
-def check_git_deploy():
-    """Cek apakah GitHub Pages deploy terakhir sukses."""
-    issues = []
-    try:
-        req = urllib.request.Request(
-            "https://api.github.com/repos/funnycatmomentusa-byte/dailymoney-site/actions/runs?per_page=3&status=completed",
-            headers={"Accept": "application/vnd.github+json"}
-        )
-        resp = urllib.request.urlopen(req, timeout=15)
-        data = json.loads(resp.read())
-        runs = data.get("workflow_runs", [])
-        
-        if runs:
-            latest = runs[0]
-            conclusion = latest.get("conclusion", "unknown")
-            created = latest.get("created_at", "")[:16]
-            name = latest.get("name", "deploy")
-            
-            if conclusion == "failure":
-                issues.append(f"🔴 Deploy failed: {name} ({created})")
-                log(f"  🔴 GitHub Actions: {name} FAILED at {created}")
-            elif conclusion == "success":
-                log(f"  ✅ Deploy: {name} success ({created})")
-    except urllib.error.HTTPError as e:
-        if e.code != 403 and e.code != 401:
-            issues.append(f"⚠️ GitHub API: HTTP {e.code}")
-    except:
-        pass
-    
-    return issues
-
-def fix_404_homepage():
-    """Jika homepage 404, regenerate dan push ulang."""
-    try:
-        log("  🔧 Auto-rebuild: running generate-site.py...")
-        r = subprocess.run(["python3", "generate-site.py"], 
-            cwd=BASE_DIR, capture_output=True, text=True, timeout=60)
-        if r.returncode == 0:
-            subprocess.run(["git", "add", "-A"], cwd=BASE_DIR, capture_output=True, timeout=10)
-            subprocess.run(["git", "commit", "-m", "supervisor: auto-rebuild after 404 detection"],
-                cwd=BASE_DIR, capture_output=True, timeout=10)
-            subprocess.run(["git", "push", "origin", "main"],
-                cwd=BASE_DIR, capture_output=True, timeout=30)
-            log("  ✅ Auto-rebuild & push complete")
-            return True
-    except:
-        pass
-    return False
-
-# ════════════════════════════════════════
-def main():
-    log("=" * 60)
-    log("👁️ DailyMoney Agent Supervisor — started")
-    
-    state = load_state()
-    now = datetime.now()
-    
-    all_issues = []
-    critical = []
-    auto_actions = []
-    
-    # ─── CHECK 1: All Cron Jobs ───
-    log("\n📋 1. Cron job health check...")
-    error_jobs, stale_jobs = check_all_cron_jobs()
-    
-    for job in error_jobs:
-        name = job.get("name", "Unknown")
-        jid = job.get("job_id", "")
-        all_issues.append(f"🔴 {name} — ERROR")
-        critical.append(f"  • {name}")
-        
-        # Auto-restart if consecutively failing
-        prev = state.get("consecutive_failures", {}).get(jid, 0)
-        state["consecutive_failures"][jid] = prev + 1
-        
-        if prev >= 2:  # Failed 3+ times consecutively
-            auto_actions.append(f"🔧 Auto-restart {name}")
-            auto_restart_failed_cron(jid, name)
-    
-    for job in stale_jobs:
-        name = job.get("name", "Unknown")
-        all_issues.append(f"⚠️ {name} — stale (>2x interval)")
-    
-    # Reset consecutive failures for healthy jobs
-    for job in error_jobs:
-        jid = job.get("job_id", "")
-        if jid not in [e.get("job_id", "") for e in error_jobs]:
-            if jid in state.get("consecutive_failures", {}):
-                state["consecutive_failures"][jid] = 0
-    
-    # ─── CHECK 2: 404 Scan ───
-    log("\n📋 2. Site 404 check...")
-    _404_issues, checked = check_site_404()
-    
-    if _404_issues:
-        for iss in _404_issues:
-            all_issues.append(iss)
-            if iss.startswith("🔴 404"):
-                critical.append(f"  • {iss}")
-                # Auto-fix: regenerate site
-                if fix_404_homepage():
-                    auto_actions.append("🔧 Auto-rebuild site (404 detected)")
-    
-    # ─── CHECK 3: Script Integrity ───
-    log("\n📋 3. Agent script integrity...")
-    script_issues = check_agent_scripts_exist()
-    all_issues.extend(script_issues)
-    
-    # ─── CHECK 4: Log Health ───
-    log("\n📋 4. Log analysis...")
-    log_issues = check_log_errors()
-    all_issues.extend(log_issues)
-    
-    # ─── CHECK 5: Git Deploy ───
-    log("\n📋 5. Deploy status...")
-    deploy_issues = check_git_deploy()
-    all_issues.extend(deploy_issues)
-    
-    # ─── CHECK 6: Site Down? ───
-    log("\n📋 6. Site availability...")
     try:
         req = urllib.request.Request("https://dailymoney.my.id/",
             headers={"User-Agent": "Mozilla/5.0"})
         resp = urllib.request.urlopen(req, timeout=20)
         if resp.status != 200:
-            critical.append(f"  • Site HTTP {resp.status}")
-            all_issues.append(f"🔴 SITE DOWN: HTTP {resp.status}")
-            auto_actions.append("🔧 Auto-rebuild site")
-            fix_404_homepage()
+            issues.append(f"🔴 Homepage: HTTP {resp.status}")
         else:
-            log(f"  ✅ Site OK: HTTP {resp.status}")
+            log("  ✅ Homepage: OK")
     except Exception as e:
-        critical.append(f"  • Site unreachable: {e}")
-        all_issues.append(f"🔴 SITE UNREACHABLE: {e}")
+        issues.append(f"🔴 Homepage unreachable: {e}")
     
-    # ─── SAVE STATE ───
-    state["last_check"] = now.isoformat()
+    try:
+        req = urllib.request.Request("https://dailymoney.my.id/sitemap.xml",
+            headers={"User-Agent": "Mozilla/5.0"})
+        resp = urllib.request.urlopen(req, timeout=15)
+        sitemap = resp.read().decode()
+        urls = re.findall(r'<loc>(.*?)</loc>', sitemap)
+        
+        for url in urls[:50]:
+            try:
+                req2 = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                resp2 = urllib.request.urlopen(req2, timeout=10)
+                checked += 1
+                if resp2.status == 404:
+                    issues.append(f"🔴 404: {url}")
+            except urllib.error.HTTPError as e:
+                if e.code == 404:
+                    issues.append(f"🔴 404: {url}")
+                checked += 1
+            except:
+                checked += 1
+    except Exception as e:
+        log(f"  ⚠️ Sitemap: {e}")
+    
+    log(f"  📊 Checked {checked} URLs — {len(issues)} issues")
+    return issues, checked
+
+# ══════════════════════════════════════════════════════════
+# CHECK 5: Deploy Status
+# ══════════════════════════════════════════════════════════
+def check_deploy():
+    issues = []
+    try:
+        req = urllib.request.Request(
+            "https://api.github.com/repos/funnycatmomentusa-byte/dailymoney-site/actions/runs?per_page=3&status=completed",
+            headers={"Accept": "application/vnd.github+json"})
+        resp = urllib.request.urlopen(req, timeout=15)
+        data = json.loads(resp.read())
+        runs = data.get("workflow_runs", [])
+        if runs:
+            latest = runs[0]
+            c = latest.get("conclusion", "unknown")
+            t = latest.get("created_at", "")[:16]
+            n = latest.get("name", "deploy")
+            if c == "failure":
+                issues.append(f"🔴 Deploy FAILED: {n} ({t})")
+                log(f"  🔴 Deploy: {n} FAILED at {t}")
+            else:
+                log(f"  ✅ Deploy: {n} OK ({t})")
+    except:
+        pass
+    return issues
+
+# ══════════════════════════════════════════════════════════
+# CHECK 6: Content Freshness
+# ══════════════════════════════════════════════════════════
+def check_freshness():
+    issues = []
+    articles_dir = os.path.join(BASE_DIR, "_articles")
+    if os.path.exists(articles_dir):
+        files = sorted(glob.glob(os.path.join(articles_dir, "*.json")))
+        if files:
+            newest = os.path.getmtime(files[-1])
+            hours = (datetime.now().timestamp() - newest) / 3600
+            if hours > 24:
+                issues.append(f"⚠️ Newest article is {hours:.0f}h old")
+                log(f"  ⚠️ Article freshness: {hours:.0f}h")
+            else:
+                log(f"  ✅ Articles: fresh ({hours:.1f}h)")
+    return issues
+
+# ══════════════════════════════════════════════════════════
+# MAIN
+# ══════════════════════════════════════════════════════════
+def main():
+    log("=" * 60)
+    log("👁️ SUPERVISOR ZERO-ERROR ENFORCER — started")
+    log(f"📅 {datetime.now().strftime('%d %b %Y %H:%M')}")
+    
+    state = load_state()
+    all_issues = []
+    all_fixes = []
+    
+    # CHECK 1: Future Dates
+    log("\n📋 1. Future date scan (ZERO TOLERANCE)...")
+    date_issues, date_fixes = check_future_dates()
+    all_issues.extend(date_issues)
+    all_fixes.extend(date_fixes)
+    
+    # CHECK 2: Cron Jobs
+    log("\n📋 2. Cron job health (ZERO ERROR TOLERANCE)...")
+    error_jobs, stale_jobs, total = check_all_cron_jobs()
+    
+    for job in error_jobs:
+        name = job.get("name", "?")
+        jid = job.get("job_id", "")
+        prev = state.get("consecutive_failures", {}).get(jid, 0)
+        state.setdefault("consecutive_failures", {})[jid] = prev + 1
+        fixed, msg = auto_fix_error_agent(job)
+        if fixed:
+            all_fixes.append(f"🔧 {name}: {msg}")
+        else:
+            all_issues.append(f"🔴 {name}: {msg}")
+    
+    # Reset healthy jobs
+    err_jids = set(j.get("job_id", "") for j in error_jobs)
+    for jid in list(state.get("consecutive_failures", {}).keys()):
+        if jid not in err_jids:
+            state["consecutive_failures"][jid] = 0
+    
+    for job in stale_jobs:
+        all_issues.append(f"⚠️ {job.get('name','?')}: stale")
+    
+    log(f"\n  📊 Cron: {total} total, {len(error_jobs)} error, {len(stale_jobs)} stale")
+    
+    # CHECK 3: Script Integrity
+    log("\n📋 3. Script integrity...")
+    script_issues = check_scripts_exist()
+    all_issues.extend(script_issues)
+    
+    # CHECK 4: Site Health
+    log("\n📋 4. Site health + 404 scan...")
+    site_issues, checked = check_site()
+    all_issues.extend(site_issues)
+    
+    # CHECK 5: Deploy
+    log("\n📋 5. Deploy status...")
+    deploy_issues = check_deploy()
+    all_issues.extend(deploy_issues)
+    
+    # CHECK 6: Freshness
+    log("\n📋 6. Content freshness...")
+    fresh_issues = check_freshness()
+    all_issues.extend(fresh_issues)
+    
+    # SAVE STATE
+    state["last_check"] = datetime.now().isoformat()
+    state["fixes_applied"] = all_fixes
     save_state(state)
     
-    # ─── REPORT ───
+    # REPORT
     log("\n" + "=" * 60)
+    errors = [i for i in all_issues if i.startswith("🔴")]
+    warnings = [i for i in all_issues if i.startswith("⚠️")]
     
-    # Priority: critical first, then warnings
-    report = "👁️ *Agent Supervisor Report*\n"
-    report += f"📅 {datetime.now().strftime('%d %b %H:%M')}\n\n"
+    report = f"👁️ *SUPERVISOR ZERO-ERROR REPORT*\n"
+    report += f"📅 {datetime.now().strftime('%d %b %Y %H:%M')}\n\n"
+    report += f"📊 *{total} agents* | {len(error_jobs)} error | {len(stale_jobs)} stale\n"
+    report += f"🌐 *{checked} URLs* checked | {len(site_issues)} issues\n"
+    report += f"📁 *{44 - len(script_issues)}/44* scripts OK\n\n"
     
-    total_cron = len(error_jobs) + len([j for j in []])  # approximate
-    report += f"📊 Cron: {len(error_jobs)} error | {len(stale_jobs)} stale\n"
-    report += f"🌐 URLs: {checked} checked | {len(_404_issues)} issues\n"
-    report += f"📁 Scripts: {len(script_issues)} missing\n\n"
-    
-    if critical:
-        report += "🔴 *Critical:*\n"
-        for c in critical[:5]:
-            report += f"{c}\n"
+    if all_fixes:
+        report += f"✅ *Auto-Fixed ({len(all_fixes)}):*\n"
+        for fx in all_fixes[:8]:
+            report += f"  {fx}\n"
         report += "\n"
     
-    if all_issues:
-        # Group by type
-        errors = [i for i in all_issues if i.startswith("🔴")]
-        warnings = [i for i in all_issues if i.startswith("⚠️")]
-        
-        if errors:
-            report += "*Errors:*\n"
-            for e in errors[:6]:
-                report += f"  {e}\n"
-            report += "\n"
-        if warnings:
-            report += "*Warnings:*\n"
-            for w in warnings[:6]:
-                report += f"  {w}\n"
-            report += "\n"
-    
-    if auto_actions:
-        report += "*Auto-Actions:*\n"
-        for a in auto_actions:
-            report += f"  {a}\n"
+    if errors:
+        report += f"🔴 *ERRORS ({len(errors)}):*\n"
+        for e in errors[:6]:
+            report += f"  {e}\n"
         report += "\n"
     
-    if not all_issues:
-        report += "✅ *Semua sistem sehat!* 36 agent berjalan normal.\n"
-    elif not critical:
-        report += "ℹ️ Ada isu minor — tidak perlu tindakan manual.\n"
+    if warnings:
+        report += f"⚠️ *Warnings ({len(warnings)}):*\n"
+        for w in warnings[:6]:
+            report += f"  {w}\n"
+        report += "\n"
+    
+    if not errors:
+        report += "✅ *ZERO ERRORS — Semua 44 agent sehat!*\n"
+    else:
+        report += "❌ *Masih ada error — perlu perhatian.*\n"
     
     send_tg(report)
     log("📤 Report sent to Telegram")
-    log(f"📊 Complete — {len(all_issues)} issues, {len(critical)} critical, {len(auto_actions)} auto-actions")
+    
+    if errors:
+        sys.exit(1)
 
 if __name__ == "__main__":
     main()

@@ -419,10 +419,19 @@ def save_article(article, directory, lang="id"):
     if not slug:
         slug = f"artikel-{datetime.now().strftime('%d%m%Y')}"
     date_prefix = datetime.now().strftime('%Y-%m-%d')
-    filename = f"{date_prefix}-{slug}.json"
-    filepath = os.path.join(directory, filename)
+    # SAFETY: Never allow future-dated filenames
+    from datetime import date as _date
+    today_str = _date.today().strftime('%Y-%m-%d')
+    if date_prefix > today_str:
+        date_prefix = datetime.now().strftime('%Y-%m-%d')
+        # SAFETY: Never allow future-dated filenames
+        today_str = date.today().strftime('%Y-%m-%d')
+        if date_prefix > today_str:
+            date_prefix = today_str
+        filename = f"{date_prefix}-{slug}.json"
+        filepath = os.path.join(directory, filename)
     
-    if os.path.exists(filepath):
+        if os.path.exists(filepath):
         log(f"⏭️ Already exists: {filename}")
         return None
     

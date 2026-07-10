@@ -207,7 +207,9 @@ def run():
         # Simpan artikel ID
         slug = re.sub(r'[^\w\s-]', '', id_article["judul"].lower())
         slug = re.sub(r'[\s_]+', '-', slug).strip('-')[:80]
-        fname = f"{datetime.now().strftime('%Y-%m-%d')}-{slug}.json"
+        from datetime import date as _date
+        today_str = _date.today().strftime('%Y-%m-%d')
+        fname = f"{today_str}-{slug}.json"
         
         pair_id = int(datetime.now().timestamp()) % 100000 + len(processed)
         
@@ -255,7 +257,9 @@ def run():
         }
         
         os.makedirs(EN_DIR, exist_ok=True)
-        en_fname = f"{datetime.now().strftime('%Y-%m-%d')}-{slug}-en.json"
+        from datetime import date as _date
+        today_str = _date.today().strftime('%Y-%m-%d')
+        en_fname = f"{today_str}-{slug}-en.json"
         with open(os.path.join(EN_DIR, en_fname), "w") as f:
             json.dump(en_data, f, indent=2, ensure_ascii=False)
         log(f"  ✅ EN: {en_title[:50]}")
