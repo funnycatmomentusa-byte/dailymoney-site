@@ -136,6 +136,33 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Investment Guide: Apa Itu Investasi Pengertian Keuntungan Da...",
+    "meta_desc": "Read the latest analysis on apa itu investasi pengertian keuntungan da panduan. Key insights for investors in Indonesia.",
+    "slug": "investment-guide-apa-itu-investasi-pengertian-keuntungan-da",
+    "tags": "bahwa, investasi, oleh, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
+    "judul": "Economic Update: Keuangan Floor Plan Creator Changelog 371 M",
+    "meta_desc": "Read the latest analysis on keuangan floor plan creator changelog 371 m. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-floor-plan-creator-changelog-371-m",
+    "tags": "changelog, added, finansial, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
+    "judul": "Economic Update: Keuangan Floor Plan Creator Visit Floor Plan Cre",
+    "meta_desc": "Read the latest analysis on keuangan floor plan creator visit floor plan cre. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-floor-plan-creator-visit-floor-plan-cre",
+    "tags": "finansial, floor, find, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
     "judul": "Microsoft Copilot Free: Copywriting and Ad Ideas for Online Selling",
     "meta_desc": "Copilot Free is great for draft copy, ad ideas, and sales messages. Learn how to use it to support online stores, resellers, and SMEs.",
     "slug": "microsoft-copilot-free-copywriting-and-ad-ideas-for-online-selling",

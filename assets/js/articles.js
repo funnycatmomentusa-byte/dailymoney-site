@@ -172,6 +172,33 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Apa itu Investasi? Pengertian, Keuntungan, da — Panduan...",
+    "meta_desc": "Baca analisis lengkap tentang Apa itu Investasi? Pengertian, Keuntungan, dan Jenisnya.. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "apa-itu-investasi-pengertian-keuntungan-da-panduan",
+    "tags": "bahwa, investasi, oleh",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: Floor Plan Creator. Changelog 3.7.1: * M",
+    "meta_desc": "Baca analisis lengkap tentang Floor Plan Creator. Changelog 3.7.1: * More. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "keuangan-floor-plan-creator-changelog-371-m",
+    "tags": "changelog, added, finansial, hatched",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: Floor Plan Creator. Visit Floor Plan Cre",
+    "meta_desc": "Baca analisis lengkap tentang Floor Plan Creator. Visit Floor Plan Creator's. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "keuangan-floor-plan-creator-visit-floor-plan-cre",
+    "tags": "finansial, floor, find, youtube",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
     "judul": "Microsoft Copilot Free: Copywriting dan Ide Iklan untuk Jualan Online",
     "meta_desc": "Copilot Free cocok untuk draft copy, ide iklan, dan pesan jualan. Pelajari cara memakainya untuk membantu toko online, reseller, dan UMKM menghasilkan uang.",
     "slug": "microsoft-copilot-free-copywriting-dan-ide-iklan-untuk-jualan-online",
