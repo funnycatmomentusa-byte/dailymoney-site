@@ -6,7 +6,7 @@ window.__ARTICLES = [
     "slug": "cryptocurrency-aset-digital-peluang-tantangan-dan-strategi",
     "tags": "Bitcoin, Crypto, Cryptocurrency, Blockchain, Aset Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -15,7 +15,7 @@ window.__ARTICLES = [
     "slug": "mengapa-emas-logam-mulia-penting-untuk-portofolio-anda",
     "tags": "Emas, Logam Mulia, Gold, Investasi, Antam",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -24,7 +24,7 @@ window.__ARTICLES = [
     "slug": "mengapa-forex-nilai-tukar-penting-untuk-portofolio-anda",
     "tags": "Forex, Rupiah, Dolar, Kurs, Nilai Tukar, Mata Uang",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -33,7 +33,7 @@ window.__ARTICLES = [
     "slug": "panduan-investasi-peluang-tantangan-dan-strategi",
     "tags": "Panduan, Investasi, Tips, Edukasi, Belajar",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -42,7 +42,7 @@ window.__ARTICLES = [
     "slug": "panduan-lengkap-fintech-keuangan-digital-untuk-investor-cerdas",
     "tags": "Fintech, Keuangan Digital, Paylater, QRIS, Bank Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -51,7 +51,7 @@ window.__ARTICLES = [
     "slug": "properti-real-estate-analisis-dan-prediksi-terkini",
     "tags": "Properti, Real Estate, Rumah, KPR, Properti",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -60,7 +60,7 @@ window.__ARTICLES = [
     "slug": "prospek-ekonomi-indonesia-di-tengah-dinamika-pasar-2026",
     "tags": "Ekonomi, Indonesia, Pertumbuhan, PDB, Inflasi",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -69,7 +69,7 @@ window.__ARTICLES = [
     "slug": "prospek-ihsg-pasar-saham-di-tengah-dinamika-pasar-2026",
     "tags": "IHSG, Saham, Pasar Modal, IDX, Bursa Efek",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -78,7 +78,7 @@ window.__ARTICLES = [
     "slug": "strategi-investasi-reksadana-investasi-yang-terbukti-efektif",
     "tags": "Reksadana, Mutual Fund, Investasi, RD, NAB",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
@@ -87,7 +87,7 @@ window.__ARTICLES = [
     "slug": "update-terbaru-pajak-perpajakan-data-dan-analisis",
     "tags": "Pajak, Perpajakan, SPT, PPh, PPN, Tax",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   }
 ];

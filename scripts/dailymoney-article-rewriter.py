@@ -152,11 +152,11 @@ def build_indonesian_content(article, topic, cid):
 
     # Factors
     factors = [
-        ("**Sentimen Global**", "Pergerakan indeks di pasar Wall Street dan kebijakan moneter The Fed tetap menjadi faktor penentu bagi arah pasar Asia, termasuk Indonesia. Kenaikan atau penurunan suku bunga acuan berdampak langsung pada aliran modal asing."),
-        ("**Fundamental Ekonomi Domestik**", "Data ekonomi Indonesia termasuk laju inflasi, pertumbuhan PDB, cadangan devisa, dan neraca berjalan menjadi fondasi utama dalam menilai kesehatan ekonomi nasional."),
-        ("**Aliran Modal Asing**", "Pola investasi asing di pasar saham dan obligasi Indonesia mencerminkan tingkat kepercayaan investor global terhadap prospek ekonomi Indonesia."),
-        ("**Kebijakan Fiskal dan Moneter**", "Keputusan Bank Indonesia terkait suku bunga acuan (BI Rate) serta kebijakan pemerintah dalam APBN berpengaruh signifikan terhadap likuiditas dan sentimen pasar."),
-        ("**Sektor Unggulan**", "Beberapa sektor seperti perbankan, pertambangan, dan consumer goods kerap menjadi motor penggerak indeks karena bobot kapitalisasi yang besar."),
+        ("Sentimen Global", "Pergerakan indeks di pasar Wall Street dan kebijakan moneter The Fed tetap menjadi faktor penentu bagi arah pasar Asia, termasuk Indonesia. Kenaikan atau penurunan suku bunga acuan berdampak langsung pada aliran modal asing."),
+        ("Fundamental Ekonomi Domestik", "Data ekonomi Indonesia termasuk laju inflasi, pertumbuhan PDB, cadangan devisa, dan neraca berjalan menjadi fondasi utama dalam menilai kesehatan ekonomi nasional."),
+        ("Aliran Modal Asing", "Pola investasi asing di pasar saham dan obligasi Indonesia mencerminkan tingkat kepercayaan investor global terhadap prospek ekonomi Indonesia."),
+        ("Kebijakan Fiskal dan Moneter", "Keputusan Bank Indonesia terkait suku bunga acuan (BI Rate) serta kebijakan pemerintah dalam APBN berpengaruh signifikan terhadap likuiditas dan sentimen pasar."),
+        ("Sektor Unggulan", "Beberapa sektor seperti perbankan, pertambangan, dan consumer goods kerap menjadi motor penggerak indeks karena bobot kapitalisasi yang besar."),
     ]
     picked = _random_sample(factors, 4, hash(cid) + 1)
 
@@ -441,7 +441,8 @@ def main():
                        and h2_count >= 2
                        and meta_ok
                        and img_cap
-                       and tags_val)
+                       and tags_val
+                       and not re.search(r'\*\*\d+\. \*\*', orig_content))  # detect broken double-bold
             if orig_ok:
                 # Even if content is OK, ensure unique image
                 _judul = original.get('judul', '')

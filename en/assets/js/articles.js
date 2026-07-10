@@ -6,7 +6,7 @@ window.__ARTICLES = [
     "slug": "complete-guide-to-gold-precious-metals-for-smart-investors",
     "tags": "Gold, Logam Mulia, Gold, Investasi, Antam",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -15,7 +15,7 @@ window.__ARTICLES = [
     "slug": "fintech-digital-finance-outlook-amid-2026-market-dynamics",
     "tags": "Fintech, Keuangan Digital, Paylater, QRIS, Bank Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -24,7 +24,7 @@ window.__ARTICLES = [
     "slug": "ihsg-stock-market-opportunities-challenges-strategies",
     "tags": "JCI, Saham, Pasar Modal, IDX, Bursa Efek",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -33,7 +33,7 @@ window.__ARTICLES = [
     "slug": "indonesian-economy-opportunities-challenges-strategies",
     "tags": "Ekonomi, Indonesia, Pertumbuhan, PDB, Inflasi",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -42,7 +42,7 @@ window.__ARTICLES = [
     "slug": "investment-guide-opportunities-challenges-strategies",
     "tags": "Panduan, Investasi, Tips, Edukasi, Belajar",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -51,7 +51,7 @@ window.__ARTICLES = [
     "slug": "mutual-funds-investment-opportunities-challenges-strategies",
     "tags": "Reksadana, Mutual Fund, Investasi, RD, NAB",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -60,7 +60,7 @@ window.__ARTICLES = [
     "slug": "tax-taxation-opportunities-challenges-strategies",
     "tags": "Pajak, Perpajakan, SPT, PPh, PPN, Tax",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -69,7 +69,7 @@ window.__ARTICLES = [
     "slug": "why-cryptocurrency-digital-assets-matters-for-your-portfolio",
     "tags": "Bitcoin, Crypto, Cryptocurrency, Blockchain, Aset Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1518183214770-9cffbec72538?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -78,7 +78,7 @@ window.__ARTICLES = [
     "slug": "why-forex-exchange-rates-matters-for-your-portfolio",
     "tags": "Forex, Rupiah, Dolar, Kurs, Nilai Tukar, Mata Uang",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
@@ -87,7 +87,7 @@ window.__ARTICLES = [
     "slug": "why-property-real-estate-matters-for-your-portfolio",
     "tags": "Properti, Real Estate, Rumah, KPR, Properti",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   }
 ];
