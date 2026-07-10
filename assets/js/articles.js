@@ -57,7 +57,7 @@ window.__ARTICLES = [
   {
     "judul": "Indeks Saham: 1 month ago -...",
     "meta_desc": "1 month ago - CNBC Indonesia menyajikan berita terkini, riset, dan analisis mendalam seputar Berita Tentang \"Ihsg\" Terkini Dan Terlengkap - CNBC Indonesia.",
-    "slug": "indeks-saham-1-month-ago-",
+    "slug": "indeks-saham-1-month-ago",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "08/07/2026",
     "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
@@ -194,7 +194,7 @@ window.__ARTICLES = [
     "meta_desc": "Perplexity Free membantu mencari sumber, membandingkan produk, dan merangkum tren dengan cepat. Cocok untuk konten affiliate, riset niche, dan jasa laporan singkat.",
     "slug": "perplexity-free-riset-cepat-untuk-konten-niche-dan-affiliate",
     "tags": "Perplexity, AI Gratis, Affiliate, Riset Pasar, Konten",
-    "date": "11/07/2026",
+    "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
     "lang": "id"
   },

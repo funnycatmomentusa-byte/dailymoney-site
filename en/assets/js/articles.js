@@ -30,7 +30,7 @@ window.__ARTICLES = [
   {
     "judul": "Indonesia Stocks - 1 day ago ·",
     "meta_desc": "1 day ago · Bisnis.com menyajikan informasi dan berita market terkini dan terbaru meliputi bursa saham, pasar modal, IHSG, reksadana, rekomendasi saham, in",
-    "slug": "indonesia-stocks-1-day-ago-",
+    "slug": "indonesia-stocks-1-day-ago",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
     "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
@@ -158,7 +158,7 @@ window.__ARTICLES = [
     "meta_desc": "Perplexity Free helps you find sources, compare products, and summarize trends fast. It is great for affiliate content, niche research, and short reports.",
     "slug": "perplexity-free-fast-research-for-content-niches-and-affiliate",
     "tags": "Perplexity, Free AI, Affiliate, Market Research, Content",
-    "date": "11/07/2026",
+    "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
     "lang": "en"
   },
