@@ -1718,6 +1718,7 @@ def generate_business_page(page_type, lang, output_path):
     <div class="footer-bottom"><span>{L['footer_copyright']}</span><span>{L['footer_made']}</span></div>
   </footer>
   <button class="back-to-top" id="backToTop">↑</button>
+  <script>window.__INITIAL_DATA={{"prices":{prices_json}}};</script>
   <script src="/assets/js/main.js?v={gen_ts}"></script>
   <script src="/assets/js/market-live.js?v={gen_ts}"></script>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=dmid" style="display:none" alt="" aria-hidden="true">
