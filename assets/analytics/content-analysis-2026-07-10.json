@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-07-10T03:10:42.430646",
-  "total_articles": 58,
+  "generated_at": "2026-07-10T05:06:41.155110",
+  "total_articles": 61,
   "by_category": {
     "Panduan Pemula": 4,
-    "Lainnya": 12,
-    "Saham & IHSG": 24,
-    "Reksadana & Investasi": 9,
-    "Edukasi Finansial": 5,
+    "Lainnya": 13,
+    "Saham & IHSG": 28,
+    "Reksadana & Investasi": 11,
     "Ekonomi Makro": 3,
-    "Pajak & Regulasi": 1
+    "Pajak & Regulasi": 1,
+    "Edukasi Finansial": 1
   },
   "top_articles": [
+    {
+      "judul": "ChatGPT Free: Cara Mengubah Ide Jadi Jasa Konten yang Bisa Dijual",
+      "score": 18
+    },
+    {
+      "judul": "The Fed Pangkas Suku Bunga 25 bps: Dampak Besar ke IHSG dan Rupiah sepanjang 2026",
+      "score": 18
+    },
     {
       "judul": "IHSG Bangkit di Awal Juli 2026 Usai Investor Asing Jual Saham Rp19,63 T",
       "score": 18
@@ -20,20 +28,12 @@
       "score": 18
     },
     {
-      "judul": "Pergerakan IHSG: dapatkan informasi terkini dan...",
-      "score": 18
-    },
-    {
-      "judul": "Indeks Saham: 1 month ago -...",
-      "score": 18
-    },
-    {
-      "judul": "Investasi — 09 Jul 2026",
+      "judul": "S&P DJI Masukkan Indonesia ke Watchlist 2027, IHSG Anjlok 1,3%",
       "score": 18
     }
   ],
   "recommendations": [
-    "📈 *Saham & IHSG* adalah kategori terbanyak (24 artikel) — bukti permintaan tinggi. Lanjutkan!",
+    "📈 *Saham & IHSG* adalah kategori terbanyak (28 artikel) — bukti permintaan tinggi. Lanjutkan!",
     "➕ Crypto & Blockchain — masih kurang konten, padahal tren naik",
     "🧾 Pajak & Regulasi — konten musiman yang selalu dicari di awal tahun"
   ]
