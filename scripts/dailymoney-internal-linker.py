@@ -36,7 +36,13 @@ def load_all_articles():
                             data = json.load(f)
                         data["_file"] = os.path.join(d, fname)
                         data["_lang"] = lang
-                        data["_slug"] = data.get("slug", fname.replace(".json", ""))
+                        # Generate slug matching generate-site.py: slugify(judul)
+                        judul = data.get("judul", "")
+                        s = judul.lower().strip()
+                        s = re.sub(r'[^a-z0-9\s-]', '', s)
+                        s = re.sub(r'[\s_]+', '-', s)
+                        s = re.sub(r'-+', '-', s).strip('-')
+                        data["_slug"] = s
                         articles.append(data)
                     except:
                         pass
