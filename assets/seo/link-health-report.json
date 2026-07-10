@@ -1,9 +1,14 @@
 {
-  "timestamp": "2026-07-10T03:08:35.689411",
+  "timestamp": "2026-07-10T03:14:09.780635",
   "homepage_status": 200,
-  "total_urls": 77,
-  "healthy": 77,
-  "broken_links": [],
-  "health_percent": 100.0,
+  "total_urls": 67,
+  "healthy": 66,
+  "broken_links": [
+    {
+      "url": "https://dailymoney.my.id/en/articles/economic-update-keuangan-floor-plan-creator-visit-floor-plan-cre.html",
+      "status": 404
+    }
+  ],
+  "health_percent": 98.5,
   "status": "healthy"
 }
