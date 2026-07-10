@@ -10,12 +10,30 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Bahlil Ungkap Alasan B50 Diluncurkan 2026",
+    "meta_desc": "",
+    "slug": "bahlil-ungkap-alasan-b50-diluncurkan-2026",
+    "tags": "Komoditas, Perdagangan, Impor, CPO, Politik, Minyak",
+    "date": "2026-07-09",
+    "image_url": "https://images.unsplash.com/photo-1626898728-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
     "judul": "Harga Emas Antam Hari Ini Turun Lagi, Cek Rinciannya!",
     "meta_desc": "",
     "slug": "harga-emas-antam-hari-ini-turun-lagi-cek-rinciannya",
     "tags": "Minyak, Suku Bunga, Energi, Logam Mulia, BI Rate, Ekonomi",
     "date": "2026-07-09",
     "image_url": "https://images.unsplash.com/photo-1696480939-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
+    "judul": "Saat Purbaya Yakin Tekanan Rupiah Mereda dalam 2-3 Bulan, Nilai Tukar Masih Rp 18.000 per Dollar AS",
+    "meta_desc": "",
+    "slug": "saat-purbaya-yakin-tekanan-rupiah-mereda-dalam-2-3-bulan-nilai-tukar-masih-rp-18",
+    "tags": "Logam Mulia, Bank Indonesia, Investasi, Rupiah, Dollar, Kurs",
+    "date": "2026-07-09",
+    "image_url": "https://images.unsplash.com/photo-1661072968-w=1080&q=80&auto=format",
     "lang": "id"
   },
   {
@@ -28,6 +46,15 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "IMF Prediksi Pertumbuhan Ekonomi Indonesia Sentuh 5% pada 2026",
+    "meta_desc": "",
+    "slug": "imf-prediksi-pertumbuhan-ekonomi-indonesia-sentuh-5-pada-2026",
+    "tags": "Pertumbuhan, Real Estate, Perdagangan, Investasi, Politik, Minyak",
+    "date": "2026-07-09",
+    "image_url": "https://images.unsplash.com/photo-1691096468-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
     "judul": "Kaget Dapat Kabar Rachmat Gobel Meninggal Dunia, Airlangga: Sangat Kehilangan",
     "meta_desc": "",
     "slug": "kaget-dapat-kabar-rachmat-gobel-meninggal-dunia-airlangga-sangat-kehilangan",
@@ -37,12 +64,30 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Prabowo Ungkap PT PAL, Pindad, PTDI Nyaris Dijual ke Asing",
+    "meta_desc": "",
+    "slug": "prabowo-ungkap-pt-pal-pindad-ptdi-nyaris-dijual-ke-asing",
+    "tags": "Infrastruktur, Perdagangan, Politik, Energi, Ekspor, Ekonomi",
+    "date": "2026-07-10",
+    "image_url": "https://images.unsplash.com/photo-1661938647-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
     "judul": "Promo Superindo Terbaru 10-12 Juli 2026, Minyak Goreng, Daging Hingga Sabun Diskon",
     "meta_desc": "",
     "slug": "promo-superindo-terbaru-10-12-juli-2026-minyak-goreng-daging-hingga-sabun-diskon",
     "tags": "Minyak, Energi",
     "date": "2026-07-10",
     "image_url": "https://images.unsplash.com/photo-1636289498-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
+    "judul": "RI Mau Bangun Pabrik Avtur, Bidik Setop Impor Bahan Bakar Pesawat",
+    "meta_desc": "",
+    "slug": "ri-mau-bangun-pabrik-avtur-bidik-setop-impor-bahan-bakar-pesawat",
+    "tags": "Impor, Perdagangan",
+    "date": "2026-07-10",
+    "image_url": "https://images.unsplash.com/photo-1632103762-w=1080&q=80&auto=format",
     "lang": "id"
   },
   {
@@ -79,6 +124,15 @@ window.__ARTICLES = [
     "tags": "Logam Mulia, Emas",
     "date": "2026-07-10",
     "image_url": "https://images.unsplash.com/photo-1607109074-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
+    "judul": "Warga Jepang Timbun Makanan-Banyak Penerbangan Dibatalkan, Ada Apa?",
+    "meta_desc": "",
+    "slug": "warga-jepang-timbun-makanan-banyak-penerbangan-dibatalkan-ada-apa",
+    "tags": "Logam Mulia, Politik, Rumah, Emas, Properti, Ekonomi",
+    "date": "2026-07-10",
+    "image_url": "https://images.unsplash.com/photo-1699491261-w=1080&q=80&auto=format",
     "lang": "id"
   },
   {
@@ -136,6 +190,15 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Debut di Bursa Efek Indonesia, Saham Rans Entertainment (RANS) Langsung ARA",
+    "meta_desc": "",
+    "slug": "debut-di-bursa-efek-indonesia-saham-rans-entertainment-rans-langsung-ara",
+    "tags": "Pasar Modal, Saham",
+    "date": "2026-07-10",
+    "image_url": "https://images.unsplash.com/photo-1659853631-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
     "judul": "Harga Emas 24 Karat 10 Juli 2026: Bandingkan Antam, Pegadaian, dan Hartadinata Abadi",
     "meta_desc": "",
     "slug": "harga-emas-24-karat-10-juli-2026-bandingkan-antam-pegadaian-dan-hartadinata-abad",
@@ -145,12 +208,30 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Investor Cerna Isu Global, IHSG Sesi I Menguat 0,1% ke Level 5.918",
+    "meta_desc": "",
+    "slug": "investor-cerna-isu-global-ihsg-sesi-i-menguat-01-ke-level-5918",
+    "tags": "IHSG, BI Rate, Bank Indonesia, Pasar Saham, Rupiah, Kurs",
+    "date": "2026-07-10",
+    "image_url": "https://images.unsplash.com/photo-1671224132-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
     "judul": "Rupiah Melemah, Simak Prospek dan Rekomendasi Saham KLBF",
     "meta_desc": "",
     "slug": "rupiah-melemah-simak-prospek-dan-rekomendasi-saham-klbf",
     "tags": "Saham, Perdagangan, Rekomendasi Saham, Investasi, Rupiah, Kurs",
     "date": "2026-07-10",
     "image_url": "https://images.unsplash.com/photo-1632569516-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
+    "judul": "Simak Prospek Kinerja Bangun Kosambi Sukses (CBDK) Pasca Suntik Modal Anak Usaha",
+    "meta_desc": "",
+    "slug": "simak-prospek-kinerja-bangun-kosambi-sukses-cbdk-pasca-suntik-modal-anak-usaha",
+    "tags": "Rekomendasi Saham, Pertumbuhan, Real Estate, BI Rate, Investasi, Suku Bunga",
+    "date": "2026-07-10",
+    "image_url": "https://images.unsplash.com/photo-1672386520-w=1080&q=80&auto=format",
     "lang": "id"
   },
   {
@@ -169,6 +250,15 @@ window.__ARTICLES = [
     "tags": "Minyak, Pertumbuhan, Suku Bunga, BI Rate, Ekonomi, Pasar Modal",
     "date": "2026-07-10",
     "image_url": "https://images.unsplash.com/photo-1674866071-w=1080&q=80&auto=format",
+    "lang": "id"
+  },
+  {
+    "judul": "BNI Bawa Mitra Binaan Batik untuk 'Unjuk Gigi' di Puspa Nuswantara 2026",
+    "meta_desc": "",
+    "slug": "bni-bawa-mitra-binaan-batik-untuk-unjuk-gigi-di-puspa-nuswantara-2026",
+    "tags": "Logam Mulia, Rumah, Minyak, Emas, Energi, Properti",
+    "date": "2026-07-12",
+    "image_url": "https://images.unsplash.com/photo-1626364931-w=1080&q=80&auto=format",
     "lang": "id"
   }
 ];
