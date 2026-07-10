@@ -410,10 +410,12 @@ def build_article_html(data, lang, lang_prefix="", lang_map=None):
             dt = dt_date(int(year_num), month_num, day_num)
             day_name = day_names[dt.weekday() + 1]
             date_formatted = f"{day_name}, {day_num} {month_names[month_num]} {year_num}"
-        author_str = "DailyMoney" if lang == "en" else "DailyMoney"
+        source_name = data.get("source", "")
+        author_str = source_name if source_name else "DailyMoney"
     except:
         date_formatted = date
-        author_str = "DailyMoney" if lang == "en" else "DailyMoney"
+        source_name = data.get("source", "")
+        author_str = source_name if source_name else "DailyMoney"
 
 
     # Image

@@ -57,8 +57,9 @@ def clean_content(text):
         r'Liputan6\.com,?\s*(Jakarta|Indonesia)?\s*[-–]?\s*',
         r'KONTAN\.CO\.ID\s*[-–]\s*(Jakarta)?\.?\s*',
         r'CNBC\s+Indonesia\s+\d{1,2}\s+\w+\s+\d{4}\s+\d{2}:\d{2}\s*',
-        r'Jakarta,\s+\w+\s+CNBC\s+Indonesia\s*[-–]?\s*',
-        r'Jakarta,\s+\d{1,2}\s+\w+\s+\d{4}\s*[-–]\s*',
+        r'Jakarta,?\s+CNBC\s+Indonesia\s*[-–—]?\s*',
+        r'Jakarta,?\s+\d{1,2}\s+\w+\s+\d{4}\s*[-–—]\s*',
+        r'Jakarta\s*[-–—,]+\s*',
     ]
     for pat in noise_patterns:
         text = re.sub(pat, '', text, flags=re.IGNORECASE)
@@ -248,11 +249,11 @@ def create_article(scraped, language="id"):
     
     # Build article JSON
     article = {
-        "title": scraped["title"][:120],
+        "judul": scraped["title"][:120],
         "slug": slug,
         "date": article_date,
         "category": category,
-        "tags": tags,
+        "tags": ", ".join(tags),
         "source": source_name,
         "source_url": source_url,
         "image_url": image_url,
@@ -318,7 +319,7 @@ def run_writer():
         with open(filepath, "w") as f:
             json.dump(article, f, ensure_ascii=False, indent=2)
         
-        print(f"  ✅ {article['title'][:60]}")
+        print(f"  ✅ {article['judul'][:60]}")
         articles_created += 1
     
     print(f"\n📊 Created {articles_created} articles")
