@@ -13,10 +13,12 @@ EN_DIR = os.path.join(ID_DIR, "en")
 sys.path.insert(0, os.path.join(BASE_DIR, "scripts"))
 
 try:
-    from dailymoney_image_pool import get_article_images
+    from dailymoney_image_pool import get_unique_image
+    def get_article_images(_count=2):
+        return [get_unique_image() for _ in range(_count)]
 except ImportError:
     def get_article_images(_count=2):
-        return [f"https://images.unsplash.com/photo-{random.randint(1600000000,1700000000)}-w=1080&q=80&auto=format" for _ in range(_count)]
+        return [f"https://images.unsplash.com/photo-{random.randint(1600000000,1700000000)}?w=1080&q=80&auto=format" for _ in range(_count)]
 
 # ============================================================
 # CONTENT CLEANING
@@ -229,7 +231,10 @@ def create_article(scraped, language="id"):
     # Pick image based on tags
     try:
         images = get_article_images(2)
-        image_url = images[0] if images else ""
+        if images and isinstance(images[0], tuple):
+            image_url = images[0][0]  # (url, caption) tuple
+        else:
+            image_url = images[0] if images else ""
     except:
         image_url = ""
     
