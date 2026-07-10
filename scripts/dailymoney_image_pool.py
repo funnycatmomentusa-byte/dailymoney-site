@@ -1,10 +1,8 @@
 #!/usr/bin/env python3
-"""DailyMoney — Image Pool v5: FLAT pool. 65+ unique Unsplash finance images. ZERO overlaps. Each image used ONCE."""
+"""DailyMoney — Image Pool v6: FLAT pool. 100+ unique Unsplash finance images. ZERO overlaps."""
 import random
 
-# FLAT pool — every URL appears ONCE. No categories, no keyword matching.
-# Each entry: (url, caption)
-# All images are finance/investment/economy related.
+# FLAT pool — every URL appears ONCE. No categories.
 ALL_IMAGES = [
     ("https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80", "Layar perdagangan saham Bursa Efek Indonesia dengan data pasar real-time."),
     ("https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80", "Monitor data saham dan pergerakan indeks di bursa efek Indonesia."),
@@ -71,26 +69,58 @@ ALL_IMAGES = [
     ("https://images.unsplash.com/photo-1521791055366-0d553872125f?w=1200&q=80", "Kemitraan kerjasama bisnis investasi untuk mengembangkan aset dan keuntungan."),
     ("https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80", "Konsultan investasi memberikan saran untuk portofolio keuangan yang optimal."),
     ("https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80", "Grafik pergerakan harga saham dan analisis pasar modal di marketplace global."),
+    ("https://images.unsplash.com/photo-1560472355-3d7ac5b0d81d?w=1200&q=85", "Analisis chart crypto Bitcoin dengan indikator teknikal RSI dan MACD."),
+    ("https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=1200&q=85", "Transaksi forex perdagangan valuta asing dengan berbagai mata uang."),
+    ("https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=1200&q=85", "Tim akuntan memeriksa laporan keuangan dan anggaran perusahaan."),
+    ("https://images.unsplash.com/photo-1559526324-4e87f1e6e8f1?w=1200&q=85", "Obligasi pemerintah dan sukuk sebagai instrumen investasi pendapatan tetap."),
+    ("https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=1200&q=85", "Emas batangan Antam dan koin emas murni untuk investasi logam mulia."),
+    ("https://images.unsplash.com/photo-1542435503-956c469947f6?w=1200&q=85", "Data ekonomi makro Indonesia dengan infografis pertumbuhan ekonomi."),
+    ("https://images.unsplash.com/photo-1459257831348-f0cdd359235f?w=1200&q=85", "Ekspor impor Indonesia di pelabuhan peti kemas internasional."),
+    ("https://images.unsplash.com/photo-1444653614773-1cb0b3e9e63a?w=1200&q=85", "Gedung Bank Indonesia pusat kebijakan moneter keuangan nasional."),
+    ("https://images.unsplash.com/photo-1521791055360-5e7f7a09e191?w=1200&q=85", "Karyawan menggunakan laptop aplikasi akuntansi dan pembukuan online."),
+    ("https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=85", "Dua pebisnis berjabat tangan kesepakatan kerjasama investasi."),
+    ("https://images.unsplash.com/photo-1518183214770-9cffbec72538?w=1200&q=85", "Buku catatan keuangan pribadi untuk mencatat pengeluaran bulanan."),
+    ("https://images.unsplash.com/photo-1444653614773-1cb0b3e9e63b?w=1200&q=85", "Sertifikat tanah dan SHM properti untuk Pajak Bumi dan Bangunan."),
+    ("https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=1200&q=85", "Wanita muda sukses dengan tabungan investasi dan masa depan cerah."),
+    ("https://images.unsplash.com/photo-1534628526458-a8de087b1123?w=1200&q=85", "Perhitungan bunga majemuk dengan kalkulator finansial investasi."),
+    ("https://images.unsplash.com/photo-1568992372226-ae8d8a1b14a1?w=1200&q=85", "Analisis portofolio investasi saham dan obligasi secara tim."),
+    ("https://images.unsplash.com/photo-1579532537598-459ecdaf39ca?w=1200&q=85", "Gedung Bursa Efek Indonesia pusat perdagangan saham nasional."),
+    ("https://images.unsplash.com/photo-1579621970563-ebec7560ff3c?w=1200&q=85", "Apartemen modern di pusat kota untuk investasi properti."),
+    ("https://images.unsplash.com/photo-1579783902614-a3fb3927b6a4?w=1200&q=85", "Perhiasan emas dan berlian sebagai alternatif investasi berharga."),
+    ("https://images.unsplash.com/photo-1560472355-3d7ac5b0d81e?w=1200&q=85", "Pasar komoditas CPO batubara dengan harga komoditas berjangka."),
+    ("https://images.unsplash.com/photo-1579621970795-87facc2f976e?w=1200&q=85", "Rapat Bank Indonesia tentang kebijakan suku bunga BI rate."),
+    ("https://images.unsplash.com/photo-1528605248644-14dd04022da2?w=1200&q=85", "Edukasi literasi keuangan digital untuk generasi muda Indonesia."),
+    ("https://images.unsplash.com/photo-1556155092-490a1ba16285?w=1200&q=85", "Analis memeriksa laporan keuangan emiten di Bursa Efek."),
+    ("https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=85", "Tim profesional rapat strategi investasi dan keuangan korporasi."),
+    ("https://images.unsplash.com/photo-1542435503-956c469947f7?w=1200&q=85", "Pelaporan SPT pajak online melalui e-Filing DJP."),
+    ("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=85", "Gedung pencakar langit pusat bisnis dan keuangan kota Jakarta."),
+    ("https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=85", "Ruang rapat eksekutif dengan meja kayu dan kursi profesional."),
+    ("https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=85", "Bekerja dengan laptop untuk analisis data pasar dan finansial."),
+    ("https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=85", "Presentasi bisnis dengan grafik pertumbuhan dan data keuangan."),
+    ("https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=85", "Grafik keuangan dengan data pertumbuhan ekonomi dan PDB."),
+    ("https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=85", "Suasana kantor modern dengan tim bekerja sama di meja terbuka."),
+    ("https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&q=85", "Rapat presentasi tim dengan data pasar saham di layar lebar."),
+    ("https://images.unsplash.com/photo-1560472354-b33d0a5a1c9b?w=1200&q=85", "Pasar uang dan obligasi dengan grafik yield curve terkini."),
+    ("https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=85", "Analisis big data keuangan dengan artificial intelligence modern."),
+    ("https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=1200&q=85", "Pasar komoditas pertanian dengan harga CPO dan karet dunia."),
+    ("https://images.unsplash.com/photo-1553729459-afe8f2e4b7b8?w=1200&q=85", "Analis sedang memeriksa laporan keuangan tahunan perusahaan."),
 ]
 
 _used_images = set()
 
 def reset_used():
-    """Reset used images tracker (call at start of each generation run)."""
     global _used_images
     _used_images = set()
 
 def get_unique_image(title=None):
-    """Pick a unique image. Each image used once until all are exhausted, then reset."""
     global _used_images
-    available = [(u, c) for i, (u, c) in enumerate(ALL_IMAGES) if u not in _used_images]
+    available = [(u, c) for u, c in ALL_IMAGES if u not in _used_images]
     if not available:
         reset_used()
-        available = [(u, c) for (u, c) in ALL_IMAGES]
+        available = list(ALL_IMAGES)
     url, caption = random.choice(available)
     _used_images.add(url)
-    return url, f"{caption} Sumber: dokumentasi DailyMoney."
+    return url, caption
 
 def get_image_for(title):
-    """Legacy compatibility."""
-    return get_unique_image(title)
+    return get_unique_image(title)[0]

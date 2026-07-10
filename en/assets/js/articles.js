@@ -145,6 +145,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Property Market: Properti — Real Estate News",
+    "meta_desc": "Read our complete guide on properti investment. Latest news and in-depth analysis only at DailyMoney.",
+    "slug": "property-market-properti-real-estate-news",
+    "tags": "Properti, Investment, Indonesia, DailyMoney",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Investment Guide: Cara Apa Itu Investasi Pengertian Keuntunga",
     "meta_desc": "Analisis lengkap tentang Investment Guide: Cara Apa Itu Investasi Pengertian Keuntunga. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuan",
     "slug": "investment-guide-cara-apa-itu-investasi-pengertian-keuntunga",
@@ -154,12 +163,48 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Indonesia Economy: Growth and Inflation Analysis",
+    "meta_desc": "Read our complete guide on ekonomi investment. Latest news and analysis at DailyMoney.",
+    "slug": "indonesia-economy-growth-and-inflation-analysis",
+    "tags": "Economy, GDP, Inflation, Growth, Statistics, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Gold Price Today: Precious Metal Update and Investment Outlook",
+    "meta_desc": "Read our complete guide on emas investment. Latest news and analysis at DailyMoney.",
+    "slug": "gold-price-today-precious-metal-update-and-investment-outlook",
+    "tags": "Gold, Precious Metal, Investment, Bullion, Gold Price, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1460472170825-524b2d4e2a73?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Indonesia Stock Market: Index Analysis and Predictions",
+    "meta_desc": "Read our complete guide on ihsg investment. Latest news and analysis at DailyMoney.",
+    "slug": "indonesia-stock-market-index-analysis-and-predictions",
+    "tags": "IHSG, Stocks, Stock Exchange, Capital Market, Investment, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Indonesia Stocks - Lihat berita, harga saham,",
     "meta_desc": "Analisis lengkap tentang Indonesia Stocks - Lihat berita, harga saham,. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "indonesia-stocks-lihat-berita-harga-saham",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Forex Update: Indonesian Rupiah Exchange Rate Analysis",
+    "meta_desc": "Read our complete guide on forex investment. Latest news and analysis at DailyMoney.",
+    "slug": "forex-update-indonesian-rupiah-exchange-rate-analysis",
+    "tags": "Rupiah, Dollar, Forex, Exchange Rate, BI, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -181,6 +226,51 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Beginner's Investment Guide: Start Investing with Small Capital",
+    "meta_desc": "Read our complete guide on panduan investment. Latest news and analysis at DailyMoney.",
+    "slug": "beginners-investment-guide-start-investing-with-small-capital",
+    "tags": "Investment, Guide, Beginner, Finance, Tips, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Tax Guide 2026: Complete Information for Indonesian Taxpayers",
+    "meta_desc": "Read our complete guide on pajak investment. Latest news and analysis at DailyMoney.",
+    "slug": "tax-guide-2026-complete-information-for-indonesian-taxpayers",
+    "tags": "Tax, Income Tax, VAT, Taxation, SPT, DJP, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Mutual Funds Guide: Easy Investment for Beginners in 2026",
+    "meta_desc": "Read our complete guide on reksadana investment. Latest news and analysis at DailyMoney.",
+    "slug": "mutual-funds-guide-easy-investment-for-beginners-in-2026",
+    "tags": "Mutual Fund, Investment, Fund Manager, NAV, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Mutual Funds Guide: Reksadana — Investment Tips",
+    "meta_desc": "Read our complete guide on reksadana investment. Latest news and in-depth analysis only at DailyMoney.",
+    "slug": "mutual-funds-guide-reksadana-investment-tips",
+    "tags": "Reksadana, Investment, Indonesia, DailyMoney",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Fintech Indonesia: Digital Finance Innovation Update",
+    "meta_desc": "Read our complete guide on fintech investment. Latest news and analysis at DailyMoney.",
+    "slug": "fintech-indonesia-digital-finance-innovation-update",
+    "tags": "Fintech, Digital, Payment, E-Wallet, OJK, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Perplexity Free: Fast Research for Content, Niches, and Affiliate",
     "meta_desc": "Perplexity Free helps you find sources, compare products, and summarize trends fast. It is great for affiliate content, niche research, and short reports.",
     "slug": "perplexity-free-fast-research-for-content-niches-and-affiliate",
@@ -199,21 +289,39 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
-    "judul": "Indonesia Stock Market: Index Analysis and Predictions",
-    "meta_desc": "Read our complete guide on ihsg investment. Latest news and analysis at DailyMoney.",
-    "slug": "indonesia-stock-market-index-analysis-and-predictions",
-    "tags": "IHSG, Stocks, Stock Exchange, Capital Market, Investment, Indonesia",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-    "lang": "en"
-  },
-  {
     "judul": "Stock Market Analysis - IHSG di persimpangan antara",
     "meta_desc": "Analisis lengkap tentang Stock Market Analysis - IHSG di persimpangan antara. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang l",
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Cryptocurrency Update: Bitcoin and Altcoin Market Movement",
+    "meta_desc": "Read our complete guide on crypto investment. Latest news and analysis at DailyMoney.",
+    "slug": "cryptocurrency-update-bitcoin-and-altcoin-market-movement",
+    "tags": "Cryptocurrency, Bitcoin, Ethereum, Blockchain, Digital Asset, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Gold Price Update: Emas — Precious Metal News",
+    "meta_desc": "Read our complete guide on emas investment. Latest news and in-depth analysis only at DailyMoney.",
+    "slug": "gold-price-update-emas-precious-metal-news",
+    "tags": "Emas, Investment, Indonesia, DailyMoney",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1444653614773-1cb0b3e9e63b?w=1200&q=85",
+    "lang": "en"
+  },
+  {
+    "judul": "Property Market Update: Housing Prices and Investment Tips",
+    "meta_desc": "Read our complete guide on properti investment. Latest news and analysis at DailyMoney.",
+    "slug": "property-market-update-housing-prices-and-investment-tips",
+    "tags": "Property, House, Mortgage, Investment, Real Estate, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1496309732345-df5e02ac1b92?w=1200&q=80",
     "lang": "en"
   },
   {

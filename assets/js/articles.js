@@ -172,12 +172,57 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Berita Properti Terbaru: PROPERTI — Panduan Membeli Rumah",
+    "meta_desc": "Baca artikel lengkap tentang Berita Properti Terbaru: PROPERTI — Panduan Membeli Rumah. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "berita-properti-terbaru-properti-panduan-membeli-rumah",
+    "tags": "Properti, Investasi, Keuangan, Indonesia, DailyMoney",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Cara Apa itu Investasi? Pengertian, Keuntunga",
     "meta_desc": "Analisis lengkap tentang Cara Apa itu Investasi? Pengertian, Keuntunga. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Ekonomi Indonesia Terkini: Analisis Pertumbuhan dan Inflasi",
+    "meta_desc": "Baca panduan lengkap tentang ekonomi. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "ekonomi-indonesia-terkini-analisis-pertumbuhan-dan-inflasi",
+    "tags": "Ekonomi, PDB, Inflasi, Pertumbuhan, BPS, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Harga Emas Hari Ini: Update Logam Mulia dan Prospek Investasi",
+    "meta_desc": "Baca panduan lengkap tentang emas. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "harga-emas-hari-ini-update-logam-mulia-dan-prospek-investasi",
+    "tags": "Emas, Logam Mulia, Investasi, Antam, Harga Emas, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "IHSG Hari Ini: Analisis dan Prediksi Pergerakan Indeks Saham",
+    "meta_desc": "Baca panduan lengkap tentang ihsg. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "ihsg-hari-ini-analisis-dan-prediksi-pergerakan-indeks-saham",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Kurs Rupiah Hari Ini: Analisis Nilai Tukar dan Dolar AS",
+    "meta_desc": "Baca panduan lengkap tentang forex. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "kurs-rupiah-hari-ini-analisis-nilai-tukar-dan-dolar-as",
+    "tags": "Rupiah, Dolar, Kurs, Forex, Nilai Tukar, BI, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -199,12 +244,57 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Panduan Investasi untuk Pemula: Mulai Investasi dengan Modal Kecil",
+    "meta_desc": "Baca panduan lengkap tentang panduan. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "panduan-investasi-untuk-pemula-mulai-investasi-dengan-modal-kecil",
+    "tags": "Investasi, Panduan, Pemula, Keuangan, Tips, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Panduan Pajak 2026: Informasi Perpajakan untuk Wajib Pajak",
+    "meta_desc": "Baca panduan lengkap tentang pajak. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "panduan-pajak-2026-informasi-perpajakan-untuk-wajib-pajak",
+    "tags": "Pajak, PPh, PPN, Perpajakan, SPT, DJP, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Panduan Reksadana: Investasi Mudah untuk Pemula di 2026",
+    "meta_desc": "Baca panduan lengkap tentang reksadana. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "panduan-reksadana-investasi-mudah-untuk-pemula-di-2026",
+    "tags": "Reksadana, Mutual Fund, Investasi, Manajer Investasi, NAB, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Panduan Reksadana: REKSADANA — Investasi Mudah untuk Pemula",
+    "meta_desc": "Baca artikel lengkap tentang Panduan Reksadana: REKSADANA — Investasi Mudah untuk Pemula. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "panduan-reksadana-reksadana-investasi-mudah-untuk-pemula",
+    "tags": "Reksadana, Investasi, Keuangan, Indonesia, DailyMoney",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Pergerakan IHSG — 10 Jul 2026",
     "meta_desc": "Analisis lengkap tentang Pergerakan IHSG — 10 Jul 2026. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih baik.",
     "slug": "pergerakan-ihsg-10-jul-2026",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Perkembangan Fintech Indonesia: Inovasi Keuangan Digital",
+    "meta_desc": "Baca panduan lengkap tentang fintech. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "perkembangan-fintech-indonesia-inovasi-keuangan-digital",
+    "tags": "Fintech, Digital, Pembayaran, E-Wallet, OJK, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -235,12 +325,30 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
-    "judul": "IHSG Hari Ini: Analisis dan Prediksi Pergerakan Indeks Saham",
-    "meta_desc": "Baca panduan lengkap tentang ihsg. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
-    "slug": "ihsg-hari-ini-analisis-dan-prediksi-pergerakan-indeks-saham",
-    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi, Indonesia",
+    "judul": "Update Cryptocurrency: Pergerakan Bitcoin dan Altcoin Terbaru",
+    "meta_desc": "Baca panduan lengkap tentang crypto. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "update-cryptocurrency-pergerakan-bitcoin-dan-altcoin-terbaru",
+    "tags": "Cryptocurrency, Bitcoin, Ethereum, Blockchain, Aset Digital, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Update Emas Dunia: EMAS — Prospek dan Prediksi",
+    "meta_desc": "Baca artikel lengkap tentang Update Emas Dunia: EMAS — Prospek dan Prediksi. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "update-emas-dunia-emas-prospek-dan-prediksi",
+    "tags": "Emas, Investasi, Keuangan, Indonesia, DailyMoney",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1532619187608-53756f7e6060?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Update Pasar Properti: Harga Rumah dan Tips Investasi",
+    "meta_desc": "Baca panduan lengkap tentang properti. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "slug": "update-pasar-properti-harga-rumah-dan-tips-investasi",
+    "tags": "Properti, Rumah, KPR, Investasi, Real Estate, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1571066811602-716837d681de?w=1200&q=80",
     "lang": "id"
   },
   {
