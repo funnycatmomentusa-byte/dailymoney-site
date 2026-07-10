@@ -1373,6 +1373,20 @@ def generate_business_page(page_type, lang, output_path):
     """Generate monetization pages (partner/disclosure) for a given language."""
     L = LANG_CONFIG[lang]
     gen_ts = int(datetime.now().timestamp())
+    # Load market prices for embedded data
+    price_path = os.path.join(BASE_DIR, '_price_data.json')
+    prices = {}
+    if os.path.exists(price_path):
+        try:
+            with open(price_path) as f:
+                prices = json.load(f).get('data', {})
+        except: pass
+    prices_clean = {}
+    if prices:
+        for k, v in prices.items():
+            if v and v.get('price') is not None:
+                prices_clean[k] = {'price': v['price'], 'change': v.get('change')}
+    prices_json = json.dumps(prices_clean, ensure_ascii=False)
     root_url = "/" if lang == "id" else "/en/"
     tentang_url = "/tentang/" if lang == "id" else "/en/tentang/"
     partner_url = "/kerjasama/" if lang == "id" else "/en/kerjasama/"
