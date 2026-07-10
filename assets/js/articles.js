@@ -6,7 +6,7 @@ window.__ARTICLES = [
     "slug": "cara-mulai-investasi-di-2026-panduan-lengkap-untuk-pemula",
     "tags": "Investasi, Reksadana, Saham, Emas, Pemula, Edukasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -15,7 +15,7 @@ window.__ARTICLES = [
     "slug": "chatgpt-free-cara-mengubah-ide-jadi-jasa-konten-yang-bisa-dijual",
     "tags": "ChatGPT, AI Gratis, Freelance, Konten, Produktivitas",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -24,7 +24,7 @@ window.__ARTICLES = [
     "slug": "ekonomi-terkini-berita-ekonomi-terbaru-hari-ini-28-juni",
     "tags": "ekonomi, sini, biar",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -33,7 +33,7 @@ window.__ARTICLES = [
     "slug": "ekonomi-terkini-no2894dkom-data-badan-pusat-statistik",
     "tags": "menunjukkan, ekonomi, pusat",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -42,7 +42,7 @@ window.__ARTICLES = [
     "slug": "ihsg-melemahmenguat-tag-berita-terkini-ihsg-hari-ini",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -51,7 +51,7 @@ window.__ARTICLES = [
     "slug": "indeks-harga-saham-gabungan-pergerakan-ihsg",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -60,7 +60,7 @@ window.__ARTICLES = [
     "slug": "indeks-saham-1-month-ago",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -69,7 +69,7 @@ window.__ARTICLES = [
     "slug": "keuangan-berita-ekonomi-indonesia-keuangan-perb",
     "tags": "naik, cadangan, finansial, miliar",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -78,7 +78,7 @@ window.__ARTICLES = [
     "slug": "panduan-pajak-investasi-2026-yang-wajib-dilaporkan",
     "tags": "Pajak, SPT, Investasi, Saham, Crypto, Pelaporan",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -87,7 +87,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-cnbc-indonesia-menyajikan-berita",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -96,7 +96,7 @@ window.__ARTICLES = [
     "slug": "dapatkan-informasi-terkini-dan-indeks-saham",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -105,7 +105,7 @@ window.__ARTICLES = [
     "slug": "gemini-free-riset-cepat-untuk-proposal-freelance-blog-dan-seo",
     "tags": "Gemini, AI Gratis, Riset, SEO, Freelance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -114,7 +114,7 @@ window.__ARTICLES = [
     "slug": "idx-menyediakan-data-pasar-investasi",
     "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -123,7 +123,7 @@ window.__ARTICLES = [
     "slug": "ihsg-di-persimpangan-antara-indeks-saham",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -132,7 +132,7 @@ window.__ARTICLES = [
     "slug": "investasi-09-jul-2026",
     "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -141,7 +141,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-dapatkan-informasi-terkini-dan",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -150,7 +150,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-ihsg-di-persimpangan-antara",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1622630998444-44b01e2e6580?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -159,7 +159,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-saham-idx-menyediakan-data-pasar",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -168,7 +168,7 @@ window.__ARTICLES = [
     "slug": "apa-itu-investasi-pengertian-keuntungan-da-panduan",
     "tags": "bahwa, investasi, oleh",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1571066811602-716837d681de?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -177,7 +177,7 @@ window.__ARTICLES = [
     "slug": "cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1543394972-e1cff5a7e4da?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -186,7 +186,7 @@ window.__ARTICLES = [
     "slug": "lihat-berita-harga-saham-pergerakan-ihsg",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -195,7 +195,7 @@ window.__ARTICLES = [
     "slug": "microsoft-copilot-free-copywriting-dan-ide-iklan-untuk-jualan-online",
     "tags": "Copilot, AI Gratis, Copywriting, UMKM, Iklan",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -204,7 +204,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-10-jul-2026",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1625039013965-0183dd450a35?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1496309732345-df5e02ac1b92?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -213,7 +213,7 @@ window.__ARTICLES = [
     "slug": "perplexity-free-riset-cepat-untuk-konten-niche-dan-affiliate",
     "tags": "Perplexity, AI Gratis, Affiliate, Riset Pasar, Konten",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -222,7 +222,7 @@ window.__ARTICLES = [
     "slug": "rekomendasi-saham-10-jul-2026",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -231,7 +231,7 @@ window.__ARTICLES = [
     "slug": "pemerintah-suntik-rp400-t-ke-himbara-dampaknya-ke-ihsg-rupiah",
     "tags": "SAL, Himbara, Likuiditas, IHSG, Rupiah, Ekonomi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -240,7 +240,7 @@ window.__ARTICLES = [
     "slug": "inflasi-2026-3-strategi-investasi-agar-uang-tidak-tergerus",
     "tags": "Inflasi, Investasi, Strategi, Reksadana, Emas",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -249,7 +249,7 @@ window.__ARTICLES = [
     "slug": "5-tips-hemat-di-tengah-inflasi-tanpa-harus-korban-gaya-hidup",
     "tags": "Tips Hemat, Inflasi, Gaya Hidup, Keuangan",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -258,7 +258,7 @@ window.__ARTICLES = [
     "slug": "sp-dji-masukkan-indonesia-ke-watchlist-2027-ihsg-anjlok-13",
     "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, BEI",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -267,7 +267,7 @@ window.__ARTICLES = [
     "slug": "ihsg-bangkit-di-awal-juli-2026-usai-investor-asing-jual-saham-rp1963-t",
     "tags": "IHSG, Pasar Saham, Investor Asing, Reksadana, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -276,7 +276,7 @@ window.__ARTICLES = [
     "slug": "the-fed-pangkas-suku-bunga-25-bps-dampak-besar-ke-ihsg-dan-rupiah-sepanjang-2026",
     "tags": "Pasar Global, The Fed, IHSG, Rupiah, Suku Bunga",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -285,7 +285,7 @@ window.__ARTICLES = [
     "slug": "reksadana-vs-saham-mana-yang-cocok-untuk-pemula-di-2026",
     "tags": "Reksadana, Saham, Investasi Pemula, Edukasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1585241920473-b4727b2cb103?w=1200&q=80",
     "lang": "id"
   }
 ];

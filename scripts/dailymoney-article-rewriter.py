@@ -353,9 +353,8 @@ def rewrite_article(filepath):
     topic = detect_topic(judul, tags, article.get('content_markdown', ''))
     cid = content_id(judul, article.get('date', ''), article.get('pair_id', 0))
 
-    # Unique image
-    image_url, _ = get_unique_image(f"{judul} {tags} {topic}")
-    image_caption = build_image_caption(topic, lang)
+    # Unique image — use REAL caption from pool
+    image_url, image_caption = get_unique_image(f"{judul} {tags} {topic}")
 
     # Content
     if lang == 'en':
@@ -434,11 +433,10 @@ def main():
                 _judul = original.get('judul', '')
                 _tags = original.get('tags', '')
                 _topic = detect_topic(_judul, _tags, orig_content)
-                _lang = original.get('lang', 'id')
-                img_url_new, _ = get_unique_image(f"{_judul} {_tags} {_topic}")
+                img_url_new, img_cap_new = get_unique_image(f"{_judul} {_tags} {_topic}")
                 if img_url_new != original.get('image_url', ''):
                     original['image_url'] = img_url_new
-                    original['image_caption'] = build_image_caption(_topic, _lang)
+                    original['image_caption'] = img_cap_new
                     with open(filepath, 'w', encoding='utf-8') as f:
                         json.dump(original, f, indent=2, ensure_ascii=False)
                     print(f"  IMG FIX — updated image ({len(orig_content)} chars)")

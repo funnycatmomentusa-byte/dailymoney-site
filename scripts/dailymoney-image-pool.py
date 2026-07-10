@@ -1,169 +1,92 @@
 #!/usr/bin/env python3
-"""DailyMoney — Image Pool v3: 70+ unique Unsplash images, ZERO overlaps."""
-import random, re
+"""DailyMoney — Image Pool v5: FLAT pool. 65+ unique Unsplash finance images. ZERO overlaps. Each image used ONCE."""
+import random
 
-# RULE: Every image URL appears in EXACTLY ONE category. No duplicates anywhere.
-IMAGE_POOL = {
-    # === SAHAM / STOCK MARKET (8 images) ===
-    "ihsg|saham|pasar modal|stock|idx": [
-        ("https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80", "Layar perdagangan saham Bursa Efek Indonesia."),
-        ("https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80", "Bursa efek dengan layar monitor data real-time."),
-        ("https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80", "Tim analis membahas strategi trading saham."),
-        ("https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80", "Developer menganalisis data pasar saham digital."),
-        ("https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80", "Bursa efek modern dengan data real-time."),
-        ("https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80", "Grafik analisis teknikal saham."),
-        ("https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80", "Platform trading saham online."),
-        ("https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80", "Ilustrasi investasi dan pertumbuhan pasar modal."),
-    ],
-
-    # === EMAS / GOLD (6 images) ===
-    "emas|gold|logam mulia": [
-        ("https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80", "Emas batangan sebagai aset investasi logam mulia."),
-        ("https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80", "Koin emas investasi logam mulia klasik."),
-        ("https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80", "Emas batangan Antam Indonesia."),
-        ("https://images.unsplash.com/photo-1615141982883-c7ad0e69fd62?w=1200&q=80", "Ilustrasi investasi emas untuk pemula."),
-        ("https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&q=80", "Jam tangan emas dan perhiasan investasi."),
-        ("https://images.unsplash.com/photo-1612810440013-14cf0e2db6d0?w=1200&q=80", "Koin emas logam mulia antik."),
-    ],
-
-    # === CRYPTO / BITCOIN (6 images) ===
-    "crypto|bitcoin|ethereum|blockchain": [
-        ("https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80", "Ilustrasi mata uang kripto Bitcoin dan aset digital."),
-        ("https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&q=80", "Dominasi Bitcoin di pasar kripto global."),
-        ("https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&q=80", "Blockchain dan teknologi kripto masa depan."),
-        ("https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80", "Portofolio aset kripto beragam."),
-        ("https://images.unsplash.com/photo-1605745341112-85968b19335b?w=1200&q=80", "Analisis pasar kripto dan tren blockchain."),
-        ("https://images.unsplash.com/photo-1531746790095-e5995f80cf34?w=1200&q=80", "Dompet kripto hardware wallet."),
-    ],
-
-    # === FOREX / RUPIAH (6 images) ===
-    "rupiah|dollar|kurs|forex|currency|nilai tukar": [
-        ("https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80", "Tumpukan uang dolar AS dan rupiah."),
-        ("https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80", "Kurs tukar mata uang asing global."),
-        ("https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80", "Uang kertas rupiah Indonesia."),
-        ("https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80", "Nilai tukar mata uang dunia beragam."),
-        ("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80", "Moneter dan kebijakan nilai tukar."),
-        ("https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80", "Grafik pergerakan nilai tukar forex."),
-    ],
-
-    # === PROPERTI (5 images) ===
-    "properti|rumah|real estate|kpr": [
-        ("https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80", "Perumahan sebagai investasi properti."),
-        ("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80", "Rumah modern sebagai aset investasi."),
-        ("https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80", "Perumahan subsidi dan KPR Indonesia."),
-        ("https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&q=80", "Proses jual beli properti modern."),
-        ("https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80", "Gedung apartemen investasi properti."),
-    ],
-
-    # === PAJAK (5 images) ===
-    "pajak|tax|perpajakan": [
-        ("https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80", "Ilustrasi perpajakan dan keuangan."),
-        ("https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80", "Kalkulator dan dokumen pajak."),
-        ("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80", "Dokumen laporan keuangan dan pajak."),
-        ("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80", "Formulir perpajakan dan dokumen resmi."),
-        ("https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80", "Kalkulasi pajak dan perencanaan keuangan."),
-    ],
-
-    # === FINTECH (5 images) ===
-    "fintech|digital|teknologi|startup": [
-        ("https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80", "Teknologi fintech dan inovasi digital."),
-        ("https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80", "Platform keuangan digital modern."),
-        ("https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80", "Pembayaran digital dan e-wallet."),
-        ("https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80", "Inovasi fintech mobile banking."),
-        ("https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75", "Dashboard teknologi keuangan digital."),
-    ],
-
-    # === EKONOMI (5 images) ===
-    "ekonomi|economy|gdp|pertumbuhan": [
-        ("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80", "Dashboard monitoring ekonomi digital."),
-        ("https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80", "Pertumbuhan ekonomi makro Indonesia."),
-        ("https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80", "Grafik data ekonomi nasional."),
-        ("https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80", "Analisis ekonomi global dan domestik."),
-        ("https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80", "Data ekonomi dan indikator pasar."),
-    ],
-
-    # === INFLASI (5 images) ===
-    "inflasi|inflation|daya beli|bps|statistik": [
-        ("https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80", "Indeks inflasi dan data BPS."),
-        ("https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80", "Ilustrasi harga dan daya beli."),
-        ("https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80", "Analisis dampak inflasi terhadap investasi."),
-        ("https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80", "Grafik tren inflasi Indonesia."),
-        ("https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80", "Data statistik harga konsumen."),
-    ],
-
-    # === REKSADANA / INVESTASI (5 images) ===
-    "reksadana|mutual fund|investasi": [
-        ("https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80", "Ilustrasi investasi dan perencanaan keuangan."),
-        ("https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80", "Portofolio investasi reksadana."),
-        ("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80", "Analisis return reksadana tahunan."),
-        ("https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80", "Perencanaan keuangan jangka panjang."),
-        ("https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80", "Platform investasi reksadana online."),
-    ],
-
-    # === BANK / SAHAM BLUE CHIP (5 images) ===
-    "bca|bbri|tlkm|bbc|saham idx|bank": [
-        ("https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80", "Pergerakan saham bank nasional."),
-        ("https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80", "Analisis kinerja saham emiten bank."),
-        ("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80", "Layar monitor saham blue chip."),
-        ("https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80", "Dashboard perbankan digital modern."),
-        ("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80", "Laporan keuangan bank nasional."),
-    ],
-
-    # === UMUM / GENERAL FINANCE (6 images) ===
-    "umum|general|keuangan|finance": [
-        ("https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80", "Ilustrasi keuangan dan investasi umum."),
-        ("https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80", "Perencanaan keuangan pribadi."),
-        ("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80", "Dokumen keuangan dan perencanaan."),
-        ("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80", "Formulir dan dokumen keuangan."),
-        ("https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80", "Kalkulasi dan analisis keuangan."),
-        ("https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80", "Tips keuangan untuk pemula."),
-    ],
-}
-
-# Fallback — ONLY images not in any category above
-FALLBACK_IMAGES = [
-    ("https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80", "Monet digital aset keuangan."),
-    ("https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80", "Tips keuangan untuk semua kalangan."),
-    ("https://images.unsplash.com/photo-1543394972-e1cff5a7e4da?w=1200&q=80", "Emas batangan 24 karat bersertifikat."),
-    ("https://images.unsplash.com/photo-1622630998444-44b01e2e6580?w=1200&q=80", "Ethereum dan aset kripto lainnya."),
-    ("https://images.unsplash.com/photo-1625039013965-0183dd450a35?w=1200&q=80", "Pertambangan cryptocurrency bitcoin."),
-    ("https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80", "Teknologi blockchain dan defi."),
-    ("https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80", "Uang kertas dolar dan euro."),
-    ("https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80", "Moneter dan kebijakan bank sentral."),
+# FLAT pool — every URL appears ONCE. No categories, no keyword matching.
+# Each entry: (url, caption)
+# All images are finance/investment/economy related.
+ALL_IMAGES = [
+    ("https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80", "Layar perdagangan saham Bursa Efek Indonesia dengan data pasar real-time."),
+    ("https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80", "Monitor data saham dan pergerakan indeks di bursa efek Indonesia."),
+    ("https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80", "Tim analis profesional membahas strategi trading saham dan pasar modal."),
+    ("https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80", "Dashboard analisis data pasar saham digital di layar laptop modern."),
+    ("https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80", "Bursa efek modern menampilkan data indeks saham dan pergerakan harga."),
+    ("https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80", "Grafik analisis teknikal saham untuk memprediksi pergerakan IHSG."),
+    ("https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80", "Platform trading saham online dengan antarmuka fitur yang lengkap."),
+    ("https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80", "Ilustrasi pertumbuhan pasar modal dan investasi saham yang positif."),
+    ("https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80", "Emas batangan sebagai aset investasi logam mulia yang aman dan terpercaya."),
+    ("https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=1200&q=80", "Koin emas investasi logam mulia klasik yang memiliki nilai tinggi."),
+    ("https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80", "Emas batangan Antam bersertifikat untuk investasi jangka panjang stabil."),
+    ("https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&q=80", "Jam tangan emas mewah sebagai investasi bernilai tinggi dan bergaya."),
+    ("https://images.unsplash.com/photo-1612810440013-14cf0e2db6d0?w=1200&q=80", "Koin emas logam mulia antik yang langka dan bernilai investasi tinggi."),
+    ("https://images.unsplash.com/photo-1543394972-e1cff5a7e4da?w=1200&q=80", "Emas batangan 24 karat bersertifikat dengan kualitas premium terbaik."),
+    ("https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80", "Ilustrasi mata uang kripto Bitcoin dan aset digital di layar monitor."),
+    ("https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&q=80", "Dominasi Bitcoin sebagai cryptocurrency terbesar di pasar global."),
+    ("https://images.unsplash.com/photo-1621761191319-c6fb62004040?w=1200&q=80", "Teknologi blockchain untuk transaksi cryptocurrency yang aman modern."),
+    ("https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80", "Portofolio aset kripto dengan berbagai jenis mata uang digital modern."),
+    ("https://images.unsplash.com/photo-1531746790095-e5995f80cf34?w=1200&q=80", "Dompet hardware wallet untuk penyimpanan aman bitcoin dan kripto."),
+    ("https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80", "Koin cryptocurrency digital sebagai mata uang dan investasi modern."),
+    ("https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80", "Tumpukan uang dolar AS sebagai mata uang cadangan global utama dunia."),
+    ("https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80", "Uang kertas rupiah Indonesia dengan berbagai pecahan nominal mata uang."),
+    ("https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80", "Koleksi uang kertas berbagai negara menunjukkan nilai tukar global."),
+    ("https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80", "Grafik pergerakan nilai tukar rupiah terhadap dolar AS secara real-time."),
+    ("https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80", "Analisis teknikal nilai tukar valuta asing di pasar forex global."),
+    ("https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80", "Perumahan modern sebagai investasi properti jangka panjang yang menjanjikan."),
+    ("https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80", "Rumah tinggal modern dengan arsitektur minimalis elegan di perkotaan."),
+    ("https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80", "Perumahan subsidi pemerintah dengan harga terjangkau masyarakat luas."),
+    ("https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&q=80", "Proses jual beli properti bersama agen properti profesional terpercaya."),
+    ("https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80", "Gedung pencakar langit sebagai investasi properti di pusat kota besar."),
+    ("https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80", "Ilustrasi perpajakan dan pelaporan keuangan tahunan wajib pajak Indonesia."),
+    ("https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80", "Kalkulator dan dokumen administrasi untuk perencanaan pajak penghasilan."),
+    ("https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80", "Dokumen laporan keuangan dan surat pemberitahuan pajak tahunan perusahaan."),
+    ("https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80", "Formulir perpajakan dan dokumen administrasi pelaporan pajak resmi negara."),
+    ("https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80", "Kalkulasi perencanaan pajak dan pengelolaan keuangan untuk wajib pajak."),
+    ("https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80", "Aplikasi fintech digital untuk transaksi keuangan dan pembayaran modern."),
+    ("https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80", "Platform keuangan digital inovatif untuk akses layanan finansial mudah."),
+    ("https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80", "Pembayaran digital menggunakan dompet elektronik dan smartphone modern."),
+    ("https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80", "Inovasi mobile banking fintech dengan fitur layanan keuangan lengkap."),
+    ("https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80", "Informasi pasar keuangan global dan konektivitas finansial seluruh dunia."),
+    ("https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80", "Dashboard monitoring data ekonomi makro Indonesia secara digital real-time."),
+    ("https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=1200&q=80", "Laporan pertumbuhan ekonomi dengan grafik dan data statistik terkini."),
+    ("https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80", "Grafik data statistik ekonomi nasional dan prospek investasi ke depan."),
+    ("https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80", "Dashboard analisis data ekonomi global dan domestik secara komprehensif."),
+    ("https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80", "Grafik indeks harga konsumen dan data inflasi BPS Indonesia terkini."),
+    ("https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80", "Ilustrasi harga kebutuhan pokok dan daya beli konsumen masyarakat Indonesia."),
+    ("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80", "Riset data statistik untuk analisis inflasi dan tren perekonomian bulanan."),
+    ("https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80", "Kurs valuta asing dan pergerakan nilai tukar di pasar keuangan global."),
+    ("https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80", "Panduan keuangan dan tips investasi sederhana untuk pemula di Indonesia."),
+    ("https://images.unsplash.com/photo-1496309732345-df5e02ac1b92?w=1200&q=80", "Gedung perkantoran pusat bisnis dan investasi properti komersial modern."),
+    ("https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=1200&q=80", "Bisnis dan investasi dengan laptop untuk analisis data keuangan perusahaan."),
+    ("https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80", "Konsultan keuangan menganalisis laporan bisnis dan investasi perusahaan."),
+    ("https://images.unsplash.com/photo-1460472170825-524b2d4e2a73?w=1200&q=80", "Manajer investasi dengan grafik keuangan dan prospek pasar modal global."),
+    ("https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80", "Perencanaan keuangan dengan kalkulator investasi untuk persiapan masa depan."),
+    ("https://images.unsplash.com/photo-1585241920473-b4727b2cb103?w=1200&q=80", "Investasi saham dengan smartphone aplikasi trading online modern."),
+    ("https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80", "Rapat bisnis tim keuangan membahas strategi investasi dan anggaran perusahaan."),
+    ("https://images.unsplash.com/photo-1571066811602-716837d681de?w=1200&q=80", "Ilustrasi pertumbuhan ekonomi dan grafik bisnis investasi yang meningkat pesat."),
+    ("https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80", "Tim manajemen perusahaan menganalisis laporan keuangan dan strategi bisnis."),
+    ("https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80", "Strategi bisnis investasi dan perencanaan keuangan jangka panjang perusahaan."),
+    ("https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=1200&q=80", "Analisis pasar keuangan dengan menggunakan data statistik dan grafik terkini."),
+    ("https://images.unsplash.com/photo-1473188588951-666fce8e7c68?w=1200&q=80", "Buku laporan keuangan tahunan untuk evaluasi investasi dan kinerja bisnis."),
+    ("https://images.unsplash.com/photo-1532619187608-53756f7e6060?w=1200&q=80", "Presentasi bisnis dengan data investasi dan pertumbuhan keuangan perusahaan."),
+    ("https://images.unsplash.com/photo-1521791055366-0d553872125f?w=1200&q=80", "Kemitraan kerjasama bisnis investasi untuk mengembangkan aset dan keuntungan."),
+    ("https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80", "Konsultan investasi memberikan saran untuk portofolio keuangan yang optimal."),
+    ("https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80", "Grafik pergerakan harga saham dan analisis pasar modal di marketplace global."),
 ]
 
-# Track used images across a generation session
 _used_images = set()
 
 def reset_used():
-    """Reset used images tracker."""
+    """Reset used images tracker (call at start of each generation run)."""
     global _used_images
     _used_images = set()
 
-def get_unique_image(title):
-    """Pick a unique image for the given title. Ensures no duplicates within a session."""
-    title_lower = title.lower()
-
-    # Find matching category
-    candidates = []
-    for kw, images in IMAGE_POOL.items():
-        if re.search(kw, title_lower):
-            candidates.extend(images)
-
-    if not candidates:
-        candidates = FALLBACK_IMAGES[:]
-
-    # Filter out already used
-    available = [(u, c) for u, c in candidates if u not in _used_images]
-
+def get_unique_image(title=None):
+    """Pick a unique image. Each image used once until all are exhausted, then reset."""
+    global _used_images
+    available = [(u, c) for i, (u, c) in enumerate(ALL_IMAGES) if u not in _used_images]
     if not available:
-        # Try fallbacks
-        available = [(u, c) for u, c in FALLBACK_IMAGES if u not in _used_images]
-
-    if not available:
-        # Everything used — pick random from candidates (will repeat)
-        available = candidates
-
+        reset_used()
+        available = [(u, c) for (u, c) in ALL_IMAGES]
     url, caption = random.choice(available)
     _used_images.add(url)
     return url, f"{caption} Sumber: dokumentasi DailyMoney."

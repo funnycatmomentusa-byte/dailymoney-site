@@ -6,7 +6,7 @@ window.__ARTICLES = [
     "slug": "chatgpt-free-turning-ideas-into-sellable-content-services",
     "tags": "ChatGPT, Free AI, Freelance, Content, Productivity",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1460472170825-524b2d4e2a73?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -15,7 +15,7 @@ window.__ARTICLES = [
     "slug": "economic-report-disabilitas-disabilitas-berita-terkini",
     "tags": "Finance, Economy, Indonesia, Market",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -24,7 +24,7 @@ window.__ARTICLES = [
     "slug": "how-to-start-investing-in-2026-complete-beginners-guide",
     "tags": "Investment, Stocks, Mutual Funds, Beginner, Finance Education",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -33,7 +33,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-1-day-ago",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -42,7 +42,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-cnbc-indonesia-menyajikan-berita",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1532619187608-53756f7e6060?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -51,7 +51,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-indeks-harga-saham-gabungan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -60,7 +60,7 @@ window.__ARTICLES = [
     "slug": "investment-tax-guide-2026-what-must-be-reported",
     "tags": "Tax, SPT, Investment, Stocks, Crypto, Reporting",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1531746790095-e5995f80cf34?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -69,7 +69,7 @@ window.__ARTICLES = [
     "slug": "market-update-berita-terkini-ihsg",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -78,7 +78,7 @@ window.__ARTICLES = [
     "slug": "financial-update-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -87,7 +87,7 @@ window.__ARTICLES = [
     "slug": "gemini-free-fast-research-for-freelance-pitches-blogs-and-seo",
     "tags": "Gemini, Free AI, Research, SEO, Freelance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -96,7 +96,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -105,7 +105,7 @@ window.__ARTICLES = [
     "slug": "market-analysis-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1612810440013-14cf0e2db6d0?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -114,7 +114,7 @@ window.__ARTICLES = [
     "slug": "market-update-dapatkan-informasi-terkini-dan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -123,7 +123,7 @@ window.__ARTICLES = [
     "slug": "stock-market-analysis-dapatkan-informasi-terkini-dan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -132,7 +132,7 @@ window.__ARTICLES = [
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -141,7 +141,7 @@ window.__ARTICLES = [
     "slug": "investment-guide-apa-itu-investasi-pengertian-keuntungan-da",
     "tags": "bahwa, investasi, oleh, indonesia, financial",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -150,7 +150,7 @@ window.__ARTICLES = [
     "slug": "investment-guide-cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi, indonesia, financial",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -159,7 +159,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-lihat-berita-harga-saham",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -168,7 +168,7 @@ window.__ARTICLES = [
     "slug": "market-analysis-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -177,7 +177,7 @@ window.__ARTICLES = [
     "slug": "microsoft-copilot-free-copywriting-and-ad-ideas-for-online-selling",
     "tags": "Copilot, Free AI, Copywriting, SMEs, Ads",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -186,7 +186,7 @@ window.__ARTICLES = [
     "slug": "perplexity-free-fast-research-for-content-niches-and-affiliate",
     "tags": "Perplexity, Free AI, Affiliate, Market Research, Content",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -195,7 +195,7 @@ window.__ARTICLES = [
     "slug": "indonesia-government-injects-rp400t-into-state-banks-market-impact",
     "tags": "SAL, State Banks, Liquidity, IHSG, Rupiah, Indonesia Economy",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -204,7 +204,7 @@ window.__ARTICLES = [
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -213,7 +213,7 @@ window.__ARTICLES = [
     "slug": "inflation-2026-3-investment-strategies-to-protect-your-wealth",
     "tags": "Inflation, Investment, Strategy, Mutual Funds, Gold",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1612810440013-14cf0e2db6d0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -222,7 +222,7 @@ window.__ARTICLES = [
     "slug": "sp-dji-puts-indonesia-on-watchlist-2027-ihsg-plunges-13",
     "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, IDX",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1543394972-e1cff5a7e4da?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -231,7 +231,7 @@ window.__ARTICLES = [
     "slug": "mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026",
     "tags": "Mutual Funds, Stocks, Beginner Investing, Education",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -240,7 +240,7 @@ window.__ARTICLES = [
     "slug": "ihsg-rebounds-in-early-july-2026-after-foreign-investors-dumped-rp1963-trillion",
     "tags": "IHSG, Stock Market, Foreign Investors, Mutual Funds, Investment",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -249,7 +249,7 @@ window.__ARTICLES = [
     "slug": "fed-cuts-interest-rate-by-25bps-major-impact-on-ihsg-and-rupiah-in-2026",
     "tags": "Global Markets, Federal Reserve, IHSG, Rupiah, Interest Rates",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1521791055366-0d553872125f?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -258,7 +258,7 @@ window.__ARTICLES = [
     "slug": "5-smart-saving-tips-during-inflation-without-sacrificing-lifestyle",
     "tags": "Saving Tips, Inflation, Lifestyle, Personal Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
     "lang": "en"
   }
 ];
