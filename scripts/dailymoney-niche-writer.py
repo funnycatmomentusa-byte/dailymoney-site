@@ -415,13 +415,19 @@ def build_article(topic_data, lang='id'):
     # Pick an additional data point to embed
     dp2 = random.choice(topic_data.get("data_points_en" if is_en else "data_points", ["data pasar"]))
     
-    # Build content
+    # Build content with ## headings (required by rewriter/validator)
     sections = [hook, "\n\n"]
-    sections.append("\n\n".join(contexts))
-    sections.append(f"\n\n**Data Terkini:** {dp2}\n\n")
+    sections.append(f"\n\n## Analisis Mendalam\n\n")
+    sections.append("\n\n".join(contexts[:2]))
+    sections.append(f"\n\n## Data dan Fakta Terkini\n\n")
+    sections.append(f"{dp2}\n\n")
+    sections.append("\n\n".join(contexts[2:]))
+    sections.append(f"\n\n## Strategi dan Rekomendasi\n\n")
     sections.append("\n\n".join(insights))
+    sections.append(f"\n\n## Perspektif dan Outlook\n\n")
     sections.append("\n\n".join(bodies))
-    sections.append(f"\n\n{closing}")
+    sections.append(f"\n\n## Kesimpulan\n\n")
+    sections.append(f"{closing}")
     
     content = "".join(sections)
     
