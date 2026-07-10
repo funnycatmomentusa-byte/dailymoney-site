@@ -50,10 +50,10 @@ def check_article(filepath):
         if re.search(pat, check_text, re.IGNORECASE):
             reasons.append(f"Spam pattern detected: {pat}")
 
-    # 4. Valid markdown — at least 2 H2 headers
-    h2_count = len(re.findall(r'^## [^#]', content, re.MULTILINE))
-    if h2_count < 2:
-        reasons.append(f"Insufficient H2 headers: {h2_count} (min 2)")
+    # 4. Content structure — at least 3 paragraphs (blank-line separated)
+    paragraphs = [p.strip() for p in content.split("\n\n") if p.strip()]
+    if len(paragraphs) < 3:
+        reasons.append(f"Insufficient paragraphs: {len(paragraphs)} (min 3)")
 
     # 5. meta_desc length 120-160
     if len(meta_desc) < 120:
