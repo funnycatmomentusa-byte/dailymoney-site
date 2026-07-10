@@ -1380,51 +1380,150 @@ def generate_business_page(page_type, lang, output_path):
 
     if page_type == "partner":
         page_title = "Kerja Sama & Monetisasi" if lang == "id" else "Work With DailyMoney"
-        page_desc = "Siapkan jalur sponsor, affiliate, lead capture, dan newsletter." if lang == "id" else "Prepare sponsor, affiliate, lead capture, and newsletter monetization."
+        page_desc = "Siapkan jalur sponsor, affiliate, lead capture, dan newsletter untuk bekerja sama dengan DailyMoney." if lang == "id" else "Prepare sponsor, affiliate, lead capture, and newsletter monetization with DailyMoney."
         switch_url = "/en/kerjasama/" if lang == "id" else "/kerjasama/"
         switch_label = "English" if lang == "id" else "Bahasa Indonesia"
-        intro = "Halaman ini merangkum apa saja yang perlu Anda siapkan supaya traffic berubah jadi sponsor, affiliate, dan lead berkualitas." if lang == "id" else "This page shows what to prepare so traffic becomes sponsor inquiries, affiliate clicks, and qualified leads."
-        cta_text = "Gunakan halaman ini sebagai hub bisnis: traffic masuk, uang keluar ke kantong Anda." if lang == "id" else "Use this page as your business hub: traffic in, money out."
+        intro = (
+            "DailyMoney adalah platform berita keuangan terpercaya dengan ribuan pembaca aktif setiap hari. "
+            "Kami menerima kerja sama dalam bentuk sponsor, affiliate, advertorial, dan lead generation. "
+            "Hubungi redaksi kami untuk mendiskusikan paket yang sesuai dengan kebutuhan Anda."
+        ) if lang == "id" else (
+            "DailyMoney is a trusted financial news platform with thousands of daily active readers. "
+            "We accept partnerships in the form of sponsorship, affiliate, advertorial, and lead generation. "
+            "Contact our editorial team to discuss a package that fits your needs."
+        )
+        cta_text = (
+            "Siap berkolaborasi? Kirim email sekarang dan dapatkan penawaran terbaik."
+        ) if lang == "id" else (
+            "Ready to collaborate? Send an email now and get the best offer."
+        )
         contact_btn = "Kirim Email" if lang == "id" else "Email Now"
-        contact_copy = "Kirim email ke redaksi@dailymoney.my.id dengan penawaran, budget, dan target audiens Anda." if lang == "id" else "Email redaksi@dailymoney.my.id with your offer, budget, and audience."
-        checklist_title = "Checklist cepat" if lang == "id" else "Quick checklist"
+        contact_copy = "Kirim email ke redaksi@dailymoney.my.id dengan penawaran, budget, dan target audiens Anda. Kami akan merespons dalam 1×24 jam." if lang == "id" else "Email redaksi@dailymoney.my.id with your offer, budget, and target audience. We respond within 24 hours."
+        checklist_title = "Yang perlu Anda siapkan" if lang == "id" else "What you need to prepare"
         channel_cards = [
-            ("Affiliate", "Program komisi + link tracking", "Dapat komisi dari klik / pembelian"),
-            ("Sponsor", "Media kit + rate card + traffic data", "Menjual placement dan advertorial"),
-            ("Lead capture", "Newsletter / form / landing page", "Mengumpulkan calon pembeli / klien"),
-            ("Social distribution", "Teaser + distribusi sosial", "Menambah traffic yang bisa dimonetisasi"),
+            (
+                "🎯 Affiliate",
+                "Program komisi berbasis performa — pasang link produk/rekomendasi di artikel kami. Pembaca klik, Anda dapat komisi tanpa biaya tambahan.",
+                "Komisi per klik / pembelian"
+            ),
+            (
+                "📣 Sponsor & Iklan",
+                "Pasang banner, advertorial, atau sponsored post di DailyMoney. Kami menyediakan traffic data, media kit, dan rate card yang transparan.",
+                "Placement & advertorial"
+            ),
+            (
+                "📧 Lead Capture",
+                "Kerja sama newsletter, form pendaftaran, atau landing page untuk mengumpulkan data calon pelanggan Anda.",
+                "Newsletter & form lead"
+            ),
+            (
+                "📱 Social Distribution",
+                "Distribusi konten promosi melalui kanal sosial media DailyMoney (Instagram, Telegram, WhatsApp) untuk menjangkau audiens lebih luas.",
+                "Distribusi sosial media"
+            ),
         ]
         checklist_items = [
-            "1 halaman media kit PDF / web",
-            "1 rate card sponsor",
-            "1 halaman disclosure affiliate & sponsor",
-            "1 lead magnet atau newsletter offer",
+            "<strong>Media kit</strong> — PDF atau halaman web yang menjelaskan brand Anda, target audiens, dan penawaran",
+            "<strong>Rate card</strong> — daftar harga untuk setiap jenis placement (banner, advertorial, sponsored post)",
+            "<strong>Disclosure page</strong> — halaman disclosure affiliate & sponsor di website Anda (wajib untuk SEO dan kepercayaan)",
+            "<strong>Kontak bisnis</strong> — email & WhatsApp yang bisa dihubungi untuk follow-up",
+            "<strong>Lead magnet</strong> — ebook, checklist, atau newsletter yang relevan untuk audiens DailyMoney",
         ]
         section_title = "Jalur monetisasi utama" if lang == "id" else "Primary monetization paths"
-        side_title = "Yang harus ada dulu" if lang == "id" else "What you need first"
+        side_title = "Tentang DailyMoney" if lang == "id" else "About DailyMoney"
+        side_items_html = "\n".join([
+            "<li>Platform berita keuangan terpercaya</li>" if lang == "id" else "<li>Trusted financial news platform</li>",
+            "<li>Ribuan pembaca aktif per hari</li>" if lang == "id" else "<li>Thousands of daily active readers</li>",
+            "<li>Fokus: investasi, ekonomi, tips keuangan</li>" if lang == "id" else "<li>Focus: investment, economy, finance tips</li>",
+            "<li>Konten SEO-friendly & evergreen</li>" if lang == "id" else "<li>SEO-friendly & evergreen content</li>",
+            "<li>Audiens Indonesia aktif</li>" if lang == "id" else "<li>Active Indonesian audience</li>",
+        ])
+
+        # Partner FAQ
+        faq_title = "Pertanyaan Umum" if lang == "id" else "Frequently Asked Questions"
+        faq_items = [
+            (
+                "Berapa tarif iklan di DailyMoney?" if lang == "id" else "How much does advertising cost?",
+                "Tarif bervariasi tergantung jenis placement (banner, advertorial, sponsored post). Hubungi redaksi untuk mendapatkan rate card terbaru." if lang == "id" else "Rates vary depending on placement type (banner, advertorial, sponsored post). Contact our editorial team for the latest rate card."
+            ),
+            (
+                "Bagaimana cara menjadi affiliate?" if lang == "id" else "How do I become an affiliate?",
+                "Kirim email dengan detail produk/rekomendasi yang ingin dipasang. Kami akan memberikan tracking link dan laporan performa bulanan." if lang == "id" else "Send an email with details about the product/recommendation you want to promote. We will provide a tracking link and monthly performance reports."
+            ),
+            (
+                "Apakah konten sponsor berbeda dari artikel editorial?" if lang == "id" else "Is sponsored content different from editorial articles?",
+                "Ya. Konten sponsor akan diberi label \"Sponsored\" atau \"Advertorial\" secara jelas sesuai regulasi dan standar editorial kami." if lang == "id" else "Yes. Sponsored content will be clearly labeled as \"Sponsored\" or \"Advertorial\" in accordance with regulations and our editorial standards."
+            ),
+        ]
+        faq_html = "\n".join(
+            f'<div class="business-faq-item"><h4>{q}</h4><p>{a}</p></div>'
+            for q, a in faq_items
+        )
+        faq_section = f"""<section class="business-checklist">
+        <h2>{faq_title}</h2>
+        <div class="business-faq">{faq_html}</div>
+      </section>"""
     else:
-        page_title = "Disclosure Affiliate & Sponsor"
-        page_desc = "How DailyMoney handles affiliate links, sponsorships, and editorial independence." if lang == "en" else "Penjelasan tentang affiliate links, konten sponsor, dan independensi editorial DailyMoney."
+        page_title = "Disclosure Affiliate & Sponsor" if lang == "id" else "Disclosure — Affiliate & Sponsor"
+        page_desc = "Penjelasan lengkap tentang affiliate links, konten sponsor, dan independensi editorial DailyMoney." if lang == "id" else "Full disclosure on affiliate links, sponsored content, and editorial independence at DailyMoney."
         switch_url = "/disclosure/" if lang == "en" else "/en/disclosure/"
         switch_label = "Bahasa Indonesia" if lang == "en" else "English"
-        intro = "Transparency matters. This page explains how paid placements, affiliate links, and editorial decisions are handled." if lang == "en" else "Transparansi penting. Halaman ini menjelaskan bagaimana affiliate, sponsor, dan keputusan editorial dikelola."
-        cta_text = "If you want to sponsor or advertise, use the partner page." if lang == "en" else "Jika ingin sponsor atau iklan, gunakan halaman kerja sama."
-        contact_btn = "Contact Us" if lang == "en" else "Hubungi Kami"
-        contact_copy = "Email redaksi@dailymoney.my.id for questions, corrections, or disclosures." if lang == "en" else "Email redaksi@dailymoney.my.id untuk pertanyaan, koreksi, atau disclosure."
-        checklist_title = "What readers should know" if lang == "en" else "Yang perlu diketahui pembaca"
+        intro = (
+            "DailyMoney berkomitmen pada transparansi penuh kepada pembaca. "
+            "Halaman ini menjelaskan bagaimana kami menghasilkan uang dari affiliate links, konten sponsor, "
+            "serta bagaimana kami menjaga independensi editorial kami."
+        ) if lang == "id" else (
+            "DailyMoney is fully committed to transparency with our readers. "
+            "This page explains how we earn from affiliate links, sponsored content, "
+            "and how we maintain our editorial independence."
+        )
+        cta_text = (
+            "Kami hanya merekomendasikan produk yang kami percayai. Pembaca adalah prioritas utama kami."
+        ) if lang == "id" else (
+            "We only recommend products we trust. Our readers are our top priority."
+        )
+        contact_btn = "Hubungi Kami" if lang == "id" else "Contact Us"
+        contact_copy = "Ada pertanyaan atau menemukan kesalahan konten? Email redaksi@dailymoney.my.id. Kami akan membalas dan melakukan koreksi jika diperlukan." if lang == "id" else "Have questions or found content errors? Email redaksi@dailymoney.my.id. We will respond and make corrections if needed."
+        checklist_title = "Yang perlu diketahui pembaca" if lang == "id" else "What readers should know"
         channel_cards = [
-            ("Affiliate links", "Can earn commission at no extra cost to readers", "Always labeled clearly"),
-            ("Sponsored content", "Can appear in paid placements or advertorials", "Separated from editorial opinion"),
-            ("Editorial independence", "Newsroom decisions remain based on relevance", "Not influenced by payment"),
-            ("Corrections", "We fix data or wording when needed", "Contact redaksi if you spot an error"),
+            (
+                "🔗 Affiliate Links",
+                "Beberapa tautan di artikel kami adalah affiliate links. Jika Anda membeli melalui tautan tersebut, kami mendapat komisi tanpa biaya tambahan untuk Anda.",
+                "Selalu diberi label \"Affiliate\" atau \"Link\" secara jelas"
+            ),
+            (
+                "🤝 Konten Sponsor",
+                "Konten berbayar atau advertorial akan diberi label \"Sponsored\" atau \"Advertorial\". Konten ini terpisah dari opini editorial kami.",
+                "Diberi label transparan dan terpisah dari editorial"
+            ),
+            (
+                "📰 Independensi Editorial",
+                "Keputusan editorial DailyMoney didasarkan pada relevansi, akurasi, dan manfaat bagi pembaca — bukan berdasarkan pembayaran dari pihak manapun.",
+                "Tidak dipengaruhi oleh pihak sponsor atau pengiklan"
+            ),
+            (
+                "✏️ Koreksi & Update",
+                "Jika ada kesalahan data, angka, atau informasi, kami akan segera memperbaikinya. Pembaca dipersilakan menghubungi redaksi jika menemukan error.",
+                "Koreksi dilakukan secara transparan dengan catatan update"
+            ),
         ]
         checklist_items = [
-            "Affiliate links can be used on reviews and recommendations." if lang == "en" else "Affiliate links dapat digunakan pada review dan rekomendasi.",
-            "Sponsored content will be clearly labeled." if lang == "en" else "Konten sponsor akan diberi label yang jelas.",
-            "DailyMoney does not promise any financial outcome." if lang == "en" else "DailyMoney tidak menjanjikan hasil finansial apa pun.",
+            "<strong>Label jelas</strong> — Semua affiliate links dan konten sponsor diberi label yang mudah dikenali pembaca",
+            "<strong>Bebas biaya tambahan</strong> — Mengklik affiliate link tidak menambah biaya apapun untuk Anda sebagai pembaca",
+            "<strong>Editorial independen</strong> — Rating, review, dan rekomendasi kami tidak dapat dibeli atau dipengaruhi sponsor",
+            "<strong>No janji finansial</strong> — DailyMoney tidak menjanjikan hasil keuntungan atau kerugian finansial apapun",
+            "<strong>Update berkala</strong> — Halaman ini diperbarui secara berkala sesuai perubahan kebijakan atau regulasi",
         ]
-        section_title = "Disclosure & editorial policy" if lang == "en" else "Kebijakan disclosure & editorial"
-        side_title = "Short policy summary" if lang == "en" else "Ringkasan kebijakan"
+        section_title = "Kebijakan disclosure & editorial" if lang == "id" else "Disclosure & editorial policy"
+        side_title = "Ringkasan kebijakan" if lang == "id" else "Policy summary"
+        side_items_html = "\n".join([
+            "<li>Affiliate links selalu diberi label jelas</li>" if lang == "id" else "<li>Affiliate links always clearly labeled</li>",
+            "<li>Konten sponsor terpisah dari editorial</li>" if lang == "id" else "<li>Sponsored content separated from editorial</li>",
+            "<li>Independensi editorial dijaga</li>" if lang == "id" else "<li>Editorial independence maintained</li>",
+            "<li>Koreksi dilakukan transparan</li>" if lang == "id" else "<li>Corrections made transparently</li>",
+            "<li>Tidak ada janji hasil finansial</li>" if lang == "id" else "<li>No financial outcome promises</li>",
+        ])
+        faq_section = ""
 
     cards_html = "\n".join(
         f'<div class="business-card"><h3>{title}</h3><p>{desc}</p><span>{note}</span></div>'
@@ -1440,6 +1539,90 @@ def generate_business_page(page_type, lang, output_path):
         canon_url = f"{SITE_URL}{disclosure_url}"
         alt_id_url = f"{SITE_URL}/disclosure/"
         alt_en_url = f"{SITE_URL}/en/disclosure/"
+
+    # Language switch for sidebar
+    lang_switch_url = "/en/" if lang == "id" else "/"
+    lang_switch_label = "English" if lang == "id" else "Bahasa Indonesia"
+
+    # Build sidebar (same as main page for hamburger menu)
+    sidebar_html = f"""<aside class="dm-sidebar" id="dmSidebar">
+    <div class="dm-sidebar-header">
+      <span class="dm-sidebar-title">{L["sidebar_title"]}</span>
+      <button class="dm-close-btn" id="dmCloseBtn">&times;</button>
+    </div>
+    <ul class="dm-sidebar-links">
+      <li>
+        <a href="{root_url}">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+          {L["nav_beranda"]}
+        </a>
+      </li>
+      <li>
+        <a href="{root_url}#artikel">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg></span>
+          {L["nav_artikel"]}
+        </a>
+      </li>
+      <li>
+        <a href="{tentang_url}">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
+          {L["nav_tentang"]}
+        </a>
+      </li>
+    </ul>
+    <div class="dm-market-live">
+      <h4 class="dm-market-title">{L["market_title"]}</h4>
+      <div class="dm-market-item" id="market-btc">
+        <span class="dm-market-symbol">BTC</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-eth">
+        <span class="dm-market-symbol">ETH</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-ihsg">
+        <span class="dm-market-symbol">IHSG</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-xau">
+        <span class="dm-market-symbol">XAU</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct down">—</span>
+      </div>
+      <div class="dm-market-item" id="market-usdidr">
+        <span class="dm-market-symbol">USD/IDR</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <p class="dm-market-update">{L["market_update"]}</p>
+    </div>
+    <div class="dm-sidebar-settings">
+      <div class="dm-setting-group">
+        <span class="dm-setting-label">{L["sidebar_lang_label"]}</span>
+        <a href="{lang_switch_url}" class="dm-setting-btn lang-btn">{lang_switch_label}</a>
+      </div>
+      <div class="dm-setting-group">
+        <span class="dm-setting-label">{L["sidebar_font_label"]}</span>
+        <div class="dm-text-controls">
+          <button class="dm-size-btn" id="dmBtnMin">A-</button>
+          <button class="dm-size-btn" id="dmBtnPlus">A+</button>
+        </div>
+      </div>
+      <div class="dm-setting-group is-column">
+        <span class="dm-setting-label">Kategori</span>
+        <div class="dm-categories">
+          <a href="{root_url}#artikel" class="dm-cat-tag">Saham</a>
+          <a href="{root_url}#artikel" class="dm-cat-tag">Reksadana</a>
+          <a href="{root_url}#artikel" class="dm-cat-tag">Inflasi</a>
+          <a href="{root_url}#artikel" class="dm-cat-tag">Tips Hemat</a>
+          <a href="{root_url}#artikel" class="dm-cat-tag">Ekonomi</a>
+        </div>
+      </div>
+    </div>
+  </aside>"""
 
     html_out = f"""<!DOCTYPE html>
 <html lang="{L['html_lang']}" class="dm-smooth-scroll">
@@ -1459,6 +1642,7 @@ def generate_business_page(page_type, lang, output_path):
 </head>
 <body>
   <div class="dm-overlay" id="dmOverlay"></div>
+  {sidebar_html}
   <header class="dm-header">
     <a href="{root_url}" class="dm-logo"><span class="dm-logo-icon">D</span><span class="dm-logo-text">DailyMoney</span></a>
     <button class="dm-hamburger" id="dmMenuBtn" aria-label="Menu">☰</button>
@@ -1492,10 +1676,7 @@ def generate_business_page(page_type, lang, output_path):
           <div class="business-panel">
             <h3>{side_title}</h3>
             <ul>
-              <li>Media kit</li>
-              <li>Rate card</li>
-              <li>Kontak bisnis</li>
-              <li>Lead capture</li>
+              {side_items_html}
             </ul>
           </div>
           <div class="business-panel business-contact">
@@ -1510,6 +1691,8 @@ def generate_business_page(page_type, lang, output_path):
         <h2>{checklist_title}</h2>
         <ul>{checklist_html}</ul>
       </section>
+
+      {faq_section}
     </div>
   </article>
   <footer>

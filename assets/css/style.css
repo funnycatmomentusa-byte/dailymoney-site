@@ -1002,6 +1002,19 @@ body {
   padding: 14px 16px; color: var(--gray-800); line-height: 1.6;
 }
 
+/* FAQ section */
+.business-faq { display: flex; flex-direction: column; gap: 16px; }
+.business-faq-item {
+  background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: 12px;
+  padding: 16px 20px;
+}
+.business-faq-item h4 {
+  font-size: 0.95rem; font-weight: 700; color: var(--gray-900); margin: 0 0 6px;
+}
+.business-faq-item p {
+  font-size: 0.88rem; color: var(--gray-600); line-height: 1.6; margin: 0;
+}
+
 /* Share bar */
 .share-bar { display: flex; gap: 10px; margin: 24px 0 20px; padding-top: 16px; border-top: 1px solid var(--gray-200); flex-wrap: wrap; justify-content: center; }
 .share-label { width: 100%; font-size: 0.72rem; font-weight: 700; color: var(--gray-500); text-transform: uppercase; letter-spacing: 1.5px; text-align: center; margin-bottom: 8px; }

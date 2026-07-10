@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Work With DailyMoney - DailyMoney</title>
-  <meta name="description" content="Prepare sponsor, affiliate, lead capture, and newsletter monetization.">
+  <meta name="description" content="Prepare sponsor, affiliate, lead capture, and newsletter monetization with DailyMoney.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,6 +16,84 @@
 </head>
 <body>
   <div class="dm-overlay" id="dmOverlay"></div>
+  <aside class="dm-sidebar" id="dmSidebar">
+    <div class="dm-sidebar-header">
+      <span class="dm-sidebar-title">Main Menu</span>
+      <button class="dm-close-btn" id="dmCloseBtn">&times;</button>
+    </div>
+    <ul class="dm-sidebar-links">
+      <li>
+        <a href="/en/">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+          Home
+        </a>
+      </li>
+      <li>
+        <a href="/en/#artikel">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg></span>
+          Articles
+        </a>
+      </li>
+      <li>
+        <a href="/en/tentang/">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
+          About
+        </a>
+      </li>
+    </ul>
+    <div class="dm-market-live">
+      <h4 class="dm-market-title">Market Live</h4>
+      <div class="dm-market-item" id="market-btc">
+        <span class="dm-market-symbol">BTC</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-eth">
+        <span class="dm-market-symbol">ETH</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-ihsg">
+        <span class="dm-market-symbol">IHSG</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-xau">
+        <span class="dm-market-symbol">XAU</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct down">—</span>
+      </div>
+      <div class="dm-market-item" id="market-usdidr">
+        <span class="dm-market-symbol">USD/IDR</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <p class="dm-market-update">• Live Update (Real-time)</p>
+    </div>
+    <div class="dm-sidebar-settings">
+      <div class="dm-setting-group">
+        <span class="dm-setting-label">Language</span>
+        <a href="/" class="dm-setting-btn lang-btn">Bahasa Indonesia</a>
+      </div>
+      <div class="dm-setting-group">
+        <span class="dm-setting-label">Text Size</span>
+        <div class="dm-text-controls">
+          <button class="dm-size-btn" id="dmBtnMin">A-</button>
+          <button class="dm-size-btn" id="dmBtnPlus">A+</button>
+        </div>
+      </div>
+      <div class="dm-setting-group is-column">
+        <span class="dm-setting-label">Kategori</span>
+        <div class="dm-categories">
+          <a href="/en/#artikel" class="dm-cat-tag">Saham</a>
+          <a href="/en/#artikel" class="dm-cat-tag">Reksadana</a>
+          <a href="/en/#artikel" class="dm-cat-tag">Inflasi</a>
+          <a href="/en/#artikel" class="dm-cat-tag">Tips Hemat</a>
+          <a href="/en/#artikel" class="dm-cat-tag">Ekonomi</a>
+        </div>
+      </div>
+    </div>
+  </aside>
   <header class="dm-header">
     <a href="/en/" class="dm-logo"><span class="dm-logo-icon">D</span><span class="dm-logo-text">DailyMoney</span></a>
     <button class="dm-hamburger" id="dmMenuBtn" aria-label="Menu">☰</button>
@@ -33,45 +111,54 @@
       <header class="article-header business-hero">
         <div class="business-kicker">Primary monetization paths</div>
         <h1>Work With DailyMoney</h1>
-        <p class="business-intro">This page shows what to prepare so traffic becomes sponsor inquiries, affiliate clicks, and qualified leads.</p>
-        <div class="business-hero-cta"><strong>Use this page as your business hub: traffic in, money out.</strong></div>
+        <p class="business-intro">DailyMoney is a trusted financial news platform with thousands of daily active readers. We accept partnerships in the form of sponsorship, affiliate, advertorial, and lead generation. Contact our editorial team to discuss a package that fits your needs.</p>
+        <div class="business-hero-cta"><strong>Ready to collaborate? Send an email now and get the best offer.</strong></div>
       </header>
 
       <div class="business-layout">
         <section class="business-main">
           <h2>Primary monetization paths</h2>
           <div class="business-card-grid">
-            <div class="business-card"><h3>Affiliate</h3><p>Program komisi + link tracking</p><span>Dapat komisi dari klik / pembelian</span></div>
-<div class="business-card"><h3>Sponsor</h3><p>Media kit + rate card + traffic data</p><span>Menjual placement dan advertorial</span></div>
-<div class="business-card"><h3>Lead capture</h3><p>Newsletter / form / landing page</p><span>Mengumpulkan calon pembeli / klien</span></div>
-<div class="business-card"><h3>Social distribution</h3><p>Teaser + distribusi sosial</p><span>Menambah traffic yang bisa dimonetisasi</span></div>
+            <div class="business-card"><h3>🎯 Affiliate</h3><p>Program komisi berbasis performa — pasang link produk/rekomendasi di artikel kami. Pembaca klik, Anda dapat komisi tanpa biaya tambahan.</p><span>Komisi per klik / pembelian</span></div>
+<div class="business-card"><h3>📣 Sponsor & Iklan</h3><p>Pasang banner, advertorial, atau sponsored post di DailyMoney. Kami menyediakan traffic data, media kit, dan rate card yang transparan.</p><span>Placement & advertorial</span></div>
+<div class="business-card"><h3>📧 Lead Capture</h3><p>Kerja sama newsletter, form pendaftaran, atau landing page untuk mengumpulkan data calon pelanggan Anda.</p><span>Newsletter & form lead</span></div>
+<div class="business-card"><h3>📱 Social Distribution</h3><p>Distribusi konten promosi melalui kanal sosial media DailyMoney (Instagram, Telegram, WhatsApp) untuk menjangkau audiens lebih luas.</p><span>Distribusi sosial media</span></div>
           </div>
         </section>
 
         <aside class="business-sidebar">
           <div class="business-panel">
-            <h3>What you need first</h3>
+            <h3>About DailyMoney</h3>
             <ul>
-              <li>Media kit</li>
-              <li>Rate card</li>
-              <li>Kontak bisnis</li>
-              <li>Lead capture</li>
+              <li>Trusted financial news platform</li>
+<li>Thousands of daily active readers</li>
+<li>Focus: investment, economy, finance tips</li>
+<li>SEO-friendly & evergreen content</li>
+<li>Active Indonesian audience</li>
             </ul>
           </div>
           <div class="business-panel business-contact">
             <h3>Email Now</h3>
-            <p>Email redaksi@dailymoney.my.id with your offer, budget, and audience.</p>
+            <p>Email redaksi@dailymoney.my.id with your offer, budget, and target audience. We respond within 24 hours.</p>
             <a href="mailto:redaksi@dailymoney.my.id?subject=DailyMoney%20Inquiry" class="business-contact-btn">Email Now</a>
           </div>
         </aside>
       </div>
 
       <section class="business-checklist">
-        <h2>Quick checklist</h2>
-        <ul><li>1 halaman media kit PDF / web</li>
-<li>1 rate card sponsor</li>
-<li>1 halaman disclosure affiliate & sponsor</li>
-<li>1 lead magnet atau newsletter offer</li></ul>
+        <h2>What you need to prepare</h2>
+        <ul><li><strong>Media kit</strong> — PDF atau halaman web yang menjelaskan brand Anda, target audiens, dan penawaran</li>
+<li><strong>Rate card</strong> — daftar harga untuk setiap jenis placement (banner, advertorial, sponsored post)</li>
+<li><strong>Disclosure page</strong> — halaman disclosure affiliate & sponsor di website Anda (wajib untuk SEO dan kepercayaan)</li>
+<li><strong>Kontak bisnis</strong> — email & WhatsApp yang bisa dihubungi untuk follow-up</li>
+<li><strong>Lead magnet</strong> — ebook, checklist, atau newsletter yang relevan untuk audiens DailyMoney</li></ul>
+      </section>
+
+      <section class="business-checklist">
+        <h2>Frequently Asked Questions</h2>
+        <div class="business-faq"><div class="business-faq-item"><h4>How much does advertising cost?</h4><p>Rates vary depending on placement type (banner, advertorial, sponsored post). Contact our editorial team for the latest rate card.</p></div>
+<div class="business-faq-item"><h4>How do I become an affiliate?</h4><p>Send an email with details about the product/recommendation you want to promote. We will provide a tracking link and monthly performance reports.</p></div>
+<div class="business-faq-item"><h4>Is sponsored content different from editorial articles?</h4><p>Yes. Sponsored content will be clearly labeled as "Sponsored" or "Advertorial" in accordance with regulations and our editorial standards.</p></div></div>
       </section>
     </div>
   </article>
@@ -84,8 +171,8 @@
     <div class="footer-bottom"><span>© 2026 DailyMoney. All rights reserved.</span><span>Made with ❤️ for smart investors</span></div>
   </footer>
   <button class="back-to-top" id="backToTop">↑</button>
-  <script src="/assets/js/main.js?v=1783653979"></script>
-  <script src="/assets/js/market-live.js?v=1783653979"></script>
+  <script src="/assets/js/main.js?v=1783654626"></script>
+  <script src="/assets/js/market-live.js?v=1783654626"></script>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=dmid" style="display:none" alt="" aria-hidden="true">
 <script>
 (function(){var d=(new Date).toISOString().slice(0,10),k='dm_v_'+d;if(!localStorage.getItem(k)){new Image().src='https://visitor-badge.laobi.icu/badge?page_id=dmid-'+d;localStorage.setItem(k,'1')}})();

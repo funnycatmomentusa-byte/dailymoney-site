@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>Disclosure Affiliate & Sponsor - DailyMoney</title>
-  <meta name="description" content="Penjelasan tentang affiliate links, konten sponsor, dan independensi editorial DailyMoney.">
+  <meta name="description" content="Penjelasan lengkap tentang affiliate links, konten sponsor, dan independensi editorial DailyMoney.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -16,6 +16,84 @@
 </head>
 <body>
   <div class="dm-overlay" id="dmOverlay"></div>
+  <aside class="dm-sidebar" id="dmSidebar">
+    <div class="dm-sidebar-header">
+      <span class="dm-sidebar-title">Menu Utama</span>
+      <button class="dm-close-btn" id="dmCloseBtn">&times;</button>
+    </div>
+    <ul class="dm-sidebar-links">
+      <li>
+        <a href="/">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
+          Beranda
+        </a>
+      </li>
+      <li>
+        <a href="/#artikel">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg></span>
+          Artikel
+        </a>
+      </li>
+      <li>
+        <a href="/tentang/">
+          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
+          Tentang
+        </a>
+      </li>
+    </ul>
+    <div class="dm-market-live">
+      <h4 class="dm-market-title">Pasar Live</h4>
+      <div class="dm-market-item" id="market-btc">
+        <span class="dm-market-symbol">BTC</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-eth">
+        <span class="dm-market-symbol">ETH</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-ihsg">
+        <span class="dm-market-symbol">IHSG</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <div class="dm-market-item" id="market-xau">
+        <span class="dm-market-symbol">XAU</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct down">—</span>
+      </div>
+      <div class="dm-market-item" id="market-usdidr">
+        <span class="dm-market-symbol">USD/IDR</span>
+        <span class="dm-market-price">—</span>
+        <span class="dm-market-pct up">—</span>
+      </div>
+      <p class="dm-market-update">• Live Update (Real-time)</p>
+    </div>
+    <div class="dm-sidebar-settings">
+      <div class="dm-setting-group">
+        <span class="dm-setting-label">Bahasa</span>
+        <a href="/en/" class="dm-setting-btn lang-btn">English</a>
+      </div>
+      <div class="dm-setting-group">
+        <span class="dm-setting-label">Ukuran Teks</span>
+        <div class="dm-text-controls">
+          <button class="dm-size-btn" id="dmBtnMin">A-</button>
+          <button class="dm-size-btn" id="dmBtnPlus">A+</button>
+        </div>
+      </div>
+      <div class="dm-setting-group is-column">
+        <span class="dm-setting-label">Kategori</span>
+        <div class="dm-categories">
+          <a href="/#artikel" class="dm-cat-tag">Saham</a>
+          <a href="/#artikel" class="dm-cat-tag">Reksadana</a>
+          <a href="/#artikel" class="dm-cat-tag">Inflasi</a>
+          <a href="/#artikel" class="dm-cat-tag">Tips Hemat</a>
+          <a href="/#artikel" class="dm-cat-tag">Ekonomi</a>
+        </div>
+      </div>
+    </div>
+  </aside>
   <header class="dm-header">
     <a href="/" class="dm-logo"><span class="dm-logo-icon">D</span><span class="dm-logo-text">DailyMoney</span></a>
     <button class="dm-hamburger" id="dmMenuBtn" aria-label="Menu">☰</button>
@@ -33,18 +111,18 @@
       <header class="article-header business-hero">
         <div class="business-kicker">Kebijakan disclosure & editorial</div>
         <h1>Disclosure Affiliate & Sponsor</h1>
-        <p class="business-intro">Transparansi penting. Halaman ini menjelaskan bagaimana affiliate, sponsor, dan keputusan editorial dikelola.</p>
-        <div class="business-hero-cta"><strong>Jika ingin sponsor atau iklan, gunakan halaman kerja sama.</strong></div>
+        <p class="business-intro">DailyMoney berkomitmen pada transparansi penuh kepada pembaca. Halaman ini menjelaskan bagaimana kami menghasilkan uang dari affiliate links, konten sponsor, serta bagaimana kami menjaga independensi editorial kami.</p>
+        <div class="business-hero-cta"><strong>Kami hanya merekomendasikan produk yang kami percayai. Pembaca adalah prioritas utama kami.</strong></div>
       </header>
 
       <div class="business-layout">
         <section class="business-main">
           <h2>Kebijakan disclosure & editorial</h2>
           <div class="business-card-grid">
-            <div class="business-card"><h3>Affiliate links</h3><p>Can earn commission at no extra cost to readers</p><span>Always labeled clearly</span></div>
-<div class="business-card"><h3>Sponsored content</h3><p>Can appear in paid placements or advertorials</p><span>Separated from editorial opinion</span></div>
-<div class="business-card"><h3>Editorial independence</h3><p>Newsroom decisions remain based on relevance</p><span>Not influenced by payment</span></div>
-<div class="business-card"><h3>Corrections</h3><p>We fix data or wording when needed</p><span>Contact redaksi if you spot an error</span></div>
+            <div class="business-card"><h3>🔗 Affiliate Links</h3><p>Beberapa tautan di artikel kami adalah affiliate links. Jika Anda membeli melalui tautan tersebut, kami mendapat komisi tanpa biaya tambahan untuk Anda.</p><span>Selalu diberi label "Affiliate" atau "Link" secara jelas</span></div>
+<div class="business-card"><h3>🤝 Konten Sponsor</h3><p>Konten berbayar atau advertorial akan diberi label "Sponsored" atau "Advertorial". Konten ini terpisah dari opini editorial kami.</p><span>Diberi label transparan dan terpisah dari editorial</span></div>
+<div class="business-card"><h3>📰 Independensi Editorial</h3><p>Keputusan editorial DailyMoney didasarkan pada relevansi, akurasi, dan manfaat bagi pembaca — bukan berdasarkan pembayaran dari pihak manapun.</p><span>Tidak dipengaruhi oleh pihak sponsor atau pengiklan</span></div>
+<div class="business-card"><h3>✏️ Koreksi & Update</h3><p>Jika ada kesalahan data, angka, atau informasi, kami akan segera memperbaikinya. Pembaca dipersilakan menghubungi redaksi jika menemukan error.</p><span>Koreksi dilakukan secara transparan dengan catatan update</span></div>
           </div>
         </section>
 
@@ -52,15 +130,16 @@
           <div class="business-panel">
             <h3>Ringkasan kebijakan</h3>
             <ul>
-              <li>Media kit</li>
-              <li>Rate card</li>
-              <li>Kontak bisnis</li>
-              <li>Lead capture</li>
+              <li>Affiliate links selalu diberi label jelas</li>
+<li>Konten sponsor terpisah dari editorial</li>
+<li>Independensi editorial dijaga</li>
+<li>Koreksi dilakukan transparan</li>
+<li>Tidak ada janji hasil finansial</li>
             </ul>
           </div>
           <div class="business-panel business-contact">
             <h3>Hubungi Kami</h3>
-            <p>Email redaksi@dailymoney.my.id untuk pertanyaan, koreksi, atau disclosure.</p>
+            <p>Ada pertanyaan atau menemukan kesalahan konten? Email redaksi@dailymoney.my.id. Kami akan membalas dan melakukan koreksi jika diperlukan.</p>
             <a href="mailto:redaksi@dailymoney.my.id?subject=DailyMoney%20Inquiry" class="business-contact-btn">Hubungi Kami</a>
           </div>
         </aside>
@@ -68,10 +147,14 @@
 
       <section class="business-checklist">
         <h2>Yang perlu diketahui pembaca</h2>
-        <ul><li>Affiliate links dapat digunakan pada review dan rekomendasi.</li>
-<li>Konten sponsor akan diberi label yang jelas.</li>
-<li>DailyMoney tidak menjanjikan hasil finansial apa pun.</li></ul>
+        <ul><li><strong>Label jelas</strong> — Semua affiliate links dan konten sponsor diberi label yang mudah dikenali pembaca</li>
+<li><strong>Bebas biaya tambahan</strong> — Mengklik affiliate link tidak menambah biaya apapun untuk Anda sebagai pembaca</li>
+<li><strong>Editorial independen</strong> — Rating, review, dan rekomendasi kami tidak dapat dibeli atau dipengaruhi sponsor</li>
+<li><strong>No janji finansial</strong> — DailyMoney tidak menjanjikan hasil keuntungan atau kerugian finansial apapun</li>
+<li><strong>Update berkala</strong> — Halaman ini diperbarui secara berkala sesuai perubahan kebijakan atau regulasi</li></ul>
       </section>
+
+      
     </div>
   </article>
   <footer>
@@ -83,8 +166,8 @@
     <div class="footer-bottom"><span>© 2026 DailyMoney. Hak cipta dilindungi undang-undang.</span><span>Dibuat dengan ❤️ untuk Indonesia</span></div>
   </footer>
   <button class="back-to-top" id="backToTop">↑</button>
-  <script src="/assets/js/main.js?v=1783653979"></script>
-  <script src="/assets/js/market-live.js?v=1783653979"></script>
+  <script src="/assets/js/main.js?v=1783654626"></script>
+  <script src="/assets/js/market-live.js?v=1783654626"></script>
 <img src="https://visitor-badge.laobi.icu/badge?page_id=dmid" style="display:none" alt="" aria-hidden="true">
 <script>
 (function(){var d=(new Date).toISOString().slice(0,10),k='dm_v_'+d;if(!localStorage.getItem(k)){new Image().src='https://visitor-badge.laobi.icu/badge?page_id=dmid-'+d;localStorage.setItem(k,'1')}})();
