@@ -1414,35 +1414,66 @@ def generate_business_page(page_type, lang, output_path):
         contact_btn = "Hubungi Kami" if lang == "id" else "Contact Us"
         contact_copy = "Hubungi kami di X @DailyMoneyID atau Telegram @EsterToobit dengan penawaran, budget, dan target audiens Anda." if lang == "id" else "Reach us on X @DailyMoneyID or Telegram @EsterToobit with your offer, budget, and target audience."
         checklist_title = "Yang perlu Anda siapkan" if lang == "id" else "What you need to prepare"
-        channel_cards = [
-            (
-                "🎯 Affiliate",
-                "Program komisi berbasis performa — pasang link produk/rekomendasi di artikel kami. Pembaca klik, Anda dapat komisi tanpa biaya tambahan.",
-                "Komisi per klik / pembelian"
-            ),
-            (
-                "📣 Sponsor & Iklan",
-                "Pasang banner, advertorial, atau sponsored post di DailyMoney. Kami menyediakan traffic data, media kit, dan rate card yang transparan.",
-                "Placement & advertorial"
-            ),
-            (
-                "📧 Lead Capture",
-                "Kerja sama newsletter, form pendaftaran, atau landing page untuk mengumpulkan data calon pelanggan Anda.",
-                "Newsletter & form lead"
-            ),
-            (
-                "📱 Social Distribution",
-                "Distribusi konten promosi melalui kanal sosial media DailyMoney (Instagram, Telegram, WhatsApp) untuk menjangkau audiens lebih luas.",
-                "Distribusi sosial media"
-            ),
-        ]
-        checklist_items = [
-            "<strong>Media kit</strong> — PDF atau halaman web yang menjelaskan brand Anda, target audiens, dan penawaran",
-            "<strong>Rate card</strong> — daftar harga untuk setiap jenis placement (banner, advertorial, sponsored post)",
-            "<strong>Disclosure page</strong> — halaman disclosure affiliate & sponsor di website Anda (wajib untuk SEO dan kepercayaan)",
-            "<strong>Kontak bisnis</strong> — email & WhatsApp yang bisa dihubungi untuk follow-up",
-            "<strong>Lead magnet</strong> — ebook, checklist, atau newsletter yang relevan untuk audiens DailyMoney",
-        ]
+        if lang == "id":
+            channel_cards = [
+                (
+                    "🎯 Affiliate",
+                    "Program komisi berbasis performa — pasang link produk/rekomendasi di artikel kami. Pembaca klik, Anda dapat komisi tanpa biaya tambahan.",
+                    "Komisi per klik / pembelian"
+                ),
+                (
+                    "📣 Sponsor & Iklan",
+                    "Pasang banner, advertorial, atau sponsored post di DailyMoney. Kami menyediakan traffic data, media kit, dan rate card yang transparan.",
+                    "Placement & advertorial"
+                ),
+                (
+                    "📧 Lead Capture",
+                    "Kerja sama newsletter, form pendaftaran, atau landing page untuk mengumpulkan data calon pelanggan Anda.",
+                    "Newsletter & form lead"
+                ),
+                (
+                    "📱 Social Distribution",
+                    "Distribusi konten promosi melalui kanal sosial media DailyMoney (Instagram, Telegram, WhatsApp) untuk menjangkau audiens lebih luas.",
+                    "Distribusi sosial media"
+                ),
+            ]
+            checklist_items = [
+                "<strong>Media kit</strong> — PDF atau halaman web yang menjelaskan brand Anda, target audiens, dan penawaran",
+                "<strong>Rate card</strong> — daftar harga untuk setiap jenis placement (banner, advertorial, sponsored post)",
+                "<strong>Disclosure page</strong> — halaman disclosure affiliate & sponsor di website Anda (wajib untuk SEO dan kepercayaan)",
+                "<strong>Kontak bisnis</strong> — email & WhatsApp yang bisa dihubungi untuk follow-up",
+                "<strong>Lead magnet</strong> — ebook, checklist, atau newsletter yang relevan untuk audiens DailyMoney",
+            ]
+        else:
+            channel_cards = [
+                (
+                    "🎯 Affiliate",
+                    "Performance-based commission program — place product/recommendation links in our articles. Readers click, you earn commission with no extra cost.",
+                    "Commission per click / purchase"
+                ),
+                (
+                    "📣 Sponsorship & Ads",
+                    "Place banners, advertorials, or sponsored posts on DailyMoney. We provide traffic data, media kit, and transparent rate cards.",
+                    "Placement & advertorial"
+                ),
+                (
+                    "📧 Lead Capture",
+                    "Newsletter partnerships, sign-up forms, or landing pages to collect leads for your business.",
+                    "Newsletter & lead forms"
+                ),
+                (
+                    "📱 Social Distribution",
+                    "Distribute promotional content through DailyMoney's social channels (Instagram, Telegram, WhatsApp) to reach a wider audience.",
+                    "Social media distribution"
+                ),
+            ]
+            checklist_items = [
+                "<strong>Media kit</strong> — A PDF or web page explaining your brand, target audience, and offerings",
+                "<strong>Rate card</strong> — Price list for each placement type (banner, advertorial, sponsored post)",
+                "<strong>Disclosure page</strong> — Affiliate & sponsor disclosure page on your website (required for SEO and trust)",
+                "<strong>Business contact</strong> — Email & WhatsApp for follow-up communication",
+                "<strong>Lead magnet</strong> — Ebook, checklist, or newsletter relevant to DailyMoney's audience",
+            ]
         section_title = "Jalur monetisasi utama" if lang == "id" else "Primary monetization paths"
         side_title = "Tentang DailyMoney" if lang == "id" else "About DailyMoney"
         side_items_html = "\n".join([
@@ -1499,35 +1530,66 @@ def generate_business_page(page_type, lang, output_path):
         contact_btn = "Hubungi Kami" if lang == "id" else "Contact Us"
         contact_copy = "Ada pertanyaan atau menemukan kesalahan konten? Hubungi kami di X @DailyMoneyID atau Telegram @EsterToobit." if lang == "id" else "Have questions or found content errors? Reach us on X @DailyMoneyID or Telegram @EsterToobit."
         checklist_title = "Yang perlu diketahui pembaca" if lang == "id" else "What readers should know"
-        channel_cards = [
-            (
-                "🔗 Affiliate Links",
-                "Beberapa tautan di artikel kami adalah affiliate links. Jika Anda membeli melalui tautan tersebut, kami mendapat komisi tanpa biaya tambahan untuk Anda.",
-                "Selalu diberi label \"Affiliate\" atau \"Link\" secara jelas"
-            ),
-            (
-                "🤝 Konten Sponsor",
-                "Konten berbayar atau advertorial akan diberi label \"Sponsored\" atau \"Advertorial\". Konten ini terpisah dari opini editorial kami.",
-                "Diberi label transparan dan terpisah dari editorial"
-            ),
-            (
-                "📰 Independensi Editorial",
-                "Keputusan editorial DailyMoney didasarkan pada relevansi, akurasi, dan manfaat bagi pembaca — bukan berdasarkan pembayaran dari pihak manapun.",
-                "Tidak dipengaruhi oleh pihak sponsor atau pengiklan"
-            ),
-            (
-                "✏️ Koreksi & Update",
-                "Jika ada kesalahan data, angka, atau informasi, kami akan segera memperbaikinya. Pembaca dipersilakan menghubungi redaksi jika menemukan error.",
-                "Koreksi dilakukan secara transparan dengan catatan update"
-            ),
-        ]
-        checklist_items = [
-            "<strong>Label jelas</strong> — Semua affiliate links dan konten sponsor diberi label yang mudah dikenali pembaca",
-            "<strong>Bebas biaya tambahan</strong> — Mengklik affiliate link tidak menambah biaya apapun untuk Anda sebagai pembaca",
-            "<strong>Editorial independen</strong> — Rating, review, dan rekomendasi kami tidak dapat dibeli atau dipengaruhi sponsor",
-            "<strong>No janji finansial</strong> — DailyMoney tidak menjanjikan hasil keuntungan atau kerugian finansial apapun",
-            "<strong>Update berkala</strong> — Halaman ini diperbarui secara berkala sesuai perubahan kebijakan atau regulasi",
-        ]
+        if lang == "id":
+            channel_cards = [
+                (
+                    "🔗 Affiliate Links",
+                    "Beberapa tautan di artikel kami adalah affiliate links. Jika Anda membeli melalui tautan tersebut, kami mendapat komisi tanpa biaya tambahan untuk Anda.",
+                    "Selalu diberi label \"Affiliate\" atau \"Link\" secara jelas"
+                ),
+                (
+                    "🤝 Konten Sponsor",
+                    "Konten berbayar atau advertorial akan diberi label \"Sponsored\" atau \"Advertorial\". Konten ini terpisah dari opini editorial kami.",
+                    "Diberi label transparan dan terpisah dari editorial"
+                ),
+                (
+                    "📰 Independensi Editorial",
+                    "Keputusan editorial DailyMoney didasarkan pada relevansi, akurasi, dan manfaat bagi pembaca — bukan berdasarkan pembayaran dari pihak manapun.",
+                    "Tidak dipengaruhi oleh pihak sponsor atau pengiklan"
+                ),
+                (
+                    "✏️ Koreksi & Update",
+                    "Jika ada kesalahan data, angka, atau informasi, kami akan segera memperbaikinya. Pembaca dipersilakan menghubungi redaksi jika menemukan error.",
+                    "Koreksi dilakukan secara transparan dengan catatan update"
+                ),
+            ]
+            checklist_items = [
+                "<strong>Label jelas</strong> — Semua affiliate links dan konten sponsor diberi label yang mudah dikenali pembaca",
+                "<strong>Bebas biaya tambahan</strong> — Mengklik affiliate link tidak menambah biaya apapun untuk Anda sebagai pembaca",
+                "<strong>Editorial independen</strong> — Rating, review, dan rekomendasi kami tidak dapat dibeli atau dipengaruhi sponsor",
+                "<strong>No janji finansial</strong> — DailyMoney tidak menjanjikan hasil keuntungan atau kerugian finansial apapun",
+                "<strong>Update berkala</strong> — Halaman ini diperbarui secara berkala sesuai perubahan kebijakan atau regulasi",
+            ]
+        else:
+            channel_cards = [
+                (
+                    "🔗 Affiliate Links",
+                    "Some links in our articles are affiliate links. If you purchase through those links, we earn a commission at no extra cost to you.",
+                    "Always clearly labeled as \"Affiliate\" or \"Link\""
+                ),
+                (
+                    "🤝 Sponsored Content",
+                    "Paid content or advertorials will be clearly labeled as \"Sponsored\" or \"Advertorial\". This content is separate from our editorial opinions.",
+                    "Transparently labeled and separated from editorial"
+                ),
+                (
+                    "📰 Editorial Independence",
+                    "DailyMoney's editorial decisions are based on relevance, accuracy, and reader benefit — not payments from any party.",
+                    "Not influenced by sponsors or advertisers"
+                ),
+                (
+                    "✏️ Corrections & Updates",
+                    "If there are errors in data, figures, or information, we will promptly correct them. Readers are welcome to contact our editorial team if they find any errors.",
+                    "Corrections made transparently with update notes"
+                ),
+            ]
+            checklist_items = [
+                "<strong>Clear labels</strong> — All affiliate links and sponsored content are clearly labeled for easy identification",
+                "<strong>No extra cost</strong> — Clicking affiliate links does not add any cost to you as a reader",
+                "<strong>Independent editorial</strong> — Our ratings, reviews, and recommendations cannot be bought or influenced by sponsors",
+                "<strong>No financial promises</strong> — DailyMoney does not promise any financial gains or losses",
+                "<strong>Regular updates</strong> — This page is updated regularly to reflect changes in policy or regulations",
+            ]
         section_title = "Kebijakan disclosure & editorial" if lang == "id" else "Disclosure & editorial policy"
         side_title = "Ringkasan kebijakan" if lang == "id" else "Policy summary"
         side_items_html = "\n".join([
