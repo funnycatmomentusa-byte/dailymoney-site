@@ -1397,7 +1397,7 @@ def generate_business_page(page_type, lang, output_path):
         ) if lang == "id" else (
             "Ready to collaborate? Send an email now and get the best offer."
         )
-        contact_btn = "Kirim Email" if lang == "id" else "Email Now"
+        contact_btn = "Hubungi Kami" if lang == "id" else "Contact Us"
         contact_copy = "Hubungi kami di X @DailyMoneyID atau Telegram @EsterToobit dengan penawaran, budget, dan target audiens Anda." if lang == "id" else "Reach us on X @DailyMoneyID or Telegram @EsterToobit with your offer, budget, and target audience."
         checklist_title = "Yang perlu Anda siapkan" if lang == "id" else "What you need to prepare"
         channel_cards = [
