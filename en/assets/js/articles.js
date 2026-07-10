@@ -28,6 +28,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Indonesia Stocks - Dapatkan informasi terkini dan",
+    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "slug": "indonesia-stocks-dapatkan-informasi-terkini-dan",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Indonesian Economy: Opportunities, Challenges & Strategies",
     "meta_desc": "Analisis lengkap tentang Indonesian Economy: Opportunities, Challenges & Strategies. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan",
     "slug": "indonesian-economy-opportunities-challenges-strategies",
@@ -52,6 +61,24 @@ window.__ARTICLES = [
     "tags": "Reksadana, Mutual Fund, Investasi, RD, NAB",
     "date": "",
     "image_url": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Stock Market Analysis - IHSG di persimpangan antara",
+    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Stock Market Analysis - Lihat berita, harga saham,",
+    "meta_desc": "Lihat berita, harga saham, data fundamental, teknikal analisis dan laporan keuangan saham IHSG (Index Harga Saham Gabungan) Investasi, Nabung, Beli atau Ju",
+    "slug": "stock-market-analysis-lihat-berita-harga-saham",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "en"
   },
   {

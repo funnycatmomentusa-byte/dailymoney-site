@@ -10,6 +10,33 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "dapatkan informasi terkini dan — IHSG Melemah/Menguat",
+    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "slug": "dapatkan-informasi-terkini-dan-ihsg-melemahmenguat",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "ihsg di persimpangan antara — IHSG Melemah/Menguat",
+    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "slug": "ihsg-di-persimpangan-antara-ihsg-melemahmenguat",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "IHSG Melemah/Menguat: lihat berita, harga saham,...",
+    "meta_desc": "Lihat berita, harga saham, data fundamental, teknikal analisis dan laporan keuangan saham IHSG (Index Harga Saham Gabungan) Investasi, Nabung, Beli atau Ju",
+    "slug": "ihsg-melemahmenguat-lihat-berita-harga-saham",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Mengapa Emas & Logam Mulia Penting untuk Portofolio Anda",
     "meta_desc": "Analisis lengkap tentang Mengapa Emas & Logam Mulia Penting untuk Portofolio Anda. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan y",
     "slug": "mengapa-emas-logam-mulia-penting-untuk-portofolio-anda",
