@@ -145,6 +145,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Investment Guide: Berita Hari Ini Di Indonesia Dan...",
+    "meta_desc": "Read the latest analysis on berita hari ini di indonesia dan internasiona panduan. Key insights for investors in Indonesia.",
+    "slug": "investment-guide-berita-hari-ini-di-indonesia-dan",
+    "tags": "polisi, korupsi, kasus, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
     "judul": "Investment Guide: Cara Apa Itu Investasi Pengertian Keuntunga",
     "meta_desc": "Analisis lengkap tentang Investment Guide: Cara Apa Itu Investasi Pengertian Keuntunga. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuan",
     "slug": "investment-guide-cara-apa-itu-investasi-pengertian-keuntunga",
@@ -163,6 +172,33 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Economic Update: Keuangan Apa Itu Investasi Pengertian Keuntunga",
+    "meta_desc": "Read the latest analysis on keuangan apa itu investasi pengertian keuntunga. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-apa-itu-investasi-pengertian-keuntunga",
+    "tags": "setiap, oleh, ingatlah, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
+    "judul": "Economic Update: Keuangan Informasi Berita Terkini Dan...",
+    "meta_desc": "Read the latest analysis on keuangan informasi berita terkini dan terbaru har. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-informasi-berita-terkini-dan",
+    "tags": "gajah, berburu, tertahan, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
+    "judul": "Economic Update: Keuangan Kompascom Unduh Kompascom App Untuk B",
+    "meta_desc": "Read the latest analysis on keuangan kompascom unduh kompascom app untuk b. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-kompascom-unduh-kompascom-app-untuk-b",
+    "tags": "untuk, unduh, finansial, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
     "judul": "Market Analysis - IDX menyediakan data pasar,",
     "meta_desc": "Analisis lengkap tentang Market Analysis - IDX menyediakan data pasar,. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "market-analysis-idx-menyediakan-data-pasar",
@@ -178,6 +214,15 @@ window.__ARTICLES = [
     "tags": "Copilot, Free AI, Copywriting, SMEs, Ads",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Mutual Funds vs Stocks: Which is Best for Beginners in 2026?",
+    "meta_desc": "Confused between mutual funds and stocks? Complete comparison of advantages, risks, and returns for beginner investors.",
+    "slug": "mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026",
+    "tags": "Mutual Funds, Stocks, Investment, Beginners, Comparison",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "en"
   },
   {

@@ -172,12 +172,48 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Berita hari ini di Indonesia dan Internasiona — Panduan...",
+    "meta_desc": "Baca analisis lengkap tentang Berita hari ini di Indonesia dan Internasional.. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "berita-hari-ini-di-indonesia-dan-internasiona-panduan",
+    "tags": "polisi, korupsi, kasus, investasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
     "judul": "Cara Apa itu Investasi? Pengertian, Keuntunga",
     "meta_desc": "Analisis lengkap tentang Cara Apa itu Investasi? Pengertian, Keuntunga. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: Apa itu Investasi? Pengertian, Keuntunga",
+    "meta_desc": "Baca analisis lengkap tentang Apa itu Investasi? Pengertian, Keuntungan, dan Jenisnya.. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "keuangan-apa-itu-investasi-pengertian-keuntunga",
+    "tags": "setiap, oleh, ingatlah, finansial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: Informasi Berita Terkini dan Terbaru Har",
+    "meta_desc": "Baca analisis lengkap tentang Informasi Berita Terkini dan Terbaru Hari Ini.. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "keuangan-informasi-berita-terkini-dan-terbaru-har",
+    "tags": "gajah, berburu, tertahan, finansial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: Kompas.com. Unduh Kompas.com App untuk b",
+    "meta_desc": "Baca analisis lengkap tentang Kompas.com. Unduh Kompas.com App untuk berita terkini,. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "keuangan-kompascom-unduh-kompascom-app-untuk-b",
+    "tags": "untuk, unduh, finansial, tepercaya",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
     "lang": "id"
   },
   {
@@ -223,6 +259,15 @@ window.__ARTICLES = [
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Reksadana vs Saham: Mana yang Cocok untuk Pemula di 2026?",
+    "meta_desc": "Bingung memilih reksadana atau saham? Simak perbandingan lengkap kelebihan, kekurangan, risiko, dan imbal hasil dari dua instrumen investasi ini.",
+    "slug": "reksadana-vs-saham-mana-yang-cocok-untuk-pemula-di-2026",
+    "tags": "Reksadana, Saham, Investasi, Pemula, Perbandingan, Edukasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "id"
   },
   {
