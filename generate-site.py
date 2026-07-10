@@ -60,7 +60,7 @@ LANG_CONFIG = {
         "tentang_vision_title": "Visi Kami",
         "tentang_vision": "Menjadi sumber berita keuangan terpercaya nomor satu di Indonesia, dapat diakses oleh semua orang, gratis selamanya.",
         "tentang_contact_title": "Hubungi Kami",
-        "tentang_contact": "Email: redaksi@dailymoney.my.id",
+        "tentang_contact": "X: @DailyMoneyID • Telegram: @EsterToobit",
         "breadcrumb_home": "Beranda",
         "breadcrumb_articles": "Artikel",
         "share_label": "Bagikan",
@@ -150,7 +150,7 @@ LANG_CONFIG = {
         "tentang_vision_title": "Our Vision",
         "tentang_vision": "To become the number one trusted financial news source in Indonesia, accessible to everyone, free forever.",
         "tentang_contact_title": "Contact Us",
-        "tentang_contact": "Email: redaksi@dailymoney.my.id",
+        "tentang_contact": "X: @DailyMoneyID • Telegram: @EsterToobit",
         "404_title": "Page Not Found",
         "404_desc": "The page you are looking for is not available or has been moved.",
         "404_btn": "Back to Home",
@@ -1398,7 +1398,7 @@ def generate_business_page(page_type, lang, output_path):
             "Ready to collaborate? Send an email now and get the best offer."
         )
         contact_btn = "Kirim Email" if lang == "id" else "Email Now"
-        contact_copy = "Kirim email ke redaksi@dailymoney.my.id dengan penawaran, budget, dan target audiens Anda. Kami akan merespons dalam 1×24 jam." if lang == "id" else "Email redaksi@dailymoney.my.id with your offer, budget, and target audience. We respond within 24 hours."
+        contact_copy = "Hubungi kami di X @DailyMoneyID atau Telegram @EsterToobit dengan penawaran, budget, dan target audiens Anda." if lang == "id" else "Reach us on X @DailyMoneyID or Telegram @EsterToobit with your offer, budget, and target audience."
         checklist_title = "Yang perlu Anda siapkan" if lang == "id" else "What you need to prepare"
         channel_cards = [
             (
@@ -1483,7 +1483,7 @@ def generate_business_page(page_type, lang, output_path):
             "We only recommend products we trust. Our readers are our top priority."
         )
         contact_btn = "Hubungi Kami" if lang == "id" else "Contact Us"
-        contact_copy = "Ada pertanyaan atau menemukan kesalahan konten? Email redaksi@dailymoney.my.id. Kami akan membalas dan melakukan koreksi jika diperlukan." if lang == "id" else "Have questions or found content errors? Email redaksi@dailymoney.my.id. We will respond and make corrections if needed."
+        contact_copy = "Ada pertanyaan atau menemukan kesalahan konten? Hubungi kami di X @DailyMoneyID atau Telegram @EsterToobit." if lang == "id" else "Have questions or found content errors? Reach us on X @DailyMoneyID or Telegram @EsterToobit."
         checklist_title = "Yang perlu diketahui pembaca" if lang == "id" else "What readers should know"
         channel_cards = [
             (
@@ -1682,7 +1682,7 @@ def generate_business_page(page_type, lang, output_path):
           <div class="business-panel business-contact">
             <h3>{contact_btn}</h3>
             <p>{contact_copy}</p>
-            <a href="mailto:redaksi@dailymoney.my.id?subject=DailyMoney%20Inquiry" class="business-contact-btn">{contact_btn}</a>
+            <a href="https://t.me/EsterToobit" class="business-contact-btn" target="_blank" rel="noopener">{contact_btn}</a>
           </div>
         </aside>
       </div>
