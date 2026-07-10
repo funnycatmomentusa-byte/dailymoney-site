@@ -1,183 +1,60 @@
 <!DOCTYPE html>
-<html lang="en" class="dm-smooth-scroll">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Work With DailyMoney - DailyMoney</title>
-  <meta name="description" content="Prepare sponsor, affiliate, lead capture, and newsletter monetization with DailyMoney.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/assets/css/style.css">
-  <link rel="canonical" href="https://dailymoney.my.id/en/kerjasama/">
-  <link rel="alternate" hreflang="id" href="https://dailymoney.my.id/kerjasama/">
-  <link rel="alternate" hreflang="en" href="https://dailymoney.my.id/en/kerjasama/">
-  <meta name="theme-color" content="#DC2626">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partnership — DailyMoney</title>
+<meta name="description" content="Business partnership, advertising, and sponsorship opportunities with DailyMoney — trusted financial education platform in Indonesia.">
+<meta property="og:title" content="Partnership — DailyMoney">
+<meta property="og:url" content="https://dailymoney.my.id/en/kerjasama/">
+<link rel="canonical" href="https://dailymoney.my.id/en/kerjasama/">
+<link rel="alternate" hreflang="id" href="https://dailymoney.my.id/kerjasama/">
+<link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
-  <div class="dm-overlay" id="dmOverlay"></div>
-  <aside class="dm-sidebar" id="dmSidebar">
-    <div class="dm-sidebar-header">
-      <span class="dm-sidebar-title">Main Menu</span>
-      <button class="dm-close-btn" id="dmCloseBtn">&times;</button>
-    </div>
-    <ul class="dm-sidebar-links">
-      <li>
-        <a href="/en/">
-          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></span>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="/en/#artikel">
-          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 20H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1m2 13a2 2 0 0 1-2-2V7m2 13a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"/></svg></span>
-          Articles
-        </a>
-      </li>
-      <li>
-        <a href="/en/tentang/">
-          <span class="dm-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg></span>
-          About
-        </a>
-      </li>
-    </ul>
-    <div class="dm-market-live">
-      <h4 class="dm-market-title">Market Live</h4>
-      <div class="dm-market-item" id="market-btc">
-        <span class="dm-market-symbol">BTC</span>
-        <span class="dm-market-price">—</span>
-        <span class="dm-market-pct up">—</span>
-      </div>
-      <div class="dm-market-item" id="market-eth">
-        <span class="dm-market-symbol">ETH</span>
-        <span class="dm-market-price">—</span>
-        <span class="dm-market-pct up">—</span>
-      </div>
-      <div class="dm-market-item" id="market-ihsg">
-        <span class="dm-market-symbol">IHSG</span>
-        <span class="dm-market-price">—</span>
-        <span class="dm-market-pct up">—</span>
-      </div>
-      <div class="dm-market-item" id="market-xau">
-        <span class="dm-market-symbol">XAU</span>
-        <span class="dm-market-price">—</span>
-        <span class="dm-market-pct down">—</span>
-      </div>
-      <div class="dm-market-item" id="market-usdidr">
-        <span class="dm-market-symbol">USD/IDR</span>
-        <span class="dm-market-price">—</span>
-        <span class="dm-market-pct up">—</span>
-      </div>
-      <p class="dm-market-update">• Live Update (Real-time)</p>
-    </div>
-    <div class="dm-sidebar-settings">
-      <div class="dm-setting-group">
-        <span class="dm-setting-label">Language</span>
-        <a href="/" class="dm-setting-btn lang-btn">Bahasa Indonesia</a>
-      </div>
-      <div class="dm-setting-group">
-        <span class="dm-setting-label">Text Size</span>
-        <div class="dm-text-controls">
-          <button class="dm-size-btn" id="dmBtnMin">A-</button>
-          <button class="dm-size-btn" id="dmBtnPlus">A+</button>
-        </div>
-      </div>
-      <div class="dm-setting-group is-column">
-        <span class="dm-setting-label">Kategori</span>
-        <div class="dm-categories">
-          <a href="/en/#artikel" class="dm-cat-tag">Saham</a>
-          <a href="/en/#artikel" class="dm-cat-tag">Reksadana</a>
-          <a href="/en/#artikel" class="dm-cat-tag">Inflasi</a>
-          <a href="/en/#artikel" class="dm-cat-tag">Tips Hemat</a>
-          <a href="/en/#artikel" class="dm-cat-tag">Ekonomi</a>
-        </div>
-      </div>
-    </div>
-  </aside>
-  <header class="dm-header">
-    <a href="/en/" class="dm-logo"><span class="dm-logo-icon">D</span><span class="dm-logo-text">DailyMoney</span></a>
-    <button class="dm-hamburger" id="dmMenuBtn" aria-label="Menu">☰</button>
-    <nav class="dm-desktop-nav">
-      <a href="/en/">Home</a>
-      <a href="/en/#artikel">Articles</a>
-      <a href="/en/tentang/">About</a>
-      <a href="/en/kerjasama/">Partner</a>
-      <a href="/en/disclosure/">Disclosure</a>
-      <a href="/kerjasama/" class="lang-btn">Bahasa Indonesia</a>
-    </nav>
-  </header>
-  <article class="article-page business-page">
-    <div class="article-inner">
-      <header class="article-header business-hero">
-        <div class="business-kicker">Primary monetization paths</div>
-        <h1>Work With DailyMoney</h1>
-        <p class="business-intro">DailyMoney is a trusted financial news platform with thousands of daily active readers. We accept partnerships in the form of sponsorship, affiliate, advertorial, and lead generation. Contact our editorial team to discuss a package that fits your needs.</p>
-        <div class="business-hero-cta"><strong>Ready to collaborate? Send an email now and get the best offer.</strong></div>
-      </header>
+<header class="dm-header">
+  <a href="/en/" class="dm-logo"><span class="dm-logo-icon">D</span><span class="dm-logo-text">DailyMoney</span></a>
+  <nav class="dm-desktop-nav">
+    <a href="/en/">Home</a>
+    <a href="/en/#artikel">Articles</a>
+    <a href="/en/tentang/">About</a>
+    <a href="/en/kerjasama/" class="active">🤝 Partnership</a>
+    <a href="/kerjasama/" class="lang-btn">Indonesia</a>
+  </nav>
+</header>
 
-      <div class="business-layout">
-        <section class="business-main">
-          <h2>Primary monetization paths</h2>
-          <div class="business-card-grid">
-            <div class="business-card"><h3>🎯 Affiliate</h3><p>Performance-based commission program — place product/recommendation links in our articles. Readers click, you earn commission with no extra cost.</p><span>Commission per click / purchase</span></div>
-<div class="business-card"><h3>📣 Sponsorship & Ads</h3><p>Place banners, advertorials, or sponsored posts on DailyMoney. We provide traffic data, media kit, and transparent rate cards.</p><span>Placement & advertorial</span></div>
-<div class="business-card"><h3>📧 Lead Capture</h3><p>Newsletter partnerships, sign-up forms, or landing pages to collect leads for your business.</p><span>Newsletter & lead forms</span></div>
-<div class="business-card"><h3>📱 Social Distribution</h3><p>Distribute promotional content through DailyMoney's social channels (Instagram, Telegram, WhatsApp) to reach a wider audience.</p><span>Social media distribution</span></div>
-          </div>
-        </section>
+<main>
+<section style="padding: 60px 20px; max-width: 1100px; margin: 0 auto;">
+  <h1 style="font-size: 2.2em; margin-bottom: 8px;">🤝 Partnership — DailyMoney</h1>
+  <p style="color: #64748b; font-size: 1.1em; max-width: 600px;">Bilingual financial education platform with high organic growth. Be part of Indonesia's financial literacy movement.</p>
 
-        <aside class="business-sidebar">
-          <div class="business-panel">
-            <h3>About DailyMoney</h3>
-            <ul>
-              <li>Trusted financial news platform</li>
-<li>Thousands of daily active readers</li>
-<li>Focus: investment, economy, finance tips</li>
-<li>SEO-friendly & evergreen content</li>
-<li>Active Indonesian audience</li>
-            </ul>
-          </div>
-          <div class="business-panel business-contact">
-            <h3>Contact Us</h3>
-            <p>Reach us on X @DailyMoneyID or Telegram @EsterToobit with your offer, budget, and target audience.</p>
-            <a href="https://t.me/EsterToobit" class="business-contact-btn" target="_blank" rel="noopener">Contact Us</a>
-          </div>
-        </aside>
-      </div>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 16px; margin: 32px 0;">
+    <div style="background: #f8fafc; border-radius: 10px; padding: 20px; text-align: center;"><strong style="font-size: 1.6em; color: #2563eb; display: block;">10,000+</strong><span style="color: #64748b; font-size: 0.85em;">Monthly Visitors</span></div>
+    <div style="background: #f8fafc; border-radius: 10px; padding: 20px; text-align: center;"><strong style="font-size: 1.6em; color: #2563eb; display: block;">100+</strong><span style="color: #64748b; font-size: 0.85em;">Articles</span></div>
+    <div style="background: #f8fafc; border-radius: 10px; padding: 20px; text-align: center;"><strong style="font-size: 1.6em; color: #2563eb; display: block;">2</strong><span style="color: #64748b; font-size: 0.85em;">Languages</span></div>
+    <div style="background: #f8fafc; border-radius: 10px; padding: 20px; text-align: center;"><strong style="font-size: 1.6em; color: #2563eb; display: block;">10m</strong><span style="color: #64748b; font-size: 0.85em;">Real-time Update</span></div>
+  </div>
 
-      <section class="business-checklist">
-        <h2>What you need to prepare</h2>
-        <ul><li><strong>Media kit</strong> — A PDF or web page explaining your brand, target audience, and offerings</li>
-<li><strong>Rate card</strong> — Price list for each placement type (banner, advertorial, sponsored post)</li>
-<li><strong>Disclosure page</strong> — Affiliate & sponsor disclosure page on your website (required for SEO and trust)</li>
-<li><strong>Business contact</strong> — Email & WhatsApp for follow-up communication</li>
-<li><strong>Lead magnet</strong> — Ebook, checklist, or newsletter relevant to DailyMoney's audience</li></ul>
-      </section>
+  <h2 style="font-size: 1.4em; margin: 32px 0 16px;">📋 Partnership Categories</h2>
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
+    <div style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 24px;"><h3 style="margin-bottom: 8px;">💰 Advertising & Sponsorship</h3><p style="color: #475569;">Banner ads, native ads, or sponsored posts. High organic traffic from Google financial keyword searches.</p></div>
+    <div style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 24px;"><h3 style="margin-bottom: 8px;">🤝 Affiliate & Partnership</h3><p style="color: #475569;">Affiliate partnership for financial products — stocks, mutual funds, gold, crypto, insurance, fintech.</p></div>
+    <div style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 24px;"><h3 style="margin-bottom: 8px;">📝 Sponsored Content</h3><p style="color: #475569;">Sponsored articles and content collaboration. Our team creates quality content aligned with your brand.</p></div>
+    <div style="background: white; border: 1px solid #e2e8f0; border-radius: 10px; padding: 24px;"><h3 style="margin-bottom: 8px;">📡 Media & Publication</h3><p style="color: #475569;">Press releases, media coverage, and news publications about Indonesian financial markets.</p></div>
+  </div>
 
-      <section class="business-checklist">
-        <h2>Frequently Asked Questions</h2>
-        <div class="business-faq"><div class="business-faq-item"><h4>How much does advertising cost?</h4><p>Rates vary depending on placement type (banner, advertorial, sponsored post). Contact our editorial team for the latest rate card.</p></div>
-<div class="business-faq-item"><h4>How do I become an affiliate?</h4><p>Send an email with details about the product/recommendation you want to promote. We will provide a tracking link and monthly performance reports.</p></div>
-<div class="business-faq-item"><h4>Is sponsored content different from editorial articles?</h4><p>Yes. Sponsored content will be clearly labeled as "Sponsored" or "Advertorial" in accordance with regulations and our editorial standards.</p></div></div>
-      </section>
-    </div>
-  </article>
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-brand"><a href="/en/" class="logo"><div class="logo-icon">D</div><span>DailyMoney</span></a><p>A financial education platform that helps people make smarter, more informed financial decisions.</p></div>
-      <div class="footer-col"><h4>Navigation</h4><ul><li><a href="/en/">Home</a></li><li><a href="/en/tentang/">About</a></li><li><a href="/en/kerjasama/">Partner</a></li><li><a href="/en/disclosure/">Disclosure</a></li></ul></div>
-      <div class="footer-col"><h4>Topics</h4><ul><li><a href="/en/#artikel">Investasi</a></li><li><a href="/en/#artikel">Affiliate</a></li><li><a href="/en/#artikel">Sponsor</a></li><li><a href="/en/#artikel">Traffic</a></li></ul></div>
-    </div>
-    <div class="footer-bottom"><span>© 2026 DailyMoney. All rights reserved.</span><span>Made with ❤️ for smart investors</span></div>
-  </footer>
-  <button class="back-to-top" id="backToTop">↑</button>
-  <script>window.__INITIAL_DATA={"prices":{"BTC": {"price": 64039.16, "change": 1.35}, "ETH": {"price": 1776.63, "change": 1.85}, "XAU": {"price": 4119.6, "change": -0.51}, "IHSG": {"price": 5918.47, "change": 0.1}, "USDIDR": {"price": 18060.0, "change": -0.14}, "TLKM": {"price": 2470.0, "change": -1.59}, "BBRI": {"price": 2790.0, "change": 0.36}, "BBCA": {"price": 6125.0, "change": -1.21}, "ASII": {"price": 4790.0, "change": -1.84}, "UNVR": {"price": 1730.0, "change": 0.87}, "BMRI": {"price": 4040.0, "change": 0}, "SPX": {"price": 7543.64, "change": 0.81}}};</script>
-  <script src="/assets/js/main.js?v=1783662947"></script>
-  <script src="/assets/js/market-live.js?v=1783662947"></script>
-<img src="https://visitor-badge.laobi.icu/badge?page_id=dmid" style="display:none" alt="" aria-hidden="true">
-<script>
-(function(){var d=(new Date).toISOString().slice(0,10),k='dm_v_'+d;if(!localStorage.getItem(k)){new Image().src='https://visitor-badge.laobi.icu/badge?page_id=dmid-'+d;localStorage.setItem(k,'1')}})();
-</script>
+  <div style="background: linear-gradient(135deg, #2563eb, #1d4ed8); color: white; border-radius: 12px; padding: 40px; text-align: center; margin: 40px 0;">
+    <h2 style="font-size: 1.6em; margin-bottom: 8px;">💬 Interested in Partnership?</h2>
+    <p style="margin-bottom: 20px; opacity: 0.9;">Contact via Telegram for pricing and partnership details.</p>
+    <a href="https://t.me/EsterToobit" style="display: inline-block; background: white; color: #2563eb; padding: 14px 36px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 1.1em;" target="_blank">📱 Contact @EsterToobit</a>
+    <p style="margin-top: 12px; font-size: 0.85em; opacity: 0.8;">Fast response — typically within 24 hours</p>
+  </div>
+</section>
+</main>
 
+<footer class="dm-footer"><div class="footer-inner"><div class="footer-col"><a href="/en/" class="logo"><div class="logo-icon">D</div><span>DailyMoney</span></a><p>Financial education platform helping Indonesians make smarter financial decisions.</p></div>
+<div class="footer-col"><h4>Navigation</h4><ul><li><a href="/en/">Home</a></li><li><a href="/en/#artikel">Articles</a></li><li><a href="/en/tentang/">About</a></li><li><a href="/en/kerjasama/">Partnership</a></li><li><a href="/en/disclosure/">Disclosure</a></li></ul></div>
+<div class="footer-col"><h4>Topics</h4><ul><li><a href="/en/#artikel">Investment</a></li><li><a href="/en/#artikel">Stocks</a></li><li><a href="/">Indonesia</a></li></ul></div>
+</div><div class="footer-bottom"><p>© 2026 DailyMoney — Trusted Financial Education Platform</p></div></footer>
 </body>
 </html>

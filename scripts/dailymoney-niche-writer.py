@@ -140,10 +140,11 @@ def run():
     today = datetime.now()
     today_str = today.strftime('%Y-%m-%d')
     pair_id = int(today.timestamp()) % 100000
-    slug = re.sub(r'[^\\w\\s-]', '', data["judul_id"].lower()).strip().replace(' ', '-')[:80]
+    slug = re.sub(r'[^a-zA-Z0-9_ -]', '', data["judul_id"].lower()).strip().replace(' ', '-')[:80]
     
     # Write ID article
     if not is_duplicate(data["judul_id"]):
+        content = data["content_id"].replace('\\n', '\n')
         id_article = {
             "judul": data["judul_id"],
             "meta_desc": f"Baca panduan lengkap tentang {NICHE}. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
@@ -152,7 +153,7 @@ def run():
             "slug": slug,
             "pair_id": pair_id,
             "lang": "id",
-            "content_markdown": data["content_id"],
+            "content_markdown": content,
             "image_url": img_id_url,
             "image_caption": img_id_cap,
         }

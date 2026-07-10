@@ -697,7 +697,7 @@ def build_article(judul, content_template, tags, topic, lang='id'):
         "meta_desc": f"Baca artikel lengkap tentang {meta_desc}. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
         "date": today.strftime('%d/%m/%Y'),
         "tags": tags,
-        "slug": re.sub(r'[^\\w\\s-]', '', judul.lower()).strip().replace(' ', '-')[:80],
+        "slug": re.sub(r'[^a-z0-9-]', '', judul.lower().strip().replace(' ', '-'))[:80],
         "pair_id": pair_id,
         "lang": lang,
         "content_markdown": content_template,
