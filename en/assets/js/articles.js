@@ -2,92 +2,92 @@
 window.__ARTICLES = [
   {
     "judul": "Complete Guide to Gold & Precious Metals for Smart Investors",
-    "meta_desc": "Selama ini banyak yang salah kaprah tentang Gold & Precious Metals. Mari kita luruskan pemahaman yang benar berdasarkan data.\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Complete Guide to Gold & Precious Metals for Smart Investors. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuang",
     "slug": "complete-guide-to-gold-precious-metals-for-smart-investors",
     "tags": "Gold, Logam Mulia, Gold, Investasi, Antam",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Fintech & Digital Finance Outlook Amid 2026 Market Dynamics",
-    "meta_desc": "Pergerakan Fintech & Digital Finance belakangan ini menarik perhatian banyak kalangan. Tidak hanya investor institusional, tapi juga ritel.\n\n\n\n##...",
+    "meta_desc": "Analisis lengkap tentang Fintech & Digital Finance Outlook Amid 2026 Market Dynamics. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuanga",
     "slug": "fintech-digital-finance-outlook-amid-2026-market-dynamics",
     "tags": "Fintech, Keuangan Digital, Paylater, QRIS, Bank Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "IHSG & Stock Market: Opportunities, Challenges & Strategies",
-    "meta_desc": "Pertanyaan yang paling sering muncul di kalangan investor saat ini adalah: bagaimana prospek IHSG & Stock Market ke depannya? Mari kita analisis...",
+    "meta_desc": "Analisis lengkap tentang IHSG & Stock Market: Opportunities, Challenges & Strategies. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuanga",
     "slug": "ihsg-stock-market-opportunities-challenges-strategies",
     "tags": "JCI, Saham, Pasar Modal, IDX, Bursa Efek",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesian Economy: Opportunities, Challenges & Strategies",
-    "meta_desc": "Ada tiga hal penting yang perlu Anda pahami tentang Indonesian Economy. Pertama, Indonesia's economic growth in Q2-2026 reached 5.17%. Kedua,...",
+    "meta_desc": "Analisis lengkap tentang Indonesian Economy: Opportunities, Challenges & Strategies. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan",
     "slug": "indonesian-economy-opportunities-challenges-strategies",
     "tags": "Ekonomi, Indonesia, Pertumbuhan, PDB, Inflasi",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Investment Guide: Opportunities, Challenges & Strategies",
-    "meta_desc": "Berita terbaru tentang Investment Guide mengejutkan banyak pihak. Berdasarkan laporan yang dirilis hari ini, Indonesia's capital market investors...",
+    "meta_desc": "Analisis lengkap tentang Investment Guide: Opportunities, Challenges & Strategies. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan y",
     "slug": "investment-guide-opportunities-challenges-strategies",
     "tags": "Panduan, Investasi, Tips, Edukasi, Belajar",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Mutual Funds & Investment: Opportunities, Challenges & Strategies",
-    "meta_desc": "Kalau Anda pikir Mutual Funds & Investment hanya untuk kalangan tertentu, pikirkan lagi. Aksesnya kini lebih mudah dari sebelumnya.\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Mutual Funds & Investment: Opportunities, Challenges & Strategies. Pelajari strategi investasi dan wawasan pasar untuk keputusan k",
     "slug": "mutual-funds-investment-opportunities-challenges-strategies",
     "tags": "Reksadana, Mutual Fund, Investasi, RD, NAB",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Tax & Taxation: Opportunities, Challenges & Strategies",
-    "meta_desc": "Sebelum kita membahas lebih jauh, penting untuk memahami latar belakang Tax & Taxation yang sesungguhnya. Mari kita mulai dari dasar.\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Tax & Taxation: Opportunities, Challenges & Strategies. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yan",
     "slug": "tax-taxation-opportunities-challenges-strategies",
     "tags": "Pajak, Perpajakan, SPT, PPh, PPN, Tax",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Why Cryptocurrency & Digital Assets Matters for Your Portfolio",
-    "meta_desc": "Fenomena menarik terjadi pada Cryptocurrency & Digital Assets akhir-akhir ini. Berdasarkan pengamatan kami, ada beberapa faktor kunci yang...",
+    "meta_desc": "Analisis lengkap tentang Why Cryptocurrency & Digital Assets Matters for Your Portfolio. Pelajari strategi investasi dan wawasan pasar untuk keputusan keua",
     "slug": "why-cryptocurrency-digital-assets-matters-for-your-portfolio",
     "tags": "Bitcoin, Crypto, Cryptocurrency, Blockchain, Aset Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1518183214770-9cffbec72538?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Why Forex & Exchange Rates Matters for Your Portfolio",
-    "meta_desc": "Di tengah hiruk-pikuk berita ekonomi global, Forex & Exchange Rates tetap menjadi sorotan utama. Apa yang membuatnya begitu istimewa?\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Why Forex & Exchange Rates Matters for Your Portfolio. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang",
     "slug": "why-forex-exchange-rates-matters-for-your-portfolio",
     "tags": "Forex, Rupiah, Dolar, Kurs, Nilai Tukar, Mata Uang",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Why Property & Real Estate Matters for Your Portfolio",
-    "meta_desc": "Di tengah hiruk-pikuk berita ekonomi global, Property & Real Estate tetap menjadi sorotan utama. Apa yang membuatnya begitu istimewa?\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Why Property & Real Estate Matters for Your Portfolio. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang",
     "slug": "why-property-real-estate-matters-for-your-portfolio",
     "tags": "Properti, Real Estate, Rumah, KPR, Properti",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?auto=format&fit=crop&w=1200&q=80",
     "lang": "en"
   }
 ];

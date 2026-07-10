@@ -212,11 +212,10 @@ def build_indonesian_content(article, topic, cid):
     )
 
     # Outlook
-    s4_body = (
+    s4_outlook = (
         "Melihat ke depan, prospek pasar keuangan Indonesia tetap menarik dengan beberapa catatan. "
         "Faktor pendukung termasuk fundamental ekonomi yang kuat, demografi muda yang produktif, "
-        "serta program pembangunan infrastruktur berkelanjutan. Di sisi lain, tantangan dari sisi "
-        "global dan risiko geopolitik perlu tetap menjadi perhatian.\n\n"
+        "serta program pembangunan infrastruktur berkelanjutan.\n\n"
         "Para analis memproyeksikan bahwa indeks bergerak dalam rentang yang dipengaruhi oleh:\n\n"
         "- Kebijakan moneter global, terutama langkah The Fed dan bank sentral utama lainnya\n"
         "- Data ekonomi domestik termasuk pertumbuhan kuartalan dan laju inflasi\n"
@@ -225,7 +224,14 @@ def build_indonesian_content(article, topic, cid):
         "Investor disarankan untuk tetap memiliki perspektif jangka panjang, "
         "mempertahankan diversifikasi, dan terus meningkatkan literasi keuangan. "
         "Konsultasikan dengan penasihat keuangan bersertifikat untuk merancang strategi yang sesuai "
-        "dengan profil risiko dan tujuan keuangan masing-masing.\n\n"
+        "dengan profil risiko dan tujuan keuangan masing-masing."
+    )
+    s4_conclusion = (
+        "Secara keseluruhan, kondisi pasar keuangan Indonesia tetap solid. "
+        "Dengan pendekatan yang terukur dan informasi yang tepat, investor dapat "
+        "memanfaatkan peluang yang tersedia sambil mengelola risiko secara bijak."
+    )
+    s4_footer = (
         f"**{_DISCLAIMER_ID}**\n\n"
         "---\n"
         "*DailyMoney — Platform edukasi keuangan terpercaya untuk Indonesia yang lebih cerdas "
@@ -236,7 +242,9 @@ def build_indonesian_content(article, topic, cid):
     content += f"## Situasi Terkini Pasar Keuangan\n\n{s1_body}\n"
     content += f"## Analisis Mendalam dan Implikasi\n\n{s2_body}\n"
     content += f"## Tips dan Strategi Bagi Investor\n\n{s3_body}\n"
-    content += f"## Prospek dan Kesimpulan\n\n{s4_body}"
+    content += f"## Prospek dan Outlook\n\n{s4_outlook}\n\n"
+    content += f"## Kesimpulan\n\n{s4_conclusion}\n\n"
+    content += s4_footer
     return content
 
 
@@ -315,11 +323,10 @@ def build_english_content(article, topic, cid):
         "- Consult certified financial advisors for personalized guidance\n"
     )
 
-    s4_body = (
+    s4_outlook = (
         "Looking ahead, Indonesia's financial market outlook remains promising with certain caveats. "
         "Supporting factors include strong economic fundamentals, a productive young demographic, "
-        "and sustained infrastructure development. However, global uncertainties and geopolitical "
-        "risks require ongoing attention.\n\n"
+        "and sustained infrastructure development.\n\n"
         "Analysts project that market performance will be influenced by:\n\n"
         "- Global monetary policy, particularly Fed and major central bank decisions\n"
         "- Domestic economic data including quarterly GDP growth and inflation trends\n"
@@ -327,7 +334,14 @@ def build_english_content(article, topic, cid):
         "- Political sentiment ahead of key events\n\n"
         "Investors are advised to maintain a long-term perspective, preserve diversification, "
         "and continuously improve financial literacy. Consult certified financial advisors "
-        "to design strategies aligned with your risk profile and financial goals.\n\n"
+        "to design strategies aligned with your risk profile and financial goals."
+    )
+    s4_conclusion = (
+        "Overall, Indonesia's financial market fundamentals remain solid. "
+        "With a measured approach and timely information, investors can capitalize "
+        "on available opportunities while effectively managing risk."
+    )
+    s4_footer = (
         f"**{_DISCLAIMER_EN}**\n\n"
         "---\n"
         "*DailyMoney — Trusted financial education platform. Get the latest news and market analysis every day.*"
@@ -337,7 +351,9 @@ def build_english_content(article, topic, cid):
     content += f"## Current Market Situation\n\n{s1_body}\n"
     content += f"## Detailed Analysis\n\n{s2_body}\n"
     content += f"## Investment Strategies and Tips\n\n{s3_body}\n"
-    content += f"## Outlook and Conclusion\n\n{s4_body}"
+    content += f"## Market Outlook\n\n{s4_outlook}\n\n"
+    content += f"## Conclusion\n\n{s4_conclusion}\n\n"
+    content += s4_footer
     return content
 
 

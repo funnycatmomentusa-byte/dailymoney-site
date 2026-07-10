@@ -2,92 +2,92 @@
 window.__ARTICLES = [
   {
     "judul": "Cryptocurrency & Aset Digital: Peluang, Tantangan, dan Strategi",
-    "meta_desc": "Mari kita kupas tuntas Cryptocurrency & Aset Digital dari berbagai sisi. Mulai dari fundamental, teknikal, hingga sentimen pasar.\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Cryptocurrency & Aset Digital: Peluang, Tantangan, dan Strategi. Pelajari strategi investasi dan wawasan pasar untuk keputusan keu",
     "slug": "cryptocurrency-aset-digital-peluang-tantangan-dan-strategi",
     "tags": "Bitcoin, Crypto, Cryptocurrency, Blockchain, Aset Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559526324-593bc073d938?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Mengapa Emas & Logam Mulia Penting untuk Portofolio Anda",
-    "meta_desc": "Kabar baik: Kenaikan harga emas sebesar 14,2% sejak awal tahun. Kabar lebih baiknya: masih ada waktu untuk mengambil keputusan yang tepat.\n\n\n\n##...",
+    "meta_desc": "Analisis lengkap tentang Mengapa Emas & Logam Mulia Penting untuk Portofolio Anda. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan y",
     "slug": "mengapa-emas-logam-mulia-penting-untuk-portofolio-anda",
     "tags": "Emas, Logam Mulia, Gold, Investasi, Antam",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Mengapa Forex & Nilai Tukar Penting untuk Portofolio Anda",
-    "meta_desc": "Jika Anda membaca artikel ini, berarti Anda sadar bahwa Forex & Nilai Tukar adalah sesuatu yang tidak boleh diabaikan. Dan Anda benar.\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Mengapa Forex & Nilai Tukar Penting untuk Portofolio Anda. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan ",
     "slug": "mengapa-forex-nilai-tukar-penting-untuk-portofolio-anda",
     "tags": "Forex, Rupiah, Dolar, Kurs, Nilai Tukar, Mata Uang",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Panduan Investasi: Peluang, Tantangan, dan Strategi",
-    "meta_desc": "Bagi Anda yang baru terjun ke dunia investasi, memahami Panduan Investasi mungkin terasa membingungkan. Namun, dengan panduan yang tepat, semuanya...",
+    "meta_desc": "Analisis lengkap tentang Panduan Investasi: Peluang, Tantangan, dan Strategi. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang l",
     "slug": "panduan-investasi-peluang-tantangan-dan-strategi",
     "tags": "Panduan, Investasi, Tips, Edukasi, Belajar",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Panduan Lengkap Fintech & Keuangan Digital untuk Investor Cerdas",
-    "meta_desc": "Kalau Anda pikir Fintech & Keuangan Digital hanya untuk kalangan tertentu, pikirkan lagi. Aksesnya kini lebih mudah dari sebelumnya.\n\n\n\n## Analisis...",
+    "meta_desc": "Analisis lengkap tentang Panduan Lengkap Fintech & Keuangan Digital untuk Investor Cerdas. Pelajari strategi investasi dan wawasan pasar untuk keputusan ke",
     "slug": "panduan-lengkap-fintech-keuangan-digital-untuk-investor-cerdas",
     "tags": "Fintech, Keuangan Digital, Paylater, QRIS, Bank Digital",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1553028826-f4804a6dba3b?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Properti & Real Estate: Analisis dan Prediksi Terkini",
-    "meta_desc": "Bagi investor cerdas, Properti & Real Estate bukan sekadar angka di layar monitor. Ini adalah cerminan dari fundamental ekonomi yang lebih...",
+    "meta_desc": "Analisis lengkap tentang Properti & Real Estate: Analisis dan Prediksi Terkini. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang",
     "slug": "properti-real-estate-analisis-dan-prediksi-terkini",
     "tags": "Properti, Real Estate, Rumah, KPR, Properti",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Prospek Ekonomi Indonesia di Tengah Dinamika Pasar 2026",
-    "meta_desc": "Mari kita kupas tuntas Ekonomi Indonesia dari berbagai sisi. Mulai dari fundamental, teknikal, hingga sentimen pasar.\n\n\n\n## Analisis Mendalam\n\nYang...",
+    "meta_desc": "Analisis lengkap tentang Prospek Ekonomi Indonesia di Tengah Dinamika Pasar 2026. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan ya",
     "slug": "prospek-ekonomi-indonesia-di-tengah-dinamika-pasar-2026",
     "tags": "Ekonomi, Indonesia, Pertumbuhan, PDB, Inflasi",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Prospek IHSG & Pasar Saham di Tengah Dinamika Pasar 2026",
-    "meta_desc": "Jika Anda bertanya kepada 10 analis tentang IHSG & Pasar Saham, Anda akan mendapatkan 10 jawaban berbeda. Tapi kami punya satu kesimpulan.\n\n\n\n##...",
+    "meta_desc": "Analisis lengkap tentang Prospek IHSG & Pasar Saham di Tengah Dinamika Pasar 2026. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan y",
     "slug": "prospek-ihsg-pasar-saham-di-tengah-dinamika-pasar-2026",
     "tags": "IHSG, Saham, Pasar Modal, IDX, Bursa Efek",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Strategi Investasi Reksadana & Investasi yang Terbukti Efektif",
-    "meta_desc": "Ada tiga hal penting yang perlu Anda pahami tentang Reksadana & Investasi. Pertama, Jumlah investor reksadana mencapai 12,8 juta SID. Kedua,...",
+    "meta_desc": "Analisis lengkap tentang Strategi Investasi Reksadana & Investasi yang Terbukti Efektif. Pelajari strategi investasi dan wawasan pasar untuk keputusan keua",
     "slug": "strategi-investasi-reksadana-investasi-yang-terbukti-efektif",
     "tags": "Reksadana, Mutual Fund, Investasi, RD, NAB",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Update Terbaru Pajak & Perpajakan — Data dan Analisis",
-    "meta_desc": "Jika Anda seorang investor, pasti tidak asing dengan pergerakan Pajak & Perpajakan yang dinamis. Dalam artikel ini, kita akan membahasnya secara...",
+    "meta_desc": "Analisis lengkap tentang Update Terbaru Pajak & Perpajakan — Data dan Analisis. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang",
     "slug": "update-terbaru-pajak-perpajakan-data-dan-analisis",
     "tags": "Pajak, Perpajakan, SPT, PPh, PPN, Tax",
     "date": "",
-    "image_url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?auto=format&fit=crop&w=1200&q=80",
     "lang": "id"
   }
 ];
