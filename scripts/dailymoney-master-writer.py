@@ -180,13 +180,22 @@ Melihat dinamika pasar saat ini, perencana keuangan menyarankan:
 
 *DailyMoney akan terus memantau pergerakan pasar dan menyajikan update terkini. Dapatkan informasi pasar real-time di dailymoney.my.id.*"""
 
+    # Use image pool for unique images
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
+        from dailymoney_image_pool import get_unique_image
+        id_img_url, id_img_cap = get_unique_image(id_title)
+    except Exception:
+        id_img_url = "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80"
+        id_img_cap = f"Pergerakan pasar keuangan — {date_str}. Sumber: dokumentasi DailyMoney."
+
     id_article = {
         "judul": id_title.strip(),
         "meta_desc": id_meta.strip(),
         "date": date_str,
         "tags": "IHSG, Pasar Saham, Investasi, Reksadana, Ekonomi, Pasar Keuangan",
-        "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
-        "image_caption": f"Pergerakan pasar keuangan — {date_str}. Sumber: dokumentasi DailyMoney.",
+        "image_url": id_img_url,
+        "image_caption": id_img_cap,
         "content_markdown": id_content.strip(),
         "pair_id": int(doc.timestamp()) % 1000
     }
@@ -228,13 +237,20 @@ Today's market movements reflect evolving investor sentiment toward global and d
 
 *DailyMoney — Your trusted financial education platform. Get real-time market data at dailymoney.my.id.*"""
 
+    # Use image pool for EN article
+    try:
+        en_img_url, en_img_cap = get_unique_image(en_title)
+    except Exception:
+        en_img_url = "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80"
+        en_img_cap = f"Financial market movements — {date_str}. Source: DailyMoney documentation."
+
     en_article = {
         "judul": en_title.strip(),
         "meta_desc": en_meta.strip(),
         "date": date_str,
         "tags": "Stock Market, Investment, Finance, Indonesia, Market Update",
-        "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
-        "image_caption": f"Financial market movements — {date_str}. Source: DailyMoney documentation.",
+        "image_url": en_img_url,
+        "image_caption": en_img_cap,
         "content_markdown": en_content.strip(),
         "pair_id": 1000 + int(doc.timestamp()) % 1000
     }
@@ -485,13 +501,25 @@ def generate_education_article(topic):
     
     today = datetime.now().strftime('%d/%m/%Y')
     
+    # Use image pool for unique images
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
+        from dailymoney_image_pool import get_unique_image
+        id_img_url, id_img_cap = get_unique_image(topic["judul_id"])
+        en_img_url, en_img_cap = get_unique_image(topic["judul_en"])
+    except Exception:
+        id_img_url = topic.get("img", "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80")
+        id_img_cap = topic.get("img_cap_id", "Ilustrasi keuangan.")
+        en_img_url = id_img_url
+        en_img_cap = topic.get("img_cap_en", "Financial illustration.")
+
     id_art = {
         "judul": topic["judul_id"],
         "meta_desc": topic["meta_id"],
         "date": today,
         "tags": topic["tags_id"],
-        "image_url": topic["img"],
-        "image_caption": topic["img_cap_id"],
+        "image_url": id_img_url,
+        "image_caption": id_img_cap,
         "content_markdown": topic["content_id"].strip(),
         "pair_id": topic["pair_id"]
     }
@@ -501,8 +529,8 @@ def generate_education_article(topic):
         "meta_desc": topic["meta_en"],
         "date": today,
         "tags": topic["tags_en"],
-        "image_url": topic["img"],
-        "image_caption": topic["img_cap_en"],
+        "image_url": en_img_url,
+        "image_caption": en_img_cap,
         "content_markdown": topic["content_en"].strip(),
         "pair_id": topic["pair_id"] + 1000
     }

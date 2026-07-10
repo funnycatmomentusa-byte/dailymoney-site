@@ -173,7 +173,14 @@ def get_tags(title):
     return "Keuangan, Ekonomi, Indonesia, Investasi, Pasar Modal"
 
 def get_image_for(title):
-    """Pilih gambar Unsplash yang relevan."""
+    """Pilih gambar Unsplash yang relevan — expanded pool with 40+ unique images."""
+    try:
+        sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
+        from dailymoney_image_pool import get_unique_image
+        return get_unique_image(title)
+    except Exception:
+        pass
+    # Fallback if image pool import fails
     img_map = {
         "ihsg|saham|pasar": ("https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80", "Layar perdagangan saham Bursa Efek Indonesia."),
         "emas": ("https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80", "Emas batangan sebagai aset investasi."),
@@ -187,7 +194,7 @@ def get_image_for(title):
     for kw, (url, caption) in img_map.items():
         if re.search(kw, title.lower()):
             return url, f"{caption} Sumber: dokumentasi DailyMoney."
-    return ("https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    return ("https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
             "Ilustrasi pasar keuangan — dokumentasi DailyMoney.")
 
 def generate_original_title(topic_body, existing_titles):
