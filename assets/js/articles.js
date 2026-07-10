@@ -235,6 +235,15 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "lihat berita, harga saham, — Pergerakan IHSG",
+    "meta_desc": "Lihat berita, harga saham, data fundamental, teknikal analisis dan laporan keuangan saham IHSG (Index Harga Saham Gabungan) Investasi, Nabung, Beli atau Ju",
+    "slug": "lihat-berita-harga-saham-pergerakan-ihsg",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Microsoft Copilot Free: Copywriting dan Ide Iklan untuk Jualan Online",
     "meta_desc": "Copilot Free cocok untuk draft copy, ide iklan, dan pesan jualan. Pelajari cara memakainya untuk membantu toko online, reseller, dan UMKM menghasilkan uang.",
     "slug": "microsoft-copilot-free-copywriting-dan-ide-iklan-untuk-jualan-online",
@@ -244,12 +253,30 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Pergerakan IHSG — 10 Jul 2026",
+    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "slug": "pergerakan-ihsg-10-jul-2026",
+    "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Perplexity Free: Riset Cepat untuk Konten, Niche, dan Affiliate",
     "meta_desc": "Perplexity Free membantu mencari sumber, membandingkan produk, dan merangkum tren dengan cepat. Cocok untuk konten affiliate, riset niche, dan jasa laporan singkat.",
     "slug": "perplexity-free-riset-cepat-untuk-konten-niche-dan-affiliate",
     "tags": "Perplexity, AI Gratis, Affiliate, Riset Pasar, Konten",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Rekomendasi Saham — 10 Jul 2026",
+    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "slug": "rekomendasi-saham-10-jul-2026",
+    "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
     "lang": "id"
   },
   {

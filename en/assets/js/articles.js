@@ -154,6 +154,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Indonesia Stocks - Lihat berita, harga saham,",
+    "meta_desc": "Lihat berita, harga saham, data fundamental, teknikal analisis dan laporan keuangan saham IHSG (Index Harga Saham Gabungan) Investasi, Nabung, Beli atau Ju",
+    "slug": "indonesia-stocks-lihat-berita-harga-saham",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Economic Update: Keuangan Floor Plan Creator Changelog 371 M",
     "meta_desc": "Read the latest analysis on keuangan floor plan creator changelog 371 m. Key insights for investors in Indonesia.",
     "slug": "economic-update-keuangan-floor-plan-creator-changelog-371-m",
@@ -190,6 +199,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Market Analysis - IDX menyediakan data pasar,",
+    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "slug": "market-analysis-idx-menyediakan-data-pasar",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Microsoft Copilot Free: Copywriting and Ad Ideas for Online Selling",
     "meta_desc": "Copilot Free is great for draft copy, ad ideas, and sales messages. Learn how to use it to support online stores, resellers, and SMEs.",
     "slug": "microsoft-copilot-free-copywriting-and-ad-ideas-for-online-selling",
@@ -214,6 +232,15 @@ window.__ARTICLES = [
     "tags": "SAL, State Banks, Liquidity, IHSG, Rupiah, Indonesia Economy",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Stock Market Analysis - IHSG di persimpangan antara",
+    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
+    "tags": "Stock Market, Indonesia, Investment, Finance",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "en"
   },
   {

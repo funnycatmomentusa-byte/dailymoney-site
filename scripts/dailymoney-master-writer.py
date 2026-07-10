@@ -3,7 +3,7 @@
 Mengatur produksi konten: market update, edukasi, analisis, dan evergreen.
 Menulis artikel berkualitas tinggi berdasarkan data pasar real-time."""
 import json, os, subprocess, sys, re, random
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 
 PROJECT = "/root/workspace/dailymoney-site"
 ID_DIR = os.path.join(PROJECT, "_articles")
@@ -32,16 +32,12 @@ def save_article(article, directory, lang="id"):
     if not slug:
         slug = f"artikel-{datetime.now().strftime('%d%m%Y')}"
     date_prefix = datetime.now().strftime('%Y-%m-%d')
-    from datetime import date as _date
-    today_str = _date.today().strftime('%Y-%m-%d')
+    today_str = date.today().strftime('%Y-%m-%d')
     if date_prefix > today_str:
-        date_prefix = datetime.now().strftime('%Y-%m-%d')
-        today_str = date.today().strftime('%Y-%m-%d')
-        if date_prefix > today_str:
-            date_prefix = today_str
-        filename = f"{date_prefix}-{slug}.json"
-        filepath = os.path.join(directory, filename)
-        if os.path.exists(filepath):
+        date_prefix = today_str
+    filename = f"{date_prefix}-{slug}.json"
+    filepath = os.path.join(directory, filename)
+    if os.path.exists(filepath):
         return None
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(article, f, ensure_ascii=False, indent=2)
