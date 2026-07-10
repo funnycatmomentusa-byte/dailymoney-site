@@ -6,7 +6,7 @@ window.__ARTICLES = [
     "slug": "chatgpt-free-turning-ideas-into-sellable-content-services",
     "tags": "ChatGPT, Free AI, Freelance, Content, Productivity",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3c?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -15,7 +15,7 @@ window.__ARTICLES = [
     "slug": "economic-report-disabilitas-disabilitas-berita-terkini",
     "tags": "Finance, Economy, Indonesia, Market",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1531746790095-e5995f80cf34?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1521791055366-0d553872125f?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -24,7 +24,7 @@ window.__ARTICLES = [
     "slug": "how-to-start-investing-in-2026-complete-beginners-guide",
     "tags": "Investment, Stocks, Mutual Funds, Beginner, Finance Education",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -33,7 +33,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-1-day-ago",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1518183214770-9cffbec72538?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -51,7 +51,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-indeks-harga-saham-gabungan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1496309732345-df5e02ac1b92?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1585241920473-b4727b2cb103?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -60,7 +60,7 @@ window.__ARTICLES = [
     "slug": "investment-tax-guide-2026-what-must-be-reported",
     "tags": "Tax, SPT, Investment, Stocks, Crypto, Reporting",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -69,7 +69,7 @@ window.__ARTICLES = [
     "slug": "market-update-berita-terkini-ihsg",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -78,7 +78,7 @@ window.__ARTICLES = [
     "slug": "financial-update-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579621970795-87facc2f976e?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -87,7 +87,7 @@ window.__ARTICLES = [
     "slug": "gemini-free-fast-research-for-freelance-pitches-blogs-and-seo",
     "tags": "Gemini, Free AI, Research, SEO, Freelance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1542435503-956c469947f7?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -96,7 +96,7 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559526324-4e87f1e6e8f1?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -105,7 +105,7 @@ window.__ARTICLES = [
     "slug": "market-analysis-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -114,7 +114,7 @@ window.__ARTICLES = [
     "slug": "market-update-dapatkan-informasi-terkini-dan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -123,7 +123,7 @@ window.__ARTICLES = [
     "slug": "stock-market-analysis-dapatkan-informasi-terkini-dan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1612810440013-14cf0e2db6d0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -132,7 +132,7 @@ window.__ARTICLES = [
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -141,16 +141,16 @@ window.__ARTICLES = [
     "slug": "investment-guide-apa-itu-investasi-pengertian-keuntungan-da",
     "tags": "bahwa, investasi, oleh, indonesia, financial",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1460472170825-524b2d4e2a73?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Property Market: Properti — Real Estate News",
-    "meta_desc": "Read our complete guide on properti investment. Latest news and in-depth analysis only at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Property Market: Properti — Real Estate News. Learn investment strategies and market insights for informed financial decisions in",
     "slug": "property-market-properti-real-estate-news",
     "tags": "Properti, Investment, Indonesia, DailyMoney",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1528605248644-14dd04022da2?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -159,34 +159,34 @@ window.__ARTICLES = [
     "slug": "investment-guide-cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi, indonesia, financial",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=1200&q=85",
     "lang": "en"
   },
   {
     "judul": "Indonesia Economy: Growth and Inflation Analysis",
-    "meta_desc": "Read our complete guide on ekonomi investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Indonesia Economy: Growth and Inflation Analysis. Learn investment strategies and market insights for informed financial decision",
     "slug": "indonesia-economy-growth-and-inflation-analysis",
     "tags": "Economy, GDP, Inflation, Growth, Statistics, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=1200&q=85",
     "lang": "en"
   },
   {
     "judul": "Gold Price Today: Precious Metal Update and Investment Outlook",
-    "meta_desc": "Read our complete guide on emas investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Gold Price Today: Precious Metal Update and Investment Outlook. Learn investment strategies and market insights for informed fina",
     "slug": "gold-price-today-precious-metal-update-and-investment-outlook",
     "tags": "Gold, Precious Metal, Investment, Bullion, Gold Price, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1460472170825-524b2d4e2a73?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesia Stock Market: Index Analysis and Predictions",
-    "meta_desc": "Read our complete guide on ihsg investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Indonesia Stock Market: Index Analysis and Predictions. Learn investment strategies and market insights for informed financial de",
     "slug": "indonesia-stock-market-index-analysis-and-predictions",
     "tags": "IHSG, Stocks, Stock Exchange, Capital Market, Investment, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -195,16 +195,16 @@ window.__ARTICLES = [
     "slug": "indonesia-stocks-lihat-berita-harga-saham",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Forex Update: Indonesian Rupiah Exchange Rate Analysis",
-    "meta_desc": "Read our complete guide on forex investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Forex Update: Indonesian Rupiah Exchange Rate Analysis. Learn investment strategies and market insights for informed financial de",
     "slug": "forex-update-indonesian-rupiah-exchange-rate-analysis",
     "tags": "Rupiah, Dollar, Forex, Exchange Rate, BI, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -213,7 +213,7 @@ window.__ARTICLES = [
     "slug": "market-analysis-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1534628526458-a8de087b1123?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -222,52 +222,52 @@ window.__ARTICLES = [
     "slug": "microsoft-copilot-free-copywriting-and-ad-ideas-for-online-selling",
     "tags": "Copilot, Free AI, Copywriting, SMEs, Ads",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1460472170825-524b2d4e2a73?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Beginner's Investment Guide: Start Investing with Small Capital",
-    "meta_desc": "Read our complete guide on panduan investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Beginner's Investment Guide: Start Investing with Small Capital. Learn investment strategies and market insights for informed fin",
     "slug": "beginners-investment-guide-start-investing-with-small-capital",
     "tags": "Investment, Guide, Beginner, Finance, Tips, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e4b7b8?w=1200&q=85",
     "lang": "en"
   },
   {
     "judul": "Tax Guide 2026: Complete Information for Indonesian Taxpayers",
-    "meta_desc": "Read our complete guide on pajak investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Tax Guide 2026: Complete Information for Indonesian Taxpayers. Learn investment strategies and market insights for informed finan",
     "slug": "tax-guide-2026-complete-information-for-indonesian-taxpayers",
     "tags": "Tax, Income Tax, VAT, Taxation, SPT, DJP, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Mutual Funds Guide: Easy Investment for Beginners in 2026",
-    "meta_desc": "Read our complete guide on reksadana investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Mutual Funds Guide: Easy Investment for Beginners in 2026. Learn investment strategies and market insights for informed financial",
     "slug": "mutual-funds-guide-easy-investment-for-beginners-in-2026",
     "tags": "Mutual Fund, Investment, Fund Manager, NAV, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "lang": "en"
+  },
+  {
+    "judul": "Mutual Funds Guide: Reksadana — Investment Tips",
+    "meta_desc": "Comprehensive analysis of Mutual Funds Guide: Reksadana — Investment Tips. Learn investment strategies and market insights for informed financial decisions",
+    "slug": "mutual-funds-guide-reksadana-investment-tips",
+    "tags": "Reksadana, Investment, Indonesia, DailyMoney",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
     "lang": "en"
   },
   {
-    "judul": "Mutual Funds Guide: Reksadana — Investment Tips",
-    "meta_desc": "Read our complete guide on reksadana investment. Latest news and in-depth analysis only at DailyMoney.",
-    "slug": "mutual-funds-guide-reksadana-investment-tips",
-    "tags": "Reksadana, Investment, Indonesia, DailyMoney",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80",
-    "lang": "en"
-  },
-  {
     "judul": "Fintech Indonesia: Digital Finance Innovation Update",
-    "meta_desc": "Read our complete guide on fintech investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Fintech Indonesia: Digital Finance Innovation Update. Learn investment strategies and market insights for informed financial deci",
     "slug": "fintech-indonesia-digital-finance-innovation-update",
     "tags": "Fintech, Digital, Payment, E-Wallet, OJK, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1531973576160-7125cd663d86?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -276,7 +276,7 @@ window.__ARTICLES = [
     "slug": "perplexity-free-fast-research-for-content-niches-and-affiliate",
     "tags": "Perplexity, Free AI, Affiliate, Market Research, Content",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -285,7 +285,7 @@ window.__ARTICLES = [
     "slug": "indonesia-government-injects-rp400t-into-state-banks-market-impact",
     "tags": "SAL, State Banks, Liquidity, IHSG, Rupiah, Indonesia Economy",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1542435503-956c469947f6?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -294,34 +294,34 @@ window.__ARTICLES = [
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=1200&q=85",
     "lang": "en"
   },
   {
     "judul": "Cryptocurrency Update: Bitcoin and Altcoin Market Movement",
-    "meta_desc": "Read our complete guide on crypto investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Cryptocurrency Update: Bitcoin and Altcoin Market Movement. Learn investment strategies and market insights for informed financia",
     "slug": "cryptocurrency-update-bitcoin-and-altcoin-market-movement",
     "tags": "Cryptocurrency, Bitcoin, Ethereum, Blockchain, Digital Asset, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1591696205602-2f950c417cb9?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1532619187608-53756f7e6060?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Gold Price Update: Emas — Precious Metal News",
-    "meta_desc": "Read our complete guide on emas investment. Latest news and in-depth analysis only at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Gold Price Update: Emas — Precious Metal News. Learn investment strategies and market insights for informed financial decisions i",
     "slug": "gold-price-update-emas-precious-metal-news",
     "tags": "Emas, Investment, Indonesia, DailyMoney",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1444653614773-1cb0b3e9e63b?w=1200&q=85",
+    "image_url": "https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=1200&q=85",
     "lang": "en"
   },
   {
     "judul": "Property Market Update: Housing Prices and Investment Tips",
-    "meta_desc": "Read our complete guide on properti investment. Latest news and analysis at DailyMoney.",
+    "meta_desc": "Comprehensive analysis of Property Market Update: Housing Prices and Investment Tips. Learn investment strategies and market insights for informed financia",
     "slug": "property-market-update-housing-prices-and-investment-tips",
     "tags": "Property, House, Mortgage, Investment, Real Estate, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1496309732345-df5e02ac1b92?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a4?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -330,7 +330,7 @@ window.__ARTICLES = [
     "slug": "inflation-2026-3-investment-strategies-to-protect-your-wealth",
     "tags": "Inflation, Investment, Strategy, Mutual Funds, Gold",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -339,7 +339,7 @@ window.__ARTICLES = [
     "slug": "sp-dji-puts-indonesia-on-watchlist-2027-ihsg-plunges-13",
     "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, IDX",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1562565652-a0d8f0c59eb4?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1543394972-e1cff5a7e4da?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -348,7 +348,7 @@ window.__ARTICLES = [
     "slug": "mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026",
     "tags": "Mutual Funds, Stocks, Beginner Investing, Education",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -357,7 +357,7 @@ window.__ARTICLES = [
     "slug": "ihsg-rebounds-in-early-july-2026-after-foreign-investors-dumped-rp1963-trillion",
     "tags": "IHSG, Stock Market, Foreign Investors, Mutual Funds, Investment",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1560472354-b33d0a5a1c9b?w=1200&q=85",
     "lang": "en"
   },
   {
@@ -366,7 +366,7 @@ window.__ARTICLES = [
     "slug": "fed-cuts-interest-rate-by-25bps-major-impact-on-ihsg-and-rupiah-in-2026",
     "tags": "Global Markets, Federal Reserve, IHSG, Rupiah, Interest Rates",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -375,7 +375,7 @@ window.__ARTICLES = [
     "slug": "5-smart-saving-tips-during-inflation-without-sacrificing-lifestyle",
     "tags": "Saving Tips, Inflation, Lifestyle, Personal Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1571066811602-716837d681de?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "en"
   }
 ];

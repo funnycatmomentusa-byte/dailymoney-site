@@ -9,7 +9,7 @@ _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 _POOL_PATH = os.path.join(_SCRIPT_DIR, 'dailymoney_image_pool.py')
 _spec = importlib.util.spec_from_file_location('dailymoney_image_pool', _POOL_PATH)
 _pool_mod = importlib.util.module_from_spec(_spec)
-_pool_spec.loader.exec_module(_pool_mod)
+_spec.loader.exec_module(_pool_mod)
 get_unique_image = _pool_mod.get_unique_image
 reset_used = _pool_mod.reset_used
 

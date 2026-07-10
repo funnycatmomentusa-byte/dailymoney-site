@@ -6,7 +6,7 @@ window.__ARTICLES = [
     "slug": "cara-mulai-investasi-di-2026-panduan-lengkap-untuk-pemula",
     "tags": "Investasi, Reksadana, Saham, Emas, Pemula, Edukasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1585241920473-b4727b2cb103?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579532537598-459ecdaf39ca?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -15,7 +15,7 @@ window.__ARTICLES = [
     "slug": "chatgpt-free-cara-mengubah-ide-jadi-jasa-konten-yang-bisa-dijual",
     "tags": "ChatGPT, AI Gratis, Freelance, Konten, Produktivitas",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1560520653-9e0e4c89eb11?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -24,7 +24,7 @@ window.__ARTICLES = [
     "slug": "ekonomi-terkini-berita-ekonomi-terbaru-hari-ini-28-juni",
     "tags": "ekonomi, sini, biar",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -33,7 +33,7 @@ window.__ARTICLES = [
     "slug": "ekonomi-terkini-no2894dkom-data-badan-pusat-statistik",
     "tags": "menunjukkan, ekonomi, pusat",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1543394972-e1cff5a7e4da?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1560472355-3d7ac5b0d81e?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -42,7 +42,7 @@ window.__ARTICLES = [
     "slug": "ihsg-melemahmenguat-tag-berita-terkini-ihsg-hari-ini",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -51,7 +51,7 @@ window.__ARTICLES = [
     "slug": "indeks-harga-saham-gabungan-pergerakan-ihsg",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1532619187608-53756f7e6060?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1556155092-490a1ba16285?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -60,7 +60,7 @@ window.__ARTICLES = [
     "slug": "indeks-saham-1-month-ago",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -69,7 +69,7 @@ window.__ARTICLES = [
     "slug": "keuangan-berita-ekonomi-indonesia-keuangan-perb",
     "tags": "naik, cadangan, finansial, miliar",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -78,7 +78,7 @@ window.__ARTICLES = [
     "slug": "panduan-pajak-investasi-2026-yang-wajib-dilaporkan",
     "tags": "Pajak, SPT, Investasi, Saham, Crypto, Pelaporan",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -87,7 +87,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-cnbc-indonesia-menyajikan-berita",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -96,7 +96,7 @@ window.__ARTICLES = [
     "slug": "dapatkan-informasi-terkini-dan-indeks-saham",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1521791055366-0d553872125f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1444653614773-1cb0b3e9e63b?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -105,7 +105,7 @@ window.__ARTICLES = [
     "slug": "gemini-free-riset-cepat-untuk-proposal-freelance-blog-dan-seo",
     "tags": "Gemini, AI Gratis, Riset, SEO, Freelance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1573497620053-ea5300f94f21?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -114,7 +114,7 @@ window.__ARTICLES = [
     "slug": "idx-menyediakan-data-pasar-investasi",
     "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -123,7 +123,7 @@ window.__ARTICLES = [
     "slug": "ihsg-di-persimpangan-antara-indeks-saham",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -132,7 +132,7 @@ window.__ARTICLES = [
     "slug": "investasi-09-jul-2026",
     "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992372226-ae8d8a1b14a1?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -141,7 +141,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-dapatkan-informasi-terkini-dan",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -150,7 +150,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-ihsg-di-persimpangan-antara",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1531746790095-e5995f80cf34?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -159,7 +159,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-saham-idx-menyediakan-data-pasar",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -168,7 +168,7 @@ window.__ARTICLES = [
     "slug": "apa-itu-investasi-pengertian-keuntungan-da-panduan",
     "tags": "bahwa, investasi, oleh",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1473188588951-666fce8e7c68?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -177,7 +177,7 @@ window.__ARTICLES = [
     "slug": "berita-properti-terbaru-properti-panduan-membeli-rumah",
     "tags": "Properti, Investasi, Keuangan, Indonesia, DailyMoney",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -186,43 +186,43 @@ window.__ARTICLES = [
     "slug": "cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1459257831348-f0cdd359235f?w=1200&q=85",
     "lang": "id"
   },
   {
     "judul": "Ekonomi Indonesia Terkini: Analisis Pertumbuhan dan Inflasi",
-    "meta_desc": "Baca panduan lengkap tentang ekonomi. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Ekonomi Indonesia Terkini: Analisis Pertumbuhan dan Inflasi. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuanga",
     "slug": "ekonomi-indonesia-terkini-analisis-pertumbuhan-dan-inflasi",
     "tags": "Ekonomi, PDB, Inflasi, Pertumbuhan, BPS, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Harga Emas Hari Ini: Update Logam Mulia dan Prospek Investasi",
-    "meta_desc": "Baca panduan lengkap tentang emas. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Harga Emas Hari Ini: Update Logam Mulia dan Prospek Investasi. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuan",
     "slug": "harga-emas-hari-ini-update-logam-mulia-dan-prospek-investasi",
     "tags": "Emas, Logam Mulia, Investasi, Antam, Harga Emas, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "IHSG Hari Ini: Analisis dan Prediksi Pergerakan Indeks Saham",
-    "meta_desc": "Baca panduan lengkap tentang ihsg. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang IHSG Hari Ini: Analisis dan Prediksi Pergerakan Indeks Saham. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuang",
     "slug": "ihsg-hari-ini-analisis-dan-prediksi-pergerakan-indeks-saham",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200&q=85",
     "lang": "id"
   },
   {
     "judul": "Kurs Rupiah Hari Ini: Analisis Nilai Tukar dan Dolar AS",
-    "meta_desc": "Baca panduan lengkap tentang forex. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Kurs Rupiah Hari Ini: Analisis Nilai Tukar dan Dolar AS. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan ya",
     "slug": "kurs-rupiah-hari-ini-analisis-nilai-tukar-dan-dolar-as",
     "tags": "Rupiah, Dolar, Kurs, Forex, Nilai Tukar, BI, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -231,7 +231,7 @@ window.__ARTICLES = [
     "slug": "lihat-berita-harga-saham-pergerakan-ihsg",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -240,34 +240,34 @@ window.__ARTICLES = [
     "slug": "microsoft-copilot-free-copywriting-dan-ide-iklan-untuk-jualan-online",
     "tags": "Copilot, AI Gratis, Copywriting, UMKM, Iklan",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "Panduan Investasi untuk Pemula: Mulai Investasi dengan Modal Kecil",
-    "meta_desc": "Baca panduan lengkap tentang panduan. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
-    "slug": "panduan-investasi-untuk-pemula-mulai-investasi-dengan-modal-kecil",
-    "tags": "Investasi, Panduan, Pemula, Keuangan, Tips, Indonesia",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "Panduan Pajak 2026: Informasi Perpajakan untuk Wajib Pajak",
-    "meta_desc": "Baca panduan lengkap tentang pajak. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
-    "slug": "panduan-pajak-2026-informasi-perpajakan-untuk-wajib-pajak",
-    "tags": "Pajak, PPh, PPN, Perpajakan, SPT, DJP, Indonesia",
-    "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
     "lang": "id"
   },
   {
+    "judul": "Panduan Investasi untuk Pemula: Mulai Investasi dengan Modal Kecil",
+    "meta_desc": "Analisis lengkap tentang Panduan Investasi untuk Pemula: Mulai Investasi dengan Modal Kecil. Pelajari strategi investasi dan wawasan pasar untuk keputusan ",
+    "slug": "panduan-investasi-untuk-pemula-mulai-investasi-dengan-modal-kecil",
+    "tags": "Investasi, Panduan, Pemula, Keuangan, Tips, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?w=1200&q=80",
+    "lang": "id"
+  },
+  {
+    "judul": "Panduan Pajak 2026: Informasi Perpajakan untuk Wajib Pajak",
+    "meta_desc": "Analisis lengkap tentang Panduan Pajak 2026: Informasi Perpajakan untuk Wajib Pajak. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan",
+    "slug": "panduan-pajak-2026-informasi-perpajakan-untuk-wajib-pajak",
+    "tags": "Pajak, PPh, PPN, Perpajakan, SPT, DJP, Indonesia",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1571066811602-716837d681de?w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Panduan Reksadana: Investasi Mudah untuk Pemula di 2026",
-    "meta_desc": "Baca panduan lengkap tentang reksadana. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Panduan Reksadana: Investasi Mudah untuk Pemula di 2026. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan ya",
     "slug": "panduan-reksadana-investasi-mudah-untuk-pemula-di-2026",
     "tags": "Reksadana, Mutual Fund, Investasi, Manajer Investasi, NAB, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -276,7 +276,7 @@ window.__ARTICLES = [
     "slug": "panduan-reksadana-reksadana-investasi-mudah-untuk-pemula",
     "tags": "Reksadana, Investasi, Keuangan, Indonesia, DailyMoney",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -285,16 +285,16 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-10-jul-2026",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Perkembangan Fintech Indonesia: Inovasi Keuangan Digital",
-    "meta_desc": "Baca panduan lengkap tentang fintech. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Perkembangan Fintech Indonesia: Inovasi Keuangan Digital. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan y",
     "slug": "perkembangan-fintech-indonesia-inovasi-keuangan-digital",
     "tags": "Fintech, Digital, Pembayaran, E-Wallet, OJK, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1444653614773-995cb1ef9efa?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -303,7 +303,7 @@ window.__ARTICLES = [
     "slug": "perplexity-free-riset-cepat-untuk-konten-niche-dan-affiliate",
     "tags": "Perplexity, AI Gratis, Affiliate, Riset Pasar, Konten",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1496309732345-df5e02ac1b92?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -312,7 +312,7 @@ window.__ARTICLES = [
     "slug": "rekomendasi-saham-10-jul-2026",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1521791055360-5e7f7a09e191?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -321,16 +321,16 @@ window.__ARTICLES = [
     "slug": "pemerintah-suntik-rp400-t-ke-himbara-dampaknya-ke-ihsg-rupiah",
     "tags": "SAL, Himbara, Likuiditas, IHSG, Rupiah, Ekonomi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Update Cryptocurrency: Pergerakan Bitcoin dan Altcoin Terbaru",
-    "meta_desc": "Baca panduan lengkap tentang crypto. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Update Cryptocurrency: Pergerakan Bitcoin dan Altcoin Terbaru. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuan",
     "slug": "update-cryptocurrency-pergerakan-bitcoin-dan-altcoin-terbaru",
     "tags": "Cryptocurrency, Bitcoin, Ethereum, Blockchain, Aset Digital, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -339,16 +339,16 @@ window.__ARTICLES = [
     "slug": "update-emas-dunia-emas-prospek-dan-prediksi",
     "tags": "Emas, Investasi, Keuangan, Indonesia, DailyMoney",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1532619187608-53756f7e6060?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Update Pasar Properti: Harga Rumah dan Tips Investasi",
-    "meta_desc": "Baca panduan lengkap tentang properti. Informasi terbaru dan analisis mendalam hanya di DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Update Pasar Properti: Harga Rumah dan Tips Investasi. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang",
     "slug": "update-pasar-properti-harga-rumah-dan-tips-investasi",
     "tags": "Properti, Rumah, KPR, Investasi, Real Estate, Indonesia",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1571066811602-716837d681de?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -357,7 +357,7 @@ window.__ARTICLES = [
     "slug": "inflasi-2026-3-strategi-investasi-agar-uang-tidak-tergerus",
     "tags": "Inflasi, Investasi, Strategi, Reksadana, Emas",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -366,7 +366,7 @@ window.__ARTICLES = [
     "slug": "5-tips-hemat-di-tengah-inflasi-tanpa-harus-korban-gaya-hidup",
     "tags": "Tips Hemat, Inflasi, Gaya Hidup, Keuangan",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -375,7 +375,7 @@ window.__ARTICLES = [
     "slug": "sp-dji-masukkan-indonesia-ke-watchlist-2027-ihsg-anjlok-13",
     "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, BEI",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1612810440013-14cf0e2db6d0?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -384,7 +384,7 @@ window.__ARTICLES = [
     "slug": "ihsg-bangkit-di-awal-juli-2026-usai-investor-asing-jual-saham-rp1963-t",
     "tags": "IHSG, Pasar Saham, Investor Asing, Reksadana, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1556761175-b413da4baf72?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -393,7 +393,7 @@ window.__ARTICLES = [
     "slug": "the-fed-pangkas-suku-bunga-25-bps-dampak-besar-ke-ihsg-dan-rupiah-sepanjang-2026",
     "tags": "Pasar Global, The Fed, IHSG, Rupiah, Suku Bunga",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=1200&q=85",
     "lang": "id"
   },
   {
@@ -402,7 +402,7 @@ window.__ARTICLES = [
     "slug": "reksadana-vs-saham-mana-yang-cocok-untuk-pemula-di-2026",
     "tags": "Reksadana, Saham, Investasi Pemula, Edukasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&q=80",
     "lang": "id"
   }
 ];
