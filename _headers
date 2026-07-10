@@ -1,31 +1,12 @@
-# DailyMoney — Optimized Cache Headers
-# Security
+# Security headers for dailymoney.my.id
+# Cloudflare will override with Worker headers,
+# but these serve as fallback for direct GitHub Pages access
+
 /*
-  X-Frame-Options: DENY
   X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
-  Permissions-Policy: geolocation=(), microphone=(), camera=()
-
-# Static assets: 1 year immutable cache
-/assets/*
-  Cache-Control: public, max-age=31536000, immutable
-
-# HTML: short TTL for freshness
-*.html
-  Cache-Control: public, max-age=60
-
-# Root
-/
-  Cache-Control: public, max-age=60
-
-# Sitemap & RSS
-/sitemap.xml
-  Cache-Control: public, max-age=3600
-/feed.xml
-  Cache-Control: public, max-age=3600
-
-# Data JSON
-/assets/data/*
-  Cache-Control: public, max-age=3600
-/assets/seo/*
-  Cache-Control: public, max-age=3600
+  Permissions-Policy: geolocation=(), camera=(), microphone=(), payment=(), usb=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-XSS-Protection: 0
+  Cross-Origin-Opener-Policy: same-origin
