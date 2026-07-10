@@ -152,7 +152,8 @@ def find_related_articles(article, all_articles, keyword_index, max_links=3):
             continue
         added.add(ref_slug)
         
-        link_url = f"/articles/{ref_slug}.html" if ref.get("_lang") == "id" else f"/en/articles/{ref_slug}.html"
+        link_lang = ref.get("lang") or ref.get("_lang", "id")
+        link_url = f"/articles/{ref_slug}.html" if link_lang == "id" else f"/en/articles/{ref_slug}.html"
         links.append({
             "url": link_url,
             "judul": judul[:60],
