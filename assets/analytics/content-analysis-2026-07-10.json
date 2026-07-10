@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-07-10T03:06:23.057988",
-  "total_articles": 68,
+  "generated_at": "2026-07-10T03:10:42.430646",
+  "total_articles": 58,
   "by_category": {
-    "Panduan Pemula": 6,
-    "Lainnya": 14,
-    "Saham & IHSG": 31,
-    "Reksadana & Investasi": 12,
+    "Panduan Pemula": 4,
+    "Lainnya": 12,
+    "Saham & IHSG": 24,
+    "Reksadana & Investasi": 9,
+    "Edukasi Finansial": 5,
     "Ekonomi Makro": 3,
-    "Pajak & Regulasi": 1,
-    "Edukasi Finansial": 1
+    "Pajak & Regulasi": 1
   },
   "top_articles": [
     {
@@ -33,7 +33,7 @@
     }
   ],
   "recommendations": [
-    "📈 *Saham & IHSG* adalah kategori terbanyak (31 artikel) — bukti permintaan tinggi. Lanjutkan!",
+    "📈 *Saham & IHSG* adalah kategori terbanyak (24 artikel) — bukti permintaan tinggi. Lanjutkan!",
     "➕ Crypto & Blockchain — masih kurang konten, padahal tren naik",
     "🧾 Pajak & Regulasi — konten musiman yang selalu dicari di awal tahun"
   ]
