@@ -1,1 +1,53 @@
-{"data": {"BTC": {"price": 63811.81, "change": 0.99}, "ETH": {"price": 1770.17, "change": 1.48}, "XAU": {"price": 4122.3, "change": -0.45}, "IHSG": {"price": 5918.47, "change": 0.1}, "USDIDR": {"price": 18070.0, "change": -0.08}, "TLKM": {"price": 2470.0, "change": -1.59}, "BBRI": {"price": 2790.0, "change": 0.36}, "BBCA": {"price": 6125.0, "change": -1.21}, "ASII": {"price": 4790.0, "change": -1.84}, "UNVR": {"price": 1730.0, "change": 0.87}, "BMRI": {"price": 4040.0, "change": 0}, "SPX": {"price": 7543.64, "change": 0.81}}}
+{
+  "data": {
+    "BTC": {
+      "price": 63786.02,
+      "change": 0.95
+    },
+    "ETH": {
+      "price": 1768.69,
+      "change": 1.4
+    },
+    "IHSG": {
+      "price": 5918.47,
+      "change": 0.1
+    },
+    "XAU": {
+      "price": 4121.1,
+      "change": -0.48
+    },
+    "USDIDR": {
+      "price": 18070.0,
+      "change": -0.08
+    },
+    "TLKM": {
+      "price": 2470.0,
+      "change": -1.59
+    },
+    "BBRI": {
+      "price": 2790.0,
+      "change": 0.36
+    },
+    "BBCA": {
+      "price": 6125.0,
+      "change": -1.21
+    },
+    "ASII": {
+      "price": 4790.0,
+      "change": -1.84
+    },
+    "UNVR": {
+      "price": 1730.0,
+      "change": 0.87
+    },
+    "BMRI": {
+      "price": 4040.0,
+      "change": 0.0
+    },
+    "SPX": {
+      "price": 7543.64,
+      "change": 0.81
+    }
+  },
+  "updated": "2026-07-10T07:00:45.310101"
+}
