@@ -118,15 +118,6 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
-    "judul": "Mutual Funds vs Stocks: Which is Best for Beginners in 2026?",
-    "meta_desc": "Confused between mutual funds and stocks? Complete comparison of advantages, risks, and returns for beginner investors.",
-    "slug": "mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026",
-    "tags": "Mutual Funds, Stocks, Investment, Beginners, Comparison",
-    "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
-    "lang": "en"
-  },
-  {
     "judul": "Stock Market Analysis - Dapatkan informasi terkini dan",
     "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
     "slug": "stock-market-analysis-dapatkan-informasi-terkini-dan",
@@ -223,69 +214,6 @@ window.__ARTICLES = [
     "tags": "Saving Tips, Inflation, Lifestyle, Personal Finance",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "5 Smart Saving Tips During Inflation Without Sacrificing Lifestyle",
-    "meta_desc": "[Updated 09/07/2026] Inflation squeezing your purchasing power? Discover 5 smart money-saving strategies that effectively protect your financ",
-    "slug": "5-smart-saving-tips-during-inflation-without-sacrificing-lifestyle",
-    "tags": "Saving Tips, Inflation, Lifestyle, Personal Finance",
-    "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "Fed Cuts Interest Rate by 25bps: Major Impact on IHSG and Rupiah in 2026",
-    "meta_desc": "The Federal Reserve cut its benchmark interest rate by 25 basis points for the first time in 2026. Read our analysis of the impact on Indonesian stocks and currency.",
-    "slug": "fed-cuts-interest-rate-by-25bps-major-impact-on-ihsg-and-rupiah-in-2026",
-    "tags": "Global Markets, Federal Reserve, IHSG, Rupiah, Interest Rates",
-    "date": "07/06/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "IHSG Rebounds in Early July 2026 After Foreign Investors Dumped Rp19.63 Trillion",
-    "meta_desc": "IHSG rose 1.19% to 5,986.5 on July 7, 2026 after plunging throughout June 2026. Foreign investors sold Rp19.63 trillion in stocks in June. Read our complete analysis and investment strategies amid the market recovery.",
-    "slug": "ihsg-rebounds-in-early-july-2026-after-foreign-investors-dumped-rp1963-trillion",
-    "tags": "IHSG, Stock Market, Foreign Investors, Mutual Funds, Investment",
-    "date": "07/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "Inflation 2026: 3 Investment Strategies to Protect Your Wealth",
-    "meta_desc": "Indonesia's inflation eased to 3.5 percent in 2026, but purchasing power remains under pressure. Discover 3 powerful investment strategies to shield your assets from inflation erosion.",
-    "slug": "inflation-2026-3-investment-strategies-to-protect-your-wealth",
-    "tags": "Inflation, Investment, Strategy, Mutual Funds, Gold",
-    "date": "07/06/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "Mutual Funds vs Stocks: Which is Best for Beginners in 2026?",
-    "meta_desc": "Confused about choosing between mutual funds and stocks to start investing? Read our comprehensive comparison plus step-by-step investment strategy for beginners.",
-    "slug": "mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026",
-    "tags": "Mutual Funds, Stocks, Beginner Investing, Education",
-    "date": "07/06/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "Indonesia Government Injects Rp400T into State Banks: Market Impact",
-    "meta_desc": "Indonesia's government places Rp400 trillion in state banks to boost liquidity. Read our analysis of the impact on IHSG, rupiah, and the banking sector in this DailyMoney report.",
-    "slug": "indonesia-government-injects-rp400t-into-state-banks-market-impact",
-    "tags": "SAL, State Banks, Liquidity, IHSG, Rupiah, Indonesia Economy",
-    "date": "07/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "S&P DJI Puts Indonesia on Watchlist 2027, IHSG Plunges 1.3%",
-    "meta_desc": "S&P Dow Jones Indices places Indonesia on 2027 Watchlist with potential downgrade from Emerging Market to Frontier Market. IHSG fell 1.32% to 5,907. Analysis of market impact and Indonesia's stock market outlook.",
-    "slug": "sp-dji-puts-indonesia-on-watchlist-2027-ihsg-plunges-13",
-    "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, IDX",
-    "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
     "lang": "en"
   }
 ];

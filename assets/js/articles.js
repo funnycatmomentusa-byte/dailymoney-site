@@ -172,15 +172,6 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
-    "judul": "Reksadana vs Saham: Mana yang Cocok untuk Pemula di 2026?",
-    "meta_desc": "Bingung memilih reksadana atau saham? Simak perbandingan lengkap kelebihan, kekurangan, risiko, dan imbal hasil dari dua instrumen investasi ini.",
-    "slug": "reksadana-vs-saham-mana-yang-cocok-untuk-pemula-di-2026",
-    "tags": "Reksadana, Saham, Investasi, Pemula, Perbandingan, Edukasi",
-    "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
-    "lang": "id"
-  },
-  {
     "judul": "Microsoft Copilot Free: Copywriting dan Ide Iklan untuk Jualan Online",
     "meta_desc": "Copilot Free cocok untuk draft copy, ide iklan, dan pesan jualan. Pelajari cara memakainya untuk membantu toko online, reseller, dan UMKM menghasilkan uang.",
     "slug": "microsoft-copilot-free-copywriting-dan-ide-iklan-untuk-jualan-online",
@@ -259,69 +250,6 @@ window.__ARTICLES = [
     "tags": "Reksadana, Saham, Investasi Pemula, Edukasi",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "5 Tips Hemat di Tengah Inflasi Tanpa Harus Korban Gaya Hidup",
-    "meta_desc": "Inflasi menekan daya beli? Simak 5 strategi hemat cerdas yang ampuh melindungi keuangan tanpa harus mengorbankan kualitas hidup Anda di tahun 2026.",
-    "slug": "5-tips-hemat-di-tengah-inflasi-tanpa-harus-korban-gaya-hidup",
-    "tags": "Tips Hemat, Inflasi, Gaya Hidup, Keuangan",
-    "date": "06/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "The Fed Pangkas Suku Bunga 25 bps: Dampak Besar ke IHSG dan Rupiah sepanjang 2026",
-    "meta_desc": "Federal Reserve memangkas suku bunga acuan 25 basis poin untuk pertama kalinya di 2026. Simak analisis dampaknya ke IHSG, nilai tukar rupiah, dan sektor-sektor yang paling diuntungkan.",
-    "slug": "the-fed-pangkas-suku-bunga-25-bps-dampak-besar-ke-ihsg-dan-rupiah-sepanjang-2026",
-    "tags": "Pasar Global, The Fed, IHSG, Rupiah, Suku Bunga",
-    "date": "06/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "IHSG Bangkit di Awal Juli 2026 Usai Investor Asing Jual Saham Rp19,63 T",
-    "meta_desc": "IHSG naik 1,19% ke 5.986,5 pada 7 Juli 2026 setelah anjlok selama Juni 2026. Investor asing jual saham Rp19,63 triliun sepanjang Juni. Simak analisis lengkap dan strategi investasi di tengah pemulihan pasar.",
-    "slug": "ihsg-bangkit-di-awal-juli-2026-usai-investor-asing-jual-saham-rp1963-t",
-    "tags": "IHSG, Pasar Saham, Investor Asing, Reksadana, Investasi",
-    "date": "07/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "Inflasi 2026: 3 Strategi Investasi agar Uang Tidak Tergerus",
-    "meta_desc": "[Updated 09/07/2026] Inflasi Indonesia di 2026 melandai ke 3,5 persen, tapi daya beli tetap tertekan. Simak 3 strategi investasi ampuh untuk ",
-    "slug": "inflasi-2026-3-strategi-investasi-agar-uang-tidak-tergerus",
-    "tags": "Inflasi, Investasi, Strategi, Reksadana, Emas",
-    "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "Pemerintah Suntik Rp400 T ke Himbara: Dampaknya ke IHSG & Rupiah",
-    "meta_desc": "Pemerintah tempatkan Rp400 triliun dana SAL di Himbara untuk dorong likuiditas. Simak dampaknya ke IHSG, rupiah, dan sektor perbankan dalam analisis lengkap DailyMoney.",
-    "slug": "pemerintah-suntik-rp400-t-ke-himbara-dampaknya-ke-ihsg-rupiah",
-    "tags": "SAL, Himbara, Likuiditas, IHSG, Rupiah, Ekonomi",
-    "date": "07/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "Reksadana vs Saham: Mana yang Cocok untuk Pemula di 2026?",
-    "meta_desc": "[Updated 09/07/2026] Bingung memilih antara reksadana dan saham untuk memulai investasi? Simak perbandingan lengkap plus rekomendasi strategi",
-    "slug": "reksadana-vs-saham-mana-yang-cocok-untuk-pemula-di-2026",
-    "tags": "Reksadana, Saham, Investasi Pemula, Edukasi",
-    "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
-    "lang": "id"
-  },
-  {
-    "judul": "S&P DJI Masukkan Indonesia ke Watchlist 2027, IHSG Anjlok 1,3%",
-    "meta_desc": "S&P Dow Jones Indices memasukkan Indonesia ke Watchlist 2027 dengan potensi turun status dari Emerging Market ke Frontier Market. IHSG langsung anjlok 1,32% ke 5.907. Simak analisis dampak dan prospek pasar saham Indonesia ke depan.",
-    "slug": "sp-dji-masukkan-indonesia-ke-watchlist-2027-ihsg-anjlok-13",
-    "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, BEI",
-    "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
     "lang": "id"
   }
 ];
