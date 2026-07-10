@@ -208,6 +208,15 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Latest IHSG & Stock Market Update — Data and Analysis",
+    "meta_desc": "Bagi investor cerdas, IHSG & Stock Market bukan sekadar angka di layar monitor. Ini adalah cerminan dari fundamental ekonomi yang lebih...",
+    "slug": "latest-ihsg-stock-market-update-data-and-analysis",
+    "tags": "JCI, Saham, Pasar Modal, IDX, Bursa Efek",
+    "date": "",
+    "image_url": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?auto=format&fit=crop&w=1200&q=80",
+    "lang": "en"
+  },
+  {
     "judul": "Market Analysis - IDX menyediakan data pasar,",
     "meta_desc": "Analisis lengkap tentang Market Analysis - IDX menyediakan data pasar,. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "market-analysis-idx-menyediakan-data-pasar",

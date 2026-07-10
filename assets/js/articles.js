@@ -325,6 +325,15 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Strategi Investasi IHSG & Pasar Saham yang Terbukti Efektif",
+    "meta_desc": "Mengapa IHSG & Pasar Saham penting? Jawabannya sederhana: karena ini menyangkut masa depan keuangan Anda.\n\nUntuk memahami konteksnya, kita perlu...",
+    "slug": "strategi-investasi-ihsg-pasar-saham-yang-terbukti-efektif",
+    "tags": "IHSG, Saham, Pasar Modal, IDX, Bursa Efek",
+    "date": "",
+    "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?auto=format&fit=crop&w=1200&q=80",
+    "lang": "id"
+  },
+  {
     "judul": "Update Cryptocurrency: Pergerakan Bitcoin dan Altcoin Terbaru",
     "meta_desc": "Analisis lengkap tentang Update Cryptocurrency: Pergerakan Bitcoin dan Altcoin Terbaru. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuan",
     "slug": "update-cryptocurrency-pergerakan-bitcoin-dan-altcoin-terbaru",

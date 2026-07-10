@@ -433,8 +433,10 @@ def build_article_html(data, lang, lang_prefix="", lang_map=None):
         content_html = content_html[:last.start()] + new_tag + content_html[last.end():]
 
     if image_url:
+        # Sanitize image URL: remove double slashes
+        clean_url = re.sub(r'([^:]/)/+', r'\1', image_url)
         cap_html = f'<div class="img-caption">{html.escape(image_caption)}</div>' if image_caption else ''
-        image_html = f'<div class="article-featured-image"><img src="{html.escape(image_url)}" alt="{judul_escaped}" loading="lazy">{cap_html}</div>'
+        image_html = f'<div class="article-featured-image"><img src="{html.escape(clean_url)}" alt="{judul_escaped}" loading="lazy">{cap_html}</div>'
     else:
         image_html = ''
 
@@ -805,7 +807,8 @@ def generate_homepage(lang, output_path, articles, lang_prefix="", prices=None, 
 
         img_html = ""
         if a.get('image_url'):
-            img_html = f'<img src="{html.escape(a["image_url"])}" alt="{html.escape(a["judul"])}" loading="lazy">'
+            clean_url = re.sub(r'([^:]/)/+', r'\1', a["image_url"])
+            img_html = f'<img src="{html.escape(clean_url)}" alt="{html.escape(a["judul"])}" loading="lazy">'
 
         grid_items += f"""
     <a href="{article_url}" class="article-card{featured_class}" data-index="{i}">
