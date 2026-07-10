@@ -6,79 +6,79 @@ window.__ARTICLES = [
     "slug": "chatgpt-free-turning-ideas-into-sellable-content-services",
     "tags": "ChatGPT, Free AI, Freelance, Content, Productivity",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Economic Report - Disabilitas Disabilitas Berita Terkini,",
-    "meta_desc": "Disabilitas Disabilitas Berita Terkini, Berita Hari Ini, Berita Harian, Berita Terbaru, Kumpulan Artikel ... Berita Terkini, Kabar Terbaru Hari Ini ...",
+    "meta_desc": "Comprehensive analysis of Economic Report - Disabilitas Disabilitas Berita Terkini,. Learn investment strategies and market insights for informed financial",
     "slug": "economic-report-disabilitas-disabilitas-berita-terkini",
     "tags": "Finance, Economy, Indonesia, Market",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "How to Start Investing in 2026: Complete Beginner's Guide",
-    "meta_desc": "Complete investment guide for beginners in 2026 — from mutual funds, stocks, gold, to crypto. Learn strategies and risks before investing.",
+    "meta_desc": "Comprehensive analysis of How to Start Investing in 2026: Complete Beginner's Guide. Learn investment strategies and market insights for informed financial",
     "slug": "how-to-start-investing-in-2026-complete-beginners-guide",
     "tags": "Investment, Stocks, Mutual Funds, Beginner, Finance Education",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesia Stocks - 1 day ago ·",
-    "meta_desc": "1 day ago · Bisnis.com menyajikan informasi dan berita market terkini dan terbaru meliputi bursa saham, pasar modal, IHSG, reksadana, rekomendasi saham, in",
+    "meta_desc": "Comprehensive analysis of Indonesia Stocks - 1 day ago ·. Learn investment strategies and market insights for informed financial decisions in 2026.",
     "slug": "indonesia-stocks-1-day-ago",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesia Stocks - CNBC Indonesia menyajikan berita",
-    "meta_desc": "CNBC Indonesia menyajikan berita terkini, riset, dan analisis mendalam seputar Berita Tentang \"Ihsg\" Terkini Dan Terlengkap - CNBC Indonesia.",
+    "meta_desc": "Comprehensive analysis of Indonesia Stocks - CNBC Indonesia menyajikan berita. Learn investment strategies and market insights for informed financial decis",
     "slug": "indonesia-stocks-cnbc-indonesia-menyajikan-berita",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesia Stocks - Indeks Harga Saham Gabungan",
-    "meta_desc": "Indeks Harga Saham Gabungan (IHSG) ditutup melemah pada perdagangan hari ini. IHSG hari ini ditutup menguat 1,19% di level 5.986,49. Meskipun melemah YTD 3",
+    "meta_desc": "Comprehensive analysis of Indonesia Stocks - Indeks Harga Saham Gabungan. Learn investment strategies and market insights for informed financial decisions ",
     "slug": "indonesia-stocks-indeks-harga-saham-gabungan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Investment Tax Guide 2026: What Must Be Reported",
-    "meta_desc": "Understand investment tax obligations in 2026 — taxes on stocks, mutual funds, gold, crypto, and property.",
+    "meta_desc": "Comprehensive analysis of Investment Tax Guide 2026: What Must Be Reported. Learn investment strategies and market insights for informed financial decision",
     "slug": "investment-tax-guide-2026-what-must-be-reported",
     "tags": "Tax, SPT, Investment, Stocks, Crypto, Reporting",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1640340434855-6084d0b36c44?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Market Update - Berita Terkini - Ihsg",
-    "meta_desc": "Berita Terkini - Ihsg Hari Ini ... IHSG Pekan Ini Diprediksi Bergerak di Kisaran 8.260-8.620, Investor Asing Wajib Hati-hati",
+    "meta_desc": "Comprehensive analysis of Market Update - Berita Terkini - Ihsg. Learn investment strategies and market insights for informed financial decisions in 2026.",
     "slug": "market-update-berita-terkini-ihsg",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Financial Update - IDX menyediakan data pasar,",
-    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "meta_desc": "Comprehensive analysis of Financial Update - IDX menyediakan data pasar,. Learn investment strategies and market insights for informed financial decisions ",
     "slug": "financial-update-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -87,124 +87,88 @@ window.__ARTICLES = [
     "slug": "gemini-free-fast-research-for-freelance-pitches-blogs-and-seo",
     "tags": "Gemini, Free AI, Research, SEO, Freelance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesia Stocks - IHSG di persimpangan antara",
-    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas …",
+    "meta_desc": "Comprehensive analysis of Indonesia Stocks - IHSG di persimpangan antara. Learn investment strategies and market insights for informed financial decisions ",
     "slug": "indonesia-stocks-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Market Analysis - IDX menyediakan data pasar,",
-    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "meta_desc": "Comprehensive analysis of Market Analysis - IDX menyediakan data pasar,. Learn investment strategies and market insights for informed financial decisions i",
     "slug": "market-analysis-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Market Update - Dapatkan informasi terkini dan",
-    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "meta_desc": "Comprehensive analysis of Market Update - Dapatkan informasi terkini dan. Learn investment strategies and market insights for informed financial decisions ",
     "slug": "market-update-dapatkan-informasi-terkini-dan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Stock Market Analysis - Dapatkan informasi terkini dan",
-    "meta_desc": "Dapatkan informasi terkini dan terperinci mengenai Indeks Harga Saham Gabungan (IHSG) hari ini termasuk grafik, analisis teknikal, komponen, dan informasi",
+    "meta_desc": "Comprehensive analysis of Stock Market Analysis - Dapatkan informasi terkini dan. Learn investment strategies and market insights for informed financial de",
     "slug": "stock-market-analysis-dapatkan-informasi-terkini-dan",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Stock Market Analysis - IHSG di persimpangan antara",
-    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "meta_desc": "Comprehensive analysis of Stock Market Analysis - IHSG di persimpangan antara. Learn investment strategies and market insights for informed financial decis",
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Investment Guide: Apa Itu Investasi Pengertian Keuntungan Da...",
-    "meta_desc": "Read the latest analysis on apa itu investasi pengertian keuntungan da panduan. Key insights for investors in Indonesia.",
+    "meta_desc": "Comprehensive analysis of Investment Guide: Apa Itu Investasi Pengertian Keuntungan Da.... Learn investment strategies and market insights for informed fin",
     "slug": "investment-guide-apa-itu-investasi-pengertian-keuntungan-da",
     "tags": "bahwa, investasi, oleh, indonesia, financial",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Investment Guide: Cara Apa Itu Investasi Pengertian Keuntunga",
-    "meta_desc": "Read the latest analysis on cara apa itu investasi pengertian keuntunga. Key insights for investors in Indonesia.",
+    "meta_desc": "Analisis lengkap tentang Investment Guide: Cara Apa Itu Investasi Pengertian Keuntunga. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuan",
     "slug": "investment-guide-cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi, indonesia, financial",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesia Stocks - Lihat berita, harga saham,",
-    "meta_desc": "Lihat berita, harga saham, data fundamental, teknikal analisis dan laporan keuangan saham IHSG (Index Harga Saham Gabungan) Investasi, Nabung, Beli atau Ju",
+    "meta_desc": "Analisis lengkap tentang Indonesia Stocks - Lihat berita, harga saham,. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "indonesia-stocks-lihat-berita-harga-saham",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
-    "lang": "en"
-  },
-  {
-    "judul": "Economic Update: Keuangan Floor Plan Creator Changelog 371 M",
-    "meta_desc": "Read the latest analysis on keuangan floor plan creator changelog 371 m. Key insights for investors in Indonesia.",
-    "slug": "economic-update-keuangan-floor-plan-creator-changelog-371-m",
-    "tags": "changelog, added, finansial, indonesia, financial",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "en"
-  },
-  {
-    "judul": "Economic Update: Keuangan Microsoft Community 10 Mar 2025 I",
-    "meta_desc": "Read the latest analysis on keuangan microsoft community 10 mar 2025 i. Key insights for investors in Indonesia.",
-    "slug": "economic-update-keuangan-microsoft-community-10-mar-2025-i",
-    "tags": "finansial, console, wondering, indonesia, financial",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "en"
-  },
-  {
-    "judul": "Economic Update: Keuangan Microsoft Community 14 Nov 2023 After",
-    "meta_desc": "Read the latest analysis on keuangan microsoft community 14 nov 2023 after. Key insights for investors in Indonesia.",
-    "slug": "economic-update-keuangan-microsoft-community-14-nov-2023-after",
-    "tags": "usual, turned, than, indonesia, financial",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "en"
-  },
-  {
-    "judul": "Economic Update: Keuangan 用Microsoft Edge阅读Pdf问件时每次复制文字都会自动弹出一",
-    "meta_desc": "Read the latest analysis on keuangan 用microsoft edge阅读pdf问件时每次复制文字都会自动弹出一. Key insights for investors in Indonesia.",
-    "slug": "economic-update-keuangan-用microsoft-edge阅读pdf问件时每次复制文字都会自动弹出一",
-    "tags": "finansial, indonesia, financial",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Market Analysis - IDX menyediakan data pasar,",
-    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "meta_desc": "Analisis lengkap tentang Market Analysis - IDX menyediakan data pasar,. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "market-analysis-idx-menyediakan-data-pasar",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -213,7 +177,7 @@ window.__ARTICLES = [
     "slug": "microsoft-copilot-free-copywriting-and-ad-ideas-for-online-selling",
     "tags": "Copilot, Free AI, Copywriting, SMEs, Ads",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -222,70 +186,70 @@ window.__ARTICLES = [
     "slug": "perplexity-free-fast-research-for-content-niches-and-affiliate",
     "tags": "Perplexity, Free AI, Affiliate, Market Research, Content",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Indonesia Government Injects Rp400T into State Banks: Market Impact",
-    "meta_desc": "Indonesia's government places Rp400 trillion in state banks to boost liquidity. Read our analysis of the impact on IHSG, rupiah, and the banking sector in this DailyMoney report.",
+    "meta_desc": "Comprehensive analysis of Indonesia Government Injects Rp400T into State Banks: Market Impact. Learn investment strategies and market insights for informed",
     "slug": "indonesia-government-injects-rp400t-into-state-banks-market-impact",
     "tags": "SAL, State Banks, Liquidity, IHSG, Rupiah, Indonesia Economy",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Stock Market Analysis - IHSG di persimpangan antara",
-    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "meta_desc": "Analisis lengkap tentang Stock Market Analysis - IHSG di persimpangan antara. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang l",
     "slug": "stock-market-analysis-ihsg-di-persimpangan-antara",
     "tags": "Stock Market, Indonesia, Investment, Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Inflation 2026: 3 Investment Strategies to Protect Your Wealth",
-    "meta_desc": "Indonesia's inflation eased to 3.5 percent in 2026, but purchasing power remains under pressure. Discover 3 powerful investment strategies to shield your assets from inflation erosion.",
+    "meta_desc": "Comprehensive analysis of Inflation 2026: 3 Investment Strategies to Protect Your Wealth. Learn investment strategies and market insights for informed fina",
     "slug": "inflation-2026-3-investment-strategies-to-protect-your-wealth",
     "tags": "Inflation, Investment, Strategy, Mutual Funds, Gold",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1612810440013-14cf0e2db6d0?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "S&P DJI Puts Indonesia on Watchlist 2027, IHSG Plunges 1.3%",
-    "meta_desc": "S&P Dow Jones Indices places Indonesia on 2027 Watchlist with potential downgrade from Emerging Market to Frontier Market. IHSG fell 1.32% to 5,907. Analysis of market impact and Indonesia's stock market outlook.",
+    "meta_desc": "Comprehensive analysis of S&P DJI Puts Indonesia on Watchlist 2027, IHSG Plunges 1.3%. Learn investment strategies and market insights for informed financi",
     "slug": "sp-dji-puts-indonesia-on-watchlist-2027-ihsg-plunges-13",
     "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, IDX",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Mutual Funds vs Stocks: Which is Best for Beginners in 2026?",
-    "meta_desc": "Confused about choosing between mutual funds and stocks to start investing? Read our comprehensive comparison plus step-by-step investment strategy for beginners.",
+    "meta_desc": "Comprehensive analysis of Mutual Funds vs Stocks: Which is Best for Beginners in 2026?. Learn investment strategies and market insights for informed financ",
     "slug": "mutual-funds-vs-stocks-which-is-best-for-beginners-in-2026",
     "tags": "Mutual Funds, Stocks, Beginner Investing, Education",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "IHSG Rebounds in Early July 2026 After Foreign Investors Dumped Rp19.63 Trillion",
-    "meta_desc": "IHSG rose 1.19% to 5,986.5 on July 7, 2026 after plunging throughout June 2026. Foreign investors sold Rp19.63 trillion in stocks in June. Read our complete analysis and investment strategies amid the market recovery.",
+    "meta_desc": "Comprehensive analysis of IHSG Rebounds in Early July 2026 After Foreign Investors Dumped Rp19.63 Trillion. Learn investment strategies and market insights",
     "slug": "ihsg-rebounds-in-early-july-2026-after-foreign-investors-dumped-rp1963-trillion",
     "tags": "IHSG, Stock Market, Foreign Investors, Mutual Funds, Investment",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
     "lang": "en"
   },
   {
     "judul": "Fed Cuts Interest Rate by 25bps: Major Impact on IHSG and Rupiah in 2026",
-    "meta_desc": "The Federal Reserve cut its benchmark interest rate by 25 basis points for the first time in 2026. Read our analysis of the impact on Indonesian stocks and currency.",
+    "meta_desc": "Comprehensive analysis of Fed Cuts Interest Rate by 25bps: Major Impact on IHSG and Rupiah in 2026. Learn investment strategies and market insights for inf",
     "slug": "fed-cuts-interest-rate-by-25bps-major-impact-on-ihsg-and-rupiah-in-2026",
     "tags": "Global Markets, Federal Reserve, IHSG, Rupiah, Interest Rates",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
     "lang": "en"
   },
   {
@@ -294,7 +258,7 @@ window.__ARTICLES = [
     "slug": "5-smart-saving-tips-during-inflation-without-sacrificing-lifestyle",
     "tags": "Saving Tips, Inflation, Lifestyle, Personal Finance",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
     "lang": "en"
   }
 ];

@@ -2,38 +2,38 @@
 window.__ARTICLES = [
   {
     "judul": "Cara Mulai Investasi di 2026: Panduan Lengkap untuk Pemula",
-    "meta_desc": "Panduan lengkap investasi untuk pemula di 2026 — dari reksadana, saham, emas, hingga crypto. Pelajari strategi dan risiko sebelum mulai investasi.",
+    "meta_desc": "Analisis lengkap tentang Cara Mulai Investasi di 2026: Panduan Lengkap untuk Pemula. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan",
     "slug": "cara-mulai-investasi-di-2026-panduan-lengkap-untuk-pemula",
     "tags": "Investasi, Reksadana, Saham, Emas, Pemula, Edukasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1617042375876-a13e36732a04?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "ChatGPT Free: Cara Mengubah Ide Jadi Jasa Konten yang Bisa Dijual",
-    "meta_desc": "ChatGPT Free bisa dipakai untuk riset, outline, caption, dan draft layanan freelance. Pelajari alur kerja sederhana yang bisa membantu Anda menjual jasa lebih cepat tanpa modal besar.",
+    "meta_desc": "Analisis lengkap tentang ChatGPT Free: Cara Mengubah Ide Jadi Jasa Konten yang Bisa Dijual. Pelajari strategi investasi dan wawasan pasar untuk keputusan k",
     "slug": "chatgpt-free-cara-mengubah-ide-jadi-jasa-konten-yang-bisa-dijual",
     "tags": "ChatGPT, AI Gratis, Freelance, Konten, Produktivitas",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Ekonomi Terkini: Berita Ekonomi Terbaru Hari Ini 28 Juni",
-    "meta_desc": "Baca analisis lengkap tentang Berita Ekonomi Terbaru Hari Ini 28 Juni. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "meta_desc": "Analisis lengkap tentang Ekonomi Terkini: Berita Ekonomi Terbaru Hari Ini 28 Juni. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan y",
     "slug": "ekonomi-terkini-berita-ekonomi-terbaru-hari-ini-28-juni",
     "tags": "ekonomi, sini, biar",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1598301257982-02c64497d006?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Ekonomi Terkini: No.28/94/DKom Data Badan Pusat Statistik",
-    "meta_desc": "Baca analisis lengkap tentang No.28/94/DKom Data Badan Pusat Statistik (BPS) menunjukkan. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "meta_desc": "Analisis lengkap tentang Ekonomi Terkini: No.28/94/DKom Data Badan Pusat Statistik. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan ",
     "slug": "ekonomi-terkini-no2894dkom-data-badan-pusat-statistik",
     "tags": "menunjukkan, ekonomi, pusat",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -42,7 +42,7 @@ window.__ARTICLES = [
     "slug": "ihsg-melemahmenguat-tag-berita-terkini-ihsg-hari-ini",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -51,7 +51,7 @@ window.__ARTICLES = [
     "slug": "indeks-harga-saham-gabungan-pergerakan-ihsg",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -60,34 +60,25 @@ window.__ARTICLES = [
     "slug": "indeks-saham-1-month-ago",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1553729459-afe8f2e2ed14?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Keuangan: Berita Ekonomi Indonesia, Keuangan, Perb",
-    "meta_desc": "Baca analisis lengkap tentang Berita Ekonomi Indonesia, Keuangan, Perbankan, Asuransi, Multifinance,. Simak dampak dan strategi terbaik untuk portofolio.",
+    "meta_desc": "Analisis lengkap tentang Keuangan: Berita Ekonomi Indonesia, Keuangan, Perb. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang le",
     "slug": "keuangan-berita-ekonomi-indonesia-keuangan-perb",
     "tags": "naik, cadangan, finansial, miliar",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "id"
-  },
-  {
-    "judul": "Keuangan: Kompasiana.com. 3 weeks ago - IHSG pada",
-    "meta_desc": "Baca analisis lengkap tentang Kompasiana.com. 3 weeks ago - IHSG pada. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
-    "slug": "keuangan-kompasianacom-3-weeks-ago-ihsg-pada",
-    "tags": "tahun, juni, finansial, kemungkinan",
-    "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1535320903710-d993d3d77d29?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Panduan Pajak Investasi 2026: Yang Wajib Dilaporkan",
-    "meta_desc": "Pahami kewajiban pajak investasi di 2026 — pajak saham, reksadana, emas, crypto, dan properti. Simak batas pelaporan dan cara hitung pajaknya.",
+    "meta_desc": "Analisis lengkap tentang Panduan Pajak Investasi 2026: Yang Wajib Dilaporkan. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang l",
     "slug": "panduan-pajak-investasi-2026-yang-wajib-dilaporkan",
     "tags": "Pajak, SPT, Investasi, Saham, Crypto, Pelaporan",
     "date": "08/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -105,7 +96,7 @@ window.__ARTICLES = [
     "slug": "dapatkan-informasi-terkini-dan-indeks-saham",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -114,16 +105,16 @@ window.__ARTICLES = [
     "slug": "gemini-free-riset-cepat-untuk-proposal-freelance-blog-dan-seo",
     "tags": "Gemini, AI Gratis, Riset, SEO, Freelance",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "idx menyediakan data pasar, — Investasi",
-    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "meta_desc": "Analisis lengkap tentang idx menyediakan data pasar, — Investasi. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih baik.",
     "slug": "idx-menyediakan-data-pasar-investasi",
     "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -132,16 +123,16 @@ window.__ARTICLES = [
     "slug": "ihsg-di-persimpangan-antara-indeks-saham",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Investasi — 09 Jul 2026",
-    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "meta_desc": "Analisis lengkap tentang Investasi — 09 Jul 2026. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih baik.",
     "slug": "investasi-09-jul-2026",
     "tags": "Investasi, Keuangan, Reksadana, Saham, Perencanaan",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -150,7 +141,7 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-dapatkan-informasi-terkini-dan",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -159,88 +150,43 @@ window.__ARTICLES = [
     "slug": "pergerakan-ihsg-ihsg-di-persimpangan-antara",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1622630998444-44b01e2e6580?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Pergerakan Saham: idx menyediakan data pasar,...",
-    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "meta_desc": "Analisis lengkap tentang Pergerakan Saham: idx menyediakan data pasar,.... Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebi",
     "slug": "pergerakan-saham-idx-menyediakan-data-pasar",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "09/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1541354329998-f4d9a9b36c83?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Apa itu Investasi? Pengertian, Keuntungan, da — Panduan...",
-    "meta_desc": "Baca analisis lengkap tentang Apa itu Investasi? Pengertian, Keuntungan, dan Jenisnya.. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "meta_desc": "Analisis lengkap tentang Apa itu Investasi? Pengertian, Keuntungan, da — Panduan.... Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan",
     "slug": "apa-itu-investasi-pengertian-keuntungan-da-panduan",
     "tags": "bahwa, investasi, oleh",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1516245834210-c4c142787335?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Cara Apa itu Investasi? Pengertian, Keuntunga",
-    "meta_desc": "Baca analisis lengkap tentang Apa itu Investasi? Pengertian, Keuntungan, dan Jenisnya.. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "meta_desc": "Analisis lengkap tentang Cara Apa itu Investasi? Pengertian, Keuntunga. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih b",
     "slug": "cara-apa-itu-investasi-pengertian-keuntunga",
     "tags": "oleh, ingatlah, investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "id"
-  },
-  {
-    "judul": "Keuangan: Floor Plan Creator. Changelog 3.7.1: * M",
-    "meta_desc": "Baca analisis lengkap tentang Floor Plan Creator. Changelog 3.7.1: * More. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
-    "slug": "keuangan-floor-plan-creator-changelog-371-m",
-    "tags": "changelog, added, finansial, hatched",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "id"
-  },
-  {
-    "judul": "Keuangan: Floor Plan Creator. Visit Floor Plan Cre",
-    "meta_desc": "Baca analisis lengkap tentang Floor Plan Creator. Visit Floor Plan Creator's. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
-    "slug": "keuangan-floor-plan-creator-visit-floor-plan-cre",
-    "tags": "finansial, floor, find, youtube",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "id"
-  },
-  {
-    "judul": "Keuangan: Microsoft Community. 10 Mar 2025 · I",
-    "meta_desc": "Baca analisis lengkap tentang Microsoft Community. 10 Mar 2025 · I. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
-    "slug": "keuangan-microsoft-community-10-mar-2025-i",
-    "tags": "finansial, console, wondering, split",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "id"
-  },
-  {
-    "judul": "Keuangan: Microsoft Community. 14 Nov 2023 · after",
-    "meta_desc": "Baca analisis lengkap tentang Microsoft Community. 14 Nov 2023 · after. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
-    "slug": "keuangan-microsoft-community-14-nov-2023-after",
-    "tags": "usual, turned, than, finansial",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
-    "lang": "id"
-  },
-  {
-    "judul": "Keuangan: 用MICROSOFT EDGE阅读PDF问件时，每次复制文字都会自动弹出一 ….",
-    "meta_desc": "Baca analisis lengkap tentang 用MICROSOFT EDGE阅读PDF问件时，每次复制文字都会自动弹出一 …. 用MICROSOFT EDGE阅读PD. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di.",
-    "slug": "keuangan-用microsoft-edge阅读pdf问件时每次复制文字都会自动弹出一",
-    "tags": "finansial",
-    "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "image_url": "https://images.unsplash.com/photo-1543394972-e1cff5a7e4da?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "lihat berita, harga saham, — Pergerakan IHSG",
-    "meta_desc": "Lihat berita, harga saham, data fundamental, teknikal analisis dan laporan keuangan saham IHSG (Index Harga Saham Gabungan) Investasi, Nabung, Beli atau Ju",
+    "meta_desc": "Analisis lengkap tentang lihat berita, harga saham, — Pergerakan IHSG. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih ba",
     "slug": "lihat-berita-harga-saham-pergerakan-ihsg",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1580519542036-c47de6196ba5?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -249,43 +195,43 @@ window.__ARTICLES = [
     "slug": "microsoft-copilot-free-copywriting-dan-ide-iklan-untuk-jualan-online",
     "tags": "Copilot, AI Gratis, Copywriting, UMKM, Iklan",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1554224154-26032ffc0d07?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Pergerakan IHSG — 10 Jul 2026",
-    "meta_desc": "IHSG di persimpangan antara uptrend atau downtrend IHSG saat ini di persimpangan dengan 2 skenario : 1. jika IHSG bisa bertahan diatas support 5607 dan bis",
+    "meta_desc": "Analisis lengkap tentang Pergerakan IHSG — 10 Jul 2026. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih baik.",
     "slug": "pergerakan-ihsg-10-jul-2026",
     "tags": "IHSG, Saham, Bursa Efek, Pasar Modal, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1625039013965-0183dd450a35?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Perplexity Free: Riset Cepat untuk Konten, Niche, dan Affiliate",
-    "meta_desc": "Perplexity Free membantu mencari sumber, membandingkan produk, dan merangkum tren dengan cepat. Cocok untuk konten affiliate, riset niche, dan jasa laporan singkat.",
+    "meta_desc": "Analisis lengkap tentang Perplexity Free: Riset Cepat untuk Konten, Niche, dan Affiliate. Pelajari strategi investasi dan wawasan pasar untuk keputusan keu",
     "slug": "perplexity-free-riset-cepat-untuk-konten-niche-dan-affiliate",
     "tags": "Perplexity, AI Gratis, Affiliate, Riset Pasar, Konten",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Rekomendasi Saham — 10 Jul 2026",
-    "meta_desc": "IDX menyediakan data pasar, laporan statistik, dan indeks saham untuk investor di Indonesia.",
+    "meta_desc": "Analisis lengkap tentang Rekomendasi Saham — 10 Jul 2026. Pelajari strategi investasi dan wawasan pasar untuk keputusan keuangan yang lebih baik.",
     "slug": "rekomendasi-saham-10-jul-2026",
     "tags": "Saham, Reksadana, Investasi, Pasar Modal, Portofolio",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "Pemerintah Suntik Rp400 T ke Himbara: Dampaknya ke IHSG & Rupiah",
-    "meta_desc": "Pemerintah tempatkan Rp400 triliun dana SAL di Himbara untuk dorong likuiditas. Simak dampaknya ke IHSG, rupiah, dan sektor perbankan dalam analisis lengkap DailyMoney.",
+    "meta_desc": "Analisis lengkap tentang Pemerintah Suntik Rp400 T ke Himbara: Dampaknya ke IHSG & Rupiah. Pelajari strategi investasi dan wawasan pasar untuk keputusan ke",
     "slug": "pemerintah-suntik-rp400-t-ke-himbara-dampaknya-ke-ihsg-rupiah",
     "tags": "SAL, Himbara, Likuiditas, IHSG, Rupiah, Ekonomi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -294,7 +240,7 @@ window.__ARTICLES = [
     "slug": "inflasi-2026-3-strategi-investasi-agar-uang-tidak-tergerus",
     "tags": "Inflasi, Investasi, Strategi, Reksadana, Emas",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375461369-d613b564f12c?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -303,34 +249,34 @@ window.__ARTICLES = [
     "slug": "5-tips-hemat-di-tengah-inflasi-tanpa-harus-korban-gaya-hidup",
     "tags": "Tips Hemat, Inflasi, Gaya Hidup, Keuangan",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "S&P DJI Masukkan Indonesia ke Watchlist 2027, IHSG Anjlok 1,3%",
-    "meta_desc": "S&P Dow Jones Indices memasukkan Indonesia ke Watchlist 2027 dengan potensi turun status dari Emerging Market ke Frontier Market. IHSG langsung anjlok 1,32% ke 5.907. Simak analisis dampak dan prospek pasar saham Indonesia ke depan.",
+    "meta_desc": "Analisis lengkap tentang S&P DJI Masukkan Indonesia ke Watchlist 2027, IHSG Anjlok 1,3%. Pelajari strategi investasi dan wawasan pasar untuk keputusan keua",
     "slug": "sp-dji-masukkan-indonesia-ke-watchlist-2027-ihsg-anjlok-13",
     "tags": "S&P DJI, Watchlist, IHSG, Emerging Market, Frontier Market, BEI",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1610375284140-f23e56ddc3b2?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "IHSG Bangkit di Awal Juli 2026 Usai Investor Asing Jual Saham Rp19,63 T",
-    "meta_desc": "IHSG naik 1,19% ke 5.986,5 pada 7 Juli 2026 setelah anjlok selama Juni 2026. Investor asing jual saham Rp19,63 triliun sepanjang Juni. Simak analisis lengkap dan strategi investasi di tengah pemulihan pasar.",
+    "meta_desc": "Analisis lengkap tentang IHSG Bangkit di Awal Juli 2026 Usai Investor Asing Jual Saham Rp19,63 T. Pelajari strategi investasi dan wawasan pasar untuk keput",
     "slug": "ihsg-bangkit-di-awal-juli-2026-usai-investor-asing-jual-saham-rp1963-t",
     "tags": "IHSG, Pasar Saham, Investor Asing, Reksadana, Investasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1642790106117-e829e14a795f?w=1200&q=80",
     "lang": "id"
   },
   {
     "judul": "The Fed Pangkas Suku Bunga 25 bps: Dampak Besar ke IHSG dan Rupiah sepanjang 2026",
-    "meta_desc": "Federal Reserve memangkas suku bunga acuan 25 basis poin untuk pertama kalinya di 2026. Simak analisis dampaknya ke IHSG, nilai tukar rupiah, dan sektor-sektor yang paling diuntungkan.",
+    "meta_desc": "Analisis lengkap tentang The Fed Pangkas Suku Bunga 25 bps: Dampak Besar ke IHSG dan Rupiah sepanjang 2026. Pelajari strategi investasi dan wawasan pasar u",
     "slug": "the-fed-pangkas-suku-bunga-25-bps-dampak-besar-ke-ihsg-dan-rupiah-sepanjang-2026",
     "tags": "Pasar Global, The Fed, IHSG, Rupiah, Suku Bunga",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=1200&q=80",
     "lang": "id"
   },
   {
@@ -339,7 +285,7 @@ window.__ARTICLES = [
     "slug": "reksadana-vs-saham-mana-yang-cocok-untuk-pemula-di-2026",
     "tags": "Reksadana, Saham, Investasi Pemula, Edukasi",
     "date": "10/07/2026",
-    "image_url": "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=1200&q=80",
+    "image_url": "https://images.unsplash.com/photo-1624996379697-f01d168b1a52?w=1200&q=80",
     "lang": "id"
   }
 ];
