@@ -145,10 +145,46 @@ window.__ARTICLES = [
     "lang": "en"
   },
   {
+    "judul": "Investment Guide: Cara Apa Itu Investasi Pengertian Keuntunga",
+    "meta_desc": "Read the latest analysis on cara apa itu investasi pengertian keuntunga. Key insights for investors in Indonesia.",
+    "slug": "investment-guide-cara-apa-itu-investasi-pengertian-keuntunga",
+    "tags": "oleh, ingatlah, investasi, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
     "judul": "Economic Update: Keuangan Floor Plan Creator Changelog 371 M",
     "meta_desc": "Read the latest analysis on keuangan floor plan creator changelog 371 m. Key insights for investors in Indonesia.",
     "slug": "economic-update-keuangan-floor-plan-creator-changelog-371-m",
     "tags": "changelog, added, finansial, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
+    "judul": "Economic Update: Keuangan Microsoft Community 10 Mar 2025 I",
+    "meta_desc": "Read the latest analysis on keuangan microsoft community 10 mar 2025 i. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-microsoft-community-10-mar-2025-i",
+    "tags": "finansial, console, wondering, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
+    "judul": "Economic Update: Keuangan Microsoft Community 14 Nov 2023 After",
+    "meta_desc": "Read the latest analysis on keuangan microsoft community 14 nov 2023 after. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-microsoft-community-14-nov-2023-after",
+    "tags": "usual, turned, than, indonesia, financial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "en"
+  },
+  {
+    "judul": "Economic Update: Keuangan 用Microsoft Edge阅读Pdf问件时每次复制文字都会自动弹出一",
+    "meta_desc": "Read the latest analysis on keuangan 用microsoft edge阅读pdf问件时每次复制文字都会自动弹出一. Key insights for investors in Indonesia.",
+    "slug": "economic-update-keuangan-用microsoft-edge阅读pdf问件时每次复制文字都会自动弹出一",
+    "tags": "finansial, indonesia, financial",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
     "lang": "en"

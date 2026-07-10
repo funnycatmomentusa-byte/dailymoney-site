@@ -181,6 +181,15 @@ window.__ARTICLES = [
     "lang": "id"
   },
   {
+    "judul": "Cara Apa itu Investasi? Pengertian, Keuntunga",
+    "meta_desc": "Baca analisis lengkap tentang Apa itu Investasi? Pengertian, Keuntungan, dan Jenisnya.. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "cara-apa-itu-investasi-pengertian-keuntunga",
+    "tags": "oleh, ingatlah, investasi",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
     "judul": "Keuangan: Floor Plan Creator. Changelog 3.7.1: * M",
     "meta_desc": "Baca analisis lengkap tentang Floor Plan Creator. Changelog 3.7.1: * More. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
     "slug": "keuangan-floor-plan-creator-changelog-371-m",
@@ -194,6 +203,33 @@ window.__ARTICLES = [
     "meta_desc": "Baca analisis lengkap tentang Floor Plan Creator. Visit Floor Plan Creator's. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
     "slug": "keuangan-floor-plan-creator-visit-floor-plan-cre",
     "tags": "finansial, floor, find, youtube",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: Microsoft Community. 10 Mar 2025 · I",
+    "meta_desc": "Baca analisis lengkap tentang Microsoft Community. 10 Mar 2025 · I. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "keuangan-microsoft-community-10-mar-2025-i",
+    "tags": "finansial, console, wondering, split",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: Microsoft Community. 14 Nov 2023 · after",
+    "meta_desc": "Baca analisis lengkap tentang Microsoft Community. 14 Nov 2023 · after. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di 2026.",
+    "slug": "keuangan-microsoft-community-14-nov-2023-after",
+    "tags": "usual, turned, than, finansial",
+    "date": "10/07/2026",
+    "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
+    "lang": "id"
+  },
+  {
+    "judul": "Keuangan: 用MICROSOFT EDGE阅读PDF问件时，每次复制文字都会自动弹出一 ….",
+    "meta_desc": "Baca analisis lengkap tentang 用MICROSOFT EDGE阅读PDF问件时，每次复制文字都会自动弹出一 …. 用MICROSOFT EDGE阅读PD. Simak dampak dan strategi terbaik untuk portofolio investasi Anda di.",
+    "slug": "keuangan-用microsoft-edge阅读pdf问件时每次复制文字都会自动弹出一",
+    "tags": "finansial",
     "date": "10/07/2026",
     "image_url": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&q=75",
     "lang": "id"
