@@ -315,16 +315,16 @@ INSIGHT_PARAS = [
 # 25+ UNIQUE CLOSING PARAGRAPHS
 # ============================================================
 CLOSINGS = [
-    "Kesimpulannya, memahami {topik} secara mendalam adalah langkah awal menuju keputusan investasi yang lebih bijak. Teruslah belajar, pantau perkembangan pasar, dan jangan ragu untuk berkonsultasi dengan profesional jika diperlukan. Masa depan keuangan Anda ada di tangan Anda sendiri.",
-    "Pada akhirnya, keberhasilan dalam investasi bukanlah tentang timing yang sempurna, melainkan tentang konsistensi dan disiplin. {topik} akan terus berkembang, dan selama Anda terus belajar serta beradaptasi, peluang untuk meraih keuntungan akan selalu terbuka lebar.",
-    "Demikian analisis lengkap tentang {topik} kali ini. Semoga informasi ini bermanfaat untuk membantu Anda mengambil keputusan investasi yang lebih baik. Pantau terus DailyMoney untuk mendapatkan update dan analisis terbaru seputar pasar keuangan Indonesia.",
-    "Pesan terakhir kami: jangan biarkan ketakutan atau keserakahan menguasai keputusan investasi Anda. Tetaplah rasional, gunakan data sebagai panduan, dan ingatlah bahwa investasi yang baik adalah investasi yang direncanakan dengan matang. Selamat berinvestasi!",
-    "Sebagai penutup, mari kita renungkan: {topik} bukanlah sekadar spekulasi, melainkan bagian dari perjalanan panjang membangun kemandirian finansial. Dengan pengetahuan yang tepat dan strategi yang disiplin, Anda bisa meraih tujuan keuangan yang Anda impikan.",
-    "Kami harap artikel ini memberikan perspektif baru tentang {topik}. Jangan lupa untuk membagikan artikel ini kepada teman dan keluarga yang juga tertarik dengan dunia investasi. Bersama DailyMoney, wujudkan kemandirian finansial Anda.",
-    "Ingatlah selalu: tidak ada investasi yang bebas risiko. Tugas kita sebagai investor adalah mengelola risiko tersebut, bukan menghindarinya. Dengan pemahaman yang baik tentang {topik}, Anda bisa mengelola risiko dengan lebih efektif dan meraih imbal hasil yang optimal.",
-    "Satu hal yang pasti: {topik} akan terus menjadi bagian penting dari lanskap investasi Indonesia. Mereka yang siap dan berpengetahuan akan selalu berada dalam posisi yang lebih menguntungkan. Apakah Anda sudah siap?",
-    "Mari kita akhiri dengan sebuah kutipan dari Warren Buffett: 'Jangan berinvestasi di bisnis yang tidak Anda pahami.' Prinsip ini berlaku sempurna untuk {topik}. Pahami dulu, baru ambil keputusan. Sederhana, tapi sangat efektif.",
-    "Terima kasih telah membaca artikel ini sampai selesai. Kami di DailyMoney berkomitmen untuk menyajikan konten keuangan yang berkualitas, akurat, dan bermanfaat. Sampai jumpa di artikel berikutnya!",
+    "Intinya, memahami {topik} membantu Anda membuat keputusan investasi yang lebih bijak. Pantau terus perkembangan pasarnya di DailyMoney.",
+    "Secara keseluruhan, {topik} tetap menjadi topik penting bagi investor. Dengan informasi yang tepat, Anda bisa menyusun strategi yang lebih terarah.",
+    "Demikian pembahasan {topik} kali ini. Semoga bermanfaat untuk referensi investasi Anda.",
+    "Singkatnya, {topik} menawarkan peluang bagi yang memahaminya. Tetap rasional dan gunakan data sebagai panduan.",
+    "{topik} akan terus berkembang seiring dinamika pasar. Yang berpengetahuan akan selalu memiliki keunggulan.",
+    "Ingat, tidak ada investasi tanpa risiko. Yang terpenting adalah memahami {topik} sehingga risiko bisa dikelola dengan bijak.",
+    "Itulah rangkuman utama tentang {topik}. Semoga artikel ini memberikan gambaran yang jelas untuk langkah investasi Anda selanjutnya.",
+    "Sebagai penutup, {topik} layak mendapat perhatian serius dari setiap investor. Tingkatkan literasi keuangan Anda mulai sekarang.",
+    "Kami harap artikel ini memberikan gambaran jelas tentang {topik}. Pantau DailyMoney untuk analisis terbaru.",
+    "Terima kasih telah membaca. {topik} tetap relevan — dan pengetahuan adalah senjata terbaik Anda dalam berinvestasi.",
 ]
 
 # ============================================================
@@ -397,16 +397,16 @@ def build_article(topic_data, lang='id'):
     # Pick random hook
     hook = random.choice(HOOKS).format(topik=topik, dp=dp)
     
-    # Pick 3-4 random context paragraphs (ensure no repeats)
-    k = random.randint(3, 4)
+    # Pick 4-5 random context paragraphs (ensure no repeats)
+    k = random.randint(4, 5)
     contexts = random.sample(CONTEXT_PARAS, min(k, len(CONTEXT_PARAS)))
     
     # Pick 2-3 random insight paragraphs
     k2 = random.randint(2, 3)
     insights = random.sample(INSIGHT_PARAS, min(k2, len(INSIGHT_PARAS)))
     
-    # Pick 2-3 random body paragraphs
-    k3 = random.randint(2, 3)
+    # Pick 3-4 random body paragraphs
+    k3 = random.randint(3, 4)
     bodies = random.sample(BODY_PARAS, min(k3, len(BODY_PARAS)))
     
     # Pick random closing
@@ -426,15 +426,18 @@ def build_article(topic_data, lang='id'):
     sections.append("\n\n".join(insights))
     sections.append(f"\n\n## Perspektif dan Outlook\n\n")
     sections.append("\n\n".join(bodies))
-    sections.append(f"\n\n## Kesimpulan\n\n")
+    
+    # Ensure minimum length BEFORE adding conclusion (padding goes before conclusion, never after)
+    content_so_far = "".join(sections)
+    if len(content_so_far) < 3500:
+        extra = random.sample(BODY_PARAS, 2)
+        sections.append("\n\n".join(extra))
+        sections.append("\n\n")
+    
+    sections.append(f"## Kesimpulan\n\n")
     sections.append(f"{closing}")
     
     content = "".join(sections)
-    
-    # Ensure minimum length (3500)
-    if len(content) < 3500:
-        extra = random.sample(BODY_PARAS, 2)
-        content += "\n\n" + "\n\n".join(extra)
     
     # Pick image
     img_url, img_cap = get_image()
